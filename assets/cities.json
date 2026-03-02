@@ -1,0 +1,202 @@
+[
+  {
+    "name": "Stockholm",
+    "slug": "stockholm"
+  },
+  {
+    "name": "Göteborg",
+    "slug": "goteborg"
+  },
+  {
+    "name": "Malmö",
+    "slug": "malmo"
+  },
+  {
+    "name": "Uppsala",
+    "slug": "uppsala"
+  },
+  {
+    "name": "Västerås",
+    "slug": "vasteras"
+  },
+  {
+    "name": "Örebro",
+    "slug": "orebro"
+  },
+  {
+    "name": "Linköping",
+    "slug": "linkoping"
+  },
+  {
+    "name": "Helsingborg",
+    "slug": "helsingborg"
+  },
+  {
+    "name": "Jönköping",
+    "slug": "jonkoping"
+  },
+  {
+    "name": "Norrköping",
+    "slug": "norrkoping"
+  },
+  {
+    "name": "Lund",
+    "slug": "lund"
+  },
+  {
+    "name": "Umeå",
+    "slug": "umea"
+  },
+  {
+    "name": "Gävle",
+    "slug": "gavle"
+  },
+  {
+    "name": "Borås",
+    "slug": "boras"
+  },
+  {
+    "name": "Södertälje",
+    "slug": "sodertalje"
+  },
+  {
+    "name": "Eskilstuna",
+    "slug": "eskilstuna"
+  },
+  {
+    "name": "Halmstad",
+    "slug": "halmstad"
+  },
+  {
+    "name": "Växjö",
+    "slug": "vaxjo"
+  },
+  {
+    "name": "Karlstad",
+    "slug": "karlstad"
+  },
+  {
+    "name": "Sundsvall",
+    "slug": "sundsvall"
+  },
+  {
+    "name": "Östersund",
+    "slug": "ostersund"
+  },
+  {
+    "name": "Luleå",
+    "slug": "lulea"
+  },
+  {
+    "name": "Trelleborg",
+    "slug": "trelleborg"
+  },
+  {
+    "name": "Kristianstad",
+    "slug": "kristianstad"
+  },
+  {
+    "name": "Skövde",
+    "slug": "skovde"
+  },
+  {
+    "name": "Falun",
+    "slug": "falun"
+  },
+  {
+    "name": "Karlskrona",
+    "slug": "karlskrona"
+  },
+  {
+    "name": "Kalmar",
+    "slug": "kalmar"
+  },
+  {
+    "name": "Trollhättan",
+    "slug": "trollhattan"
+  },
+  {
+    "name": "Uddevalla",
+    "slug": "uddevalla"
+  },
+  {
+    "name": "Skellefteå",
+    "slug": "skelleftea"
+  },
+  {
+    "name": "Piteå",
+    "slug": "pitea"
+  },
+  {
+    "name": "Varberg",
+    "slug": "varberg"
+  },
+  {
+    "name": "Nyköping",
+    "slug": "nykoping"
+  },
+  {
+    "name": "Visby",
+    "slug": "visby"
+  },
+  {
+    "name": "Kungsbacka",
+    "slug": "kungsbacka"
+  },
+  {
+    "name": "Motala",
+    "slug": "motala"
+  },
+  {
+    "name": "Lidköping",
+    "slug": "lidkoping"
+  },
+  {
+    "name": "Alingsås",
+    "slug": "alingsas"
+  },
+  {
+    "name": "Sandviken",
+    "slug": "sandviken"
+  },
+  {
+    "name": "Hudiksvall",
+    "slug": "hudiksvall"
+  },
+  {
+    "name": "Mariestad",
+    "slug": "mariestad"
+  },
+  {
+    "name": "Vänersborg",
+    "slug": "vanersborg"
+  },
+  {
+    "name": "Landskrona",
+    "slug": "landskrona"
+  },
+  {
+    "name": "Borlänge",
+    "slug": "borlange"
+  },
+  {
+    "name": "Ystad",
+    "slug": "ystad"
+  },
+  {
+    "name": "Ängelholm",
+    "slug": "angelholm"
+  },
+  {
+    "name": "Falkenberg",
+    "slug": "falkenberg"
+  },
+  {
+    "name": "Katrineholm",
+    "slug": "katrineholm"
+  },
+  {
+    "name": "Kiruna",
+    "slug": "kiruna"
+  }
+]

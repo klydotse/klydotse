@@ -1,0 +1,56 @@
+:root{--bg1:#8fb3d9;--bg2:#d3c6b1;--card:rgba(255,255,255,.50);--card2:rgba(255,255,255,.38);--text:#141824;--muted:rgba(20,24,36,.65);--border:rgba(255,255,255,.55);--shadow:0 10px 30px rgba(0,0,0,.10);--radius:22px;--radius2:18px}
+*{box-sizing:border-box}html,body{height:100%}
+body{margin:0;font-family:ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,"Apple Color Emoji","Segoe UI Emoji";color:var(--text);
+background:radial-gradient(900px 500px at 20% 75%, rgba(130,180,240,.85), rgba(130,180,240,0) 60%),
+radial-gradient(900px 500px at 75% 25%, rgba(230,208,170,.75), rgba(230,208,170,0) 60%),
+radial-gradient(1200px 800px at 50% 50%, rgba(255,255,255,.35), rgba(255,255,255,0) 65%),
+linear-gradient(135deg,var(--bg1),var(--bg2));background-attachment:fixed}
+.wrap{max-width:1300px;margin:26px auto;padding:0 18px 28px}
+.header{display:flex;align-items:center;gap:18px;padding:18px;border-radius:var(--radius);background:var(--card);border:1px solid var(--border);box-shadow:var(--shadow);backdrop-filter:blur(16px)}
+.brand{font-size:28px;font-weight:750;letter-spacing:.2px;text-decoration:none}
+.brand span{font-weight:550;color:var(--muted)}
+.search{margin-left:auto;width:min(720px,100%);position:relative}
+.search input{width:100%;border:1px solid var(--border);background:rgba(255,255,255,.60);border-radius:999px;padding:14px 16px 14px 42px;font-size:18px;outline:none}
+.search .icon{position:absolute;left:14px;top:50%;transform:translateY(-50%);opacity:.65}
+.iconbtn{border:1px solid var(--border);background:rgba(255,255,255,.55);border-radius:999px;padding:10px 12px;font-weight:800;cursor:pointer}
+.iconbtn:active{transform:translateY(1px)}
+.toprow{display:flex;align-items:center;justify-content:space-between;margin:18px 6px 10px;color:var(--muted);font-weight:650}
+.grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:16px}
+@media (max-width:1100px){.grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (max-width:640px){.header{flex-direction:column;align-items:stretch}.search{margin-left:0}.grid{grid-template-columns:1fr}}
+.card{border-radius:var(--radius);background:var(--card2);border:1px solid var(--border);box-shadow:var(--shadow);backdrop-filter:blur(16px);padding:16px}
+.citybtn{display:flex;align-items:center;justify-content:space-between;gap:10px;text-decoration:none;color:var(--text);font-weight:750;padding:18px;border-radius:var(--radius2);background:rgba(255,255,255,.26);border:1px solid rgba(255,255,255,.55)}
+.citybtn:hover{transform:translateY(-1px);transition:.12s ease;background:rgba(255,255,255,.32)}
+.pill{padding:6px 10px;border-radius:999px;font-size:13px;font-weight:800;background:rgba(255,255,255,.60);border:1px solid rgba(255,255,255,.60);color:rgba(20,24,36,.75)}
+.footer{margin-top:16px;display:flex;gap:10px;justify-content:space-between;align-items:flex-start;color:rgba(20,24,36,.70);font-size:14px;padding:10px 4px 0}
+.footer a{color:rgba(20,24,36,.75);text-decoration:underline;text-underline-offset:3px}
+.smallmuted{color:var(--muted);font-weight:650}
+.hero{display:grid;grid-template-columns:1fr 1.55fr 1fr;grid-template-areas:"pollen weather uv";gap:16px;align-items:stretch;margin-top:16px}
+.pollen{grid-area:pollen}.weather{grid-area:weather}.uv{grid-area:uv}
+@media (max-width:1100px){.hero{grid-template-columns:1fr;grid-template-areas:"weather""pollen""uv"}}
+.panel{min-height:480px}.h1{font-size:30px;margin:0 0 6px}.sub{color:var(--muted);font-weight:650}
+.citylabel{display:inline-flex;align-items:center;gap:10px;background:rgba(255,255,255,.55);border:1px solid rgba(255,255,255,.55);border-radius:999px;padding:8px 12px;font-weight:850;color:rgba(20,24,36,.92)}
+.divider{height:1px;background:rgba(255,255,255,.60);margin:14px 0}
+.notice{margin-top:10px;padding:12px 14px;background:rgba(255,255,255,.60);border:1px solid rgba(255,255,255,.60);border-radius:16px;color:rgba(20,24,36,.75);font-weight:650}
+.kpi{display:flex;gap:12px;align-items:baseline;margin-top:8px}
+.kpi .big{font-size:56px;font-weight:900;letter-spacing:-1px}
+.kpi .meta{color:var(--muted);font-weight:650}
+.table{margin-top:12px;display:grid;grid-template-columns:1fr auto;gap:10px 14px;font-weight:800;color:rgba(20,24,36,.78)}
+.table .muted{color:rgba(20,24,36,.62);font-weight:800}
+.hourstrip{margin-top:10px;display:flex;gap:10px;overflow-x:auto;padding-bottom:6px;scroll-snap-type:x mandatory}
+.hourstrip::-webkit-scrollbar{height:8px}.hourstrip::-webkit-scrollbar-thumb{background:rgba(0,0,0,.12);border-radius:999px}
+.hour{flex:0 0 78px;scroll-snap-align:start;border-radius:16px;background:rgba(255,255,255,.60);border:1px solid rgba(255,255,255,.60);padding:10px;text-align:center;font-weight:850}
+.hour .t{color:rgba(20,24,36,.75);font-size:12px}.hour .i{font-size:18px;margin-top:6px}.hour .v{font-size:18px;margin-top:6px}.hour .p{color:rgba(20,24,36,.62);font-weight:800;font-size:12px;margin-top:6px}
+.harrow{display:flex;align-items:center;justify-content:flex-end;margin-top:6px}
+.harrow button{border:1px solid rgba(255,255,255,.65);background:rgba(255,255,255,.55);border-radius:999px;padding:6px 10px;cursor:pointer;font-weight:900}
+details.forecast{margin-top:12px;border-radius:16px;background:rgba(255,255,255,.55);border:1px solid rgba(255,255,255,.60);padding:10px 12px}
+details.forecast summary{cursor:pointer;font-weight:900;color:rgba(20,24,36,.82);list-style:none}
+details.forecast summary::-webkit-details-marker{display:none}
+.daylist{margin-top:10px;display:grid;grid-template-columns:1fr;gap:8px}
+.day{display:flex;justify-content:space-between;gap:10px;align-items:center;border-radius:14px;background:rgba(255,255,255,.55);border:1px solid rgba(255,255,255,.60);padding:10px 12px;font-weight:800}
+.day .l{color:rgba(20,24,36,.78)}.day .r{color:rgba(20,24,36,.72);white-space:nowrap}
+.list{margin-top:12px;display:flex;flex-direction:column;gap:10px}
+.item{display:flex;justify-content:space-between;gap:12px;border-radius:16px;background:rgba(255,255,255,.60);border:1px solid rgba(255,255,255,.60);padding:10px 12px;font-weight:850}
+.item .k{color:rgba(20,24,36,.75)}.item .v{color:rgba(20,24,36,.72)}
+.linklike{margin-top:12px;display:inline-flex;align-items:center;gap:8px;cursor:pointer;font-weight:900;color:rgba(20,24,36,.72);user-select:none}
+.hidden{display:none !important}

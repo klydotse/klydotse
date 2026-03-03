@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="sv">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Malmö – kly</title>
+  <meta name="description" content="Väder, pollen och UV för Malmö." />
+  <meta name="theme-color" content="#b9c6d8" />
+  <link rel="stylesheet" href="/assets/styles.css" />
+</head>
+
+<body data-kly-page="city" data-city-slug="malmo">
+  <div class="wrap">
+    <div class="header">
+      <a class="brand" href="/"><span style="font-weight:900">kly</span> <span>— Väder, Pollen och UV.</span></a>
+      <div class="search">
+        <div class="icon">🔎</div>
+        <input id="klySearch" type="search" inputmode="search" placeholder="Sök stad (t.ex. Stockholm)" value="Malmö" autocomplete="off" />
+      </div>
+      <button id="klyLocateBtn" class="iconbtn" type="button" title="Använd min position">📍</button>
+    </div>
+
+    <div class="toprow">
+      <div class="citylabel"><span id="klyCityLabel">Malmö</span></div>
+      <div></div>
+    </div>
+
+    <div class="hero">
+      <div class="card panel pollen">
+        <div class="h1">Pollen</div>
+        <div class="sub">Översikt för <span id="pollenCity">Malmö</span></div>
+        <div class="notice" id="pollenHeadline">Laddar…</div>
+
+        <div id="pollenList" class="list" aria-live="polite"></div>
+
+        <div id="pollenMore" class="linklike"><span id="pollenMoreBtn">Visa fler</span> <span>›</span></div>
+        <div id="pollenError" class="notice hidden">Kunde inte hämta pollen just nu.</div>
+      </div>
+
+      <div class="card panel weather">
+        <div class="h1">Väder</div>
+        <div class="sub">Snabb koll för idag</div>
+
+        <div class="table">
+          <div>Nu</div><div></div>
+          <div class="muted"><span id="nowEmoji">⛅</span> <span id="nowText">—</span></div>
+          <div style="text-align:right"><span id="nowTemp">—</span>°</div>
+          <div class="muted" id="nowFeels">Känns som —</div><div></div>
+          <div class="muted">💨 <span id="nowWind">—</span></div><div></div>
+          <div class="muted">🌧 <span id="nowRain">—</span></div><div></div>
+        </div>
+
+        <div class="divider"></div>
+
+        <div class="table">
+          <div>Idag</div><div></div>
+          <div class="muted"><span id="todayTemp">—</span></div><div></div>
+          <div class="muted">🌧 <span id="todayRain">—</span></div><div></div>
+          <div class="muted">🌅 <span id="sunrise">—</span> &nbsp;&nbsp; 🌇 <span id="sunset">—</span></div><div></div>
+        </div>
+
+        <div class="divider"></div>
+
+        <div style="font-weight:900; color: rgba(20,24,36,.80);">Timprognos</div>
+        <div id="hourStrip" class="hourstrip" aria-live="polite"></div>
+        <div class="harrow"><button id="hourNext" type="button" aria-label="Visa fler timmar">›</button></div>
+
+        <details class="forecast">
+          <summary>Nästa 10 dagar <span style="float:right">▼</span></summary>
+          <div id="dayList" class="daylist" aria-live="polite"></div>
+        </details>
+
+        <div id="dataError" class="notice hidden">Kunde inte hämta väder just nu. Prova igen om en stund.</div>
+      </div>
+
+      <div class="card panel uv">
+        <div class="h1">UV-index</div>
+        <div class="sub">Nu och max idag</div>
+
+        <div class="kpi">
+          <div class="big"><span id="uvNow">—</span></div>
+          <div class="meta">
+            <div>Max idag: <span id="uvMax">—</span></div>
+            <div>Risk: <span id="uvRisk">—</span></div>
+          </div>
+        </div>
+
+        <div class="notice" id="uvAdvice">Laddar…</div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <div>© 2026 <a href="https://kly.se">kly.se</a></div>
+      <div>
+        Källor:
+        <a href="https://open-meteo.com/" rel="noopener" target="_blank">Open-Meteo</a>
+        ·
+        <a href="https://open-meteo.com/en/docs/air-quality-api" rel="noopener" target="_blank">Open-Meteo Air Quality</a>
+      </div>
+    </div>
+  </div>
+
+  <script src="/assets/app.js"></script>
+</body>
+</html>

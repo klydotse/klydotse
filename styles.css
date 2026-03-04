@@ -1,0 +1,627 @@
+:root{
+  --bg1:#1f3fae; --bg2:#3c6edb; --bg3:#6ea8ff;
+  --text: rgba(255,255,255,.92);
+  --muted: rgba(255,255,255,.70);
+  --muted2: rgba(255,255,255,.58);
+  --shadow: 0 30px 60px rgba(0,0,0,.22);
+  --shadow2: 0 12px 30px rgba(0,0,0,.22);
+  --radius: 28px;
+  --accent: #ffcc5a;
+  --font: Inter, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+}
+*{ box-sizing:border-box; }
+body{
+  margin:0; font-family:var(--font); color:var(--text); min-height:100vh;
+  background: radial-gradient(1200px 900px at 20% 0%, var(--bg3) 0%, var(--bg2) 45%, var(--bg1) 100%);
+}
+.bg-orb{ position:fixed; width:520px; height:520px; filter:blur(40px); opacity:.35; border-radius:50%; pointer-events:none; z-index:0; }
+.orb-1{ left:-160px; top:-200px; background: radial-gradient(circle, #a7c4ff, transparent 60%); }
+.orb-2{ right:-220px; bottom:-240px; background: radial-gradient(circle, #ffdca0, transparent 60%); }
+header, main{ position:relative; z-index:1; }
+header{ z-index:50; }
+
+.brand-mark{ font-weight:900; letter-spacing:-.02em; font-size:22px; color:#fff; }
+.brand-tagline{ font-weight:700; color:var(--muted); font-size:13px; }
+
+.icon-btn{ width:44px; height:44px; border:none; border-radius:14px; background:rgba(255,255,255,.12); box-shadow:var(--shadow2); display:grid; place-items:center; }
+.icon-btn:hover{ background: rgba(255,255,255,.16); }
+.icon-18{ width:18px; height:18px; } .icon-20{ width:20px; height:20px; }
+
+.search-wrap{ max-width:520px; width:100%; }
+.search-wrap{ position:relative; z-index:60; }
+.search-pill{ background: rgba(255,255,255,.14); border:1px solid rgba(255,255,255,.14); border-radius:16px; padding:10px 12px; box-shadow:var(--shadow2); }
+.search-input{ border:none; outline:none; background:transparent; color:#fff; width:100%; font-weight:700; }
+.search-input::placeholder{ color: rgba(255,255,255,.65); }
+
+.search-results{
+  position:absolute;
+  top: calc(100% + 10px);
+  left: 0;
+  right: 0;
+  background: rgba(10, 18, 55, .86);
+  border: 1px solid rgba(255,255,255,.14);
+  border-radius: 14px;
+  overflow: hidden;
+  box-shadow: var(--shadow2);
+  backdrop-filter: blur(10px);
+}
+.search-item{ padding: 10px 12px; cursor: pointer; color: rgba(255,255,255,.92); font-weight: 700; }
+.search-item small{ display:block; font-weight:600; color: rgba(255,255,255,.68); margin-top: 2px; }
+.search-item:hover, .search-item[aria-selected="true"]{ background: rgba(255,255,255,.08); }
+
+.hero-card{
+  position:relative;
+  background: linear-gradient(135deg, #2d63d7 0%, #5f8fff 40%, #7aa5ff 100%);
+  border-radius: var(--radius);
+  padding: 26px;
+  box-shadow: var(--shadow);
+  border: 1px solid rgba(255,255,255,.10);
+}
+@media (min-width: 992px){ .hero-card{ padding: 34px; } }
+.hero-glow{ position:absolute; inset:-1px; border-radius: var(--radius);
+  background: radial-gradient(circle at 80% 18%, rgba(255,255,255,.18), transparent 55%); pointer-events:none; }
+.hero-location{ font-size:18px; font-weight:900; }
+.hero-meta{ color: rgba(255,255,255,.76); font-weight:800; }
+.hero-submeta{ color: rgba(255,255,255,.72); font-weight:700; margin-top:4px; }
+.hero-icon{ width:86px; height:86px; }
+.hero-icon-wrap{ width:96px; height:96px; border-radius:22px; background: rgba(255,255,255,.12);
+  border:1px solid rgba(255,255,255,.14); display:grid; place-items:center; }
+
+.hero-main{ display:flex; gap:18px; align-items:flex-end; }
+.hero-temp{ font-size:72px; font-weight:950; letter-spacing:-.03em; line-height:1; }
+.deg{ font-size:.6em; opacity:.95; }
+.hero-side{ display:flex; flex-direction:column; gap:8px; padding-bottom: 6px; }
+.hero-feels{ font-size:18px; font-weight:900; }
+.hero-hilo{ display:flex; gap:8px; flex-wrap:wrap; }
+.pill{ display:inline-flex; align-items:center; justify-content:center; padding:6px 10px; border-radius:999px;
+  background: rgba(255,255,255,.14); border:1px solid rgba(255,255,255,.14); font-weight:800; font-size:12px; }
+.hero-cond{ font-weight: 900; font-size: 16px; color: rgba(255,255,255,.88); }
+
+.pill-grid{
+  display:flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.mini-pill{
+  padding: 10px 12px;
+  border-radius: 16px;
+  background: rgba(255,255,255,.12);
+  border: 1px solid rgba(255,255,255,.12);
+  box-shadow: var(--shadow2);
+  backdrop-filter: blur(12px);
+  min-width: 160px;
+}
+@media (min-width: 992px){
+  .mini-pill{ min-width: 175px; }
+}
+.mini-l{ font-weight: 900; font-size: 12px; color: rgba(255,255,255,.72); }
+.mini-n{ font-weight: 900; font-size: 14px; margin-top: 4px; color: rgba(255,255,255,.92); white-space: nowrap; overflow:hidden; text-overflow: ellipsis; }
+
+.summary-line-box{
+  border-radius: 18px;
+  padding: 12px 14px;
+  background: rgba(255,255,255,.10);
+  border: 1px solid rgba(255,255,255,.12);
+  box-shadow: var(--shadow2);
+  backdrop-filter: blur(14px);
+  font-weight: 800;
+}
+.summary-label{ color: rgba(255,255,255,.72); font-weight: 950; margin-right: 6px; }
+
+/* Forecast cards (hourly + 10 day) */
+.forecast-card{
+  border-radius: 22px;
+  overflow: hidden;
+  border: 1px solid rgba(255,255,255,.12);
+  background: rgba(20,32,88,.28);
+  box-shadow: var(--shadow2);
+  backdrop-filter: blur(14px);
+}
+.forecast-head{
+  display:flex;
+  justify-content:space-between;
+  align-items:baseline;
+  gap: 12px;
+  padding: 14px 14px;
+  background: rgba(255,255,255,.06);
+}
+.forecast-title{ font-weight: 950; }
+.forecast-sub{ color: rgba(255,255,255,.70); font-weight: 800; font-size: 13px; }
+
+/* Hourly scroller */
+/* Extra bottom padding so the horizontal scroll bar doesn't visually overlap the tiles/info */
+.hourly-scroll{
+  overflow-x: auto;
+  overflow-y: hidden;
+  padding: 12px 12px 26px;
+  scrollbar-gutter: stable both-edges;
+}
+.hourly-row{ display:flex; gap: 10px; min-width: max-content; }
+.hour-tile{
+  width: 92px;
+  flex: 0 0 auto;
+  border-radius: 18px;
+  padding: 10px 10px 12px;
+  background: rgba(255,255,255,.10);
+  border: 1px solid rgba(255,255,255,.12);
+  box-shadow: 0 10px 20px rgba(0,0,0,.18);
+  text-align: center;
+}
+.hour-t{ font-weight: 950; color: rgba(255,255,255,.84); font-size: 12px; letter-spacing: .02em; }
+.hour-i{ width: 28px; height: 28px; margin: 8px auto 6px; opacity: .95; }
+.hour-temp{ font-weight: 950; font-size: 18px; line-height: 1; }
+.hour-meta{ margin-top: 6px; font-weight: 900; font-size: 12px; color: rgba(255,255,255,.78); }
+
+/* 10-day outlook */
+.outlook-wrap{ overflow-x: auto; }
+.outlook-table{
+  width: 100%;
+  border-collapse: collapse;
+  min-width: 560px;
+}
+.outlook-table th, .outlook-table td{
+  padding: 12px 14px;
+  border-top: 1px solid rgba(255,255,255,.10);
+  text-align:left;
+  color: rgba(255,255,255,.92);
+  font-weight: 850;
+}
+.outlook-table thead th{
+  position: sticky;
+  top: 0;
+  background: rgba(10,16,50,.62);
+  z-index: 2;
+  font-weight: 950;
+}
+.outlook-day{ font-weight: 950; }
+.wx-pill{
+  display:inline-flex;
+  align-items:center;
+  gap: 8px;
+  padding: 6px 10px;
+  border-radius: 999px;
+  background: rgba(255,255,255,.10);
+  border: 1px solid rgba(255,255,255,.12);
+  font-weight: 900;
+  white-space: nowrap;
+}
+.wx-dot{ width: 10px; height: 10px; border-radius: 999px; background: rgba(255,255,255,.70); }
+.temp-num{ font-variant-numeric: tabular-nums; }
+
+.pollen-box{
+  position: relative;
+  border-radius: 22px;
+  overflow: hidden;
+  border: 1px solid rgba(255,255,255,.12);
+  background: rgba(20,32,88,.35);
+  box-shadow: var(--shadow2);
+  backdrop-filter: blur(14px);
+}
+.pollen-head{
+  display:flex; justify-content:space-between; align-items:center;
+  padding: 14px 14px;
+  background: rgba(255,255,255,.06);
+}
+.pollen-title{ font-weight: 950; }
+.pollen-open{
+  border:none;
+  background: rgba(255,255,255,.10);
+  border: 1px solid rgba(255,255,255,.14);
+  color: rgba(255,255,255,.92);
+  font-weight: 900;
+  padding: 8px 10px;
+  border-radius: 14px;
+}
+.pollen-open:hover{ background: rgba(255,255,255,.14); }
+
+.pollen-table-wrap{ overflow:auto; }
+.pollen-table{
+  width: 100%;
+  border-collapse: collapse;
+  min-width: 680px;
+}
+.pollen-table th, .pollen-table td{
+  padding: 12px 14px;
+  border-top: 1px solid rgba(255,255,255,.10);
+  text-align:left;
+  color: rgba(255,255,255,.92);
+  font-weight: 800;
+}
+.pollen-table thead th{
+  position: sticky; top: 0;
+  background: rgba(10,16,50,.72);
+  z-index: 2;
+  font-weight: 950;
+}
+.pollen-table td:nth-child(1), .pollen-table th:nth-child(1){
+  position: sticky; left: 0;
+  background: rgba(10,16,50,.72);
+  z-index: 1;
+}
+.shade-col{
+  background: rgba(255,255,255,.04);
+  color: rgba(255,255,255,.72) !important;
+}
+.pollen-fade{
+  position:absolute;
+  inset:auto 0 0 0;
+  height: 44px;
+  background: linear-gradient(180deg, rgba(20,32,88,0), rgba(20,32,88,.65));
+  pointer-events:none;
+}
+
+.pollen-pill{
+  display:inline-grid;
+  place-items:center;
+  width: 30px;
+  height: 30px;
+  border-radius: 999px;
+  font-weight: 950;
+}
+.pL{ background:#a8d5b0; color:#0b2b12; }
+.pM{ background:#f6c26b; color:#2b1a00; }
+.pH{ background:#ff7a7a; color:#2b0000; }
+.pQ{ background: rgba(255,255,255,.10); color: rgba(255,255,255,.90); }
+
+.footer{ color: rgba(255,255,255,.70); border-top: 1px solid rgba(255,255,255,.12); }
+
+/* Overlay modal */
+.overlay{ position: fixed; inset: 0; display: none; z-index: 999; }
+.overlay.open{ display:block; }
+.overlay-backdrop{ position:absolute; inset:0; background: rgba(0,0,0,.45); backdrop-filter: blur(3px); }
+.overlay-panel{
+  position: relative;
+  width: min(960px, calc(100vw - 24px));
+  margin: 7vh auto 0;
+  background: rgba(10,16,50,.88);
+  border: 1px solid rgba(255,255,255,.14);
+  border-radius: 22px;
+  box-shadow: var(--shadow);
+  overflow:hidden;
+}
+@media (max-width: 575px){
+  .overlay-panel{
+    width: calc(100vw - 18px);
+    margin: auto;
+    position: absolute;
+    left: 9px; right: 9px;
+    bottom: 12px;
+    top: auto;
+  }
+}
+.overlay-head{ display:flex; justify-content:space-between; align-items:center; padding: 12px 14px; background: rgba(255,255,255,.06); }
+.overlay-title{ font-weight: 950; }
+.overlay-close{
+  border:none;
+  background: rgba(255,255,255,.10);
+  border: 1px solid rgba(255,255,255,.14);
+  color: rgba(255,255,255,.92);
+  width: 36px; height: 36px;
+  border-radius: 12px;
+  display:grid; place-items:center;
+  font-weight: 950;
+}
+.overlay-close:hover{ background: rgba(255,255,255,.14); }
+.overlay-body{ padding: 0; max-height: 62vh; overflow:auto; }
+.overlay-note{
+  padding: 12px 14px;
+  color: rgba(255,255,255,.70);
+  font-weight: 800;
+  border-top: 1px solid rgba(255,255,255,.10);
+  background: rgba(255,255,255,.03);
+}
+
+
+/* v14.3: narrower layout */
+.kly-narrow{ max-width: 860px; } /* roughly ~35-45% narrower than default wide desktop container */
+@media (min-width: 1400px){
+  .kly-narrow{ max-width: 900px; }
+}
+
+/* Pills: grid instead of flex, more compact */
+.pill-grid{
+  display:grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 10px;
+}
+@media (max-width: 991px){
+  .pill-grid{ grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+@media (max-width: 420px){
+  .pill-grid{ grid-template-columns: 1fr; }
+}
+.mini-pill{ min-width: 0 !important; } /* override earlier min-width */
+
+/* Pollen inline expand (no popup): collapse by max-height */
+.pollen-box{ --collapsed-h: 250px; }
+.pollen-table-wrap{ max-height: var(--collapsed-h); overflow:hidden; }
+.pollen-box.expanded .pollen-table-wrap{ max-height: 900px; overflow:auto; }
+.pollen-box .pollen-fade{ display:block; }
+.pollen-box.expanded .pollen-fade{ display:none; }
+
+/* Button styling hint */
+.pollen-open{ white-space: nowrap; }
+
+
+/* v14.4 tweaks */
+
+/* Center the hero main content a bit more on wide screens */
+@media (min-width: 992px){
+  .hero-main-centered{
+    justify-content: center;
+    gap: 28px;
+    padding-left: 40px; /* subtle nudge toward center */
+  }
+}
+
+/* Pollen table: let first column shrink to content, not fixed wide */
+.pollen-table{
+  table-layout: auto;
+  min-width: 0 !important;
+  width: 100%;
+}
+.pollen-table th:first-child, .pollen-table td:first-child{
+  white-space: nowrap;
+  width: 1%;
+}
+.pollen-table th, .pollen-table td{
+  white-space: nowrap;
+}
+.season-col{ color: rgba(255,255,255,.78); font-weight: 800; }
+
+/* Collapsed pollen shows ~2.5 rows */
+.pollen-box{ --collapsed-h: 205px; } /* header + 2 rows + half row */
+.pollen-table-wrap{ max-height: var(--collapsed-h); overflow:hidden; }
+.pollen-box.expanded .pollen-table-wrap{ max-height: 900px; overflow:auto; }
+.pollen-box .pollen-fade{ display:block; }
+.pollen-box.expanded .pollen-fade{ display:none; }
+
+/* Bottom center arrow */
+.pollen-arrow{
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 10px;
+  width: 46px;
+  height: 38px;
+  border-radius: 999px;
+  border: 1px solid rgba(255,255,255,.16);
+  background: rgba(255,255,255,.10);
+  color: rgba(255,255,255,.92);
+  font-weight: 950;
+  display:grid;
+  place-items:center;
+  box-shadow: 0 10px 20px rgba(0,0,0,.20);
+}
+.pollen-arrow:hover{ background: rgba(255,255,255,.14); }
+.arrow-icon{ font-size: 18px; line-height: 1; }
+
+/* Pollen head button removed: give header a bit more breathing room */
+.pollen-head{ padding-bottom: 18px; }
+
+
+/* v14.5 hero focus card (pops out) */
+.hero-main{ align-items:center; }
+@media (min-width: 992px){
+  .hero-main{ margin-top: 6px !important; }
+}
+.hero-focus{
+  display:flex;
+  gap: 18px;
+  align-items:flex-end;
+  padding: 16px 18px;
+  border-radius: 22px;
+  background: rgba(255,255,255,.12);
+  border: 1px solid rgba(255,255,255,.14);
+  box-shadow: 0 18px 36px rgba(0,0,0,.18);
+  backdrop-filter: blur(14px);
+}
+@media (min-width: 992px){
+  .hero-focus{
+    margin-top: -10px; /* pull it upward a bit */
+  }
+}
+
+/* v14.6: force hero focus to always center */
+.hero-main-centered{
+  justify-content: center !important;
+  padding-left: 0 !important;
+}
+.hero-focus{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* v14.6: pollen arrow overlaps edge but doesn't cover content */
+.pollen-box{ padding-bottom: 22px; } /* reserve room for the overlapping control */
+.pollen-arrow{
+  bottom: -14px; /* overlap outside */
+  background: rgba(8,12,36,.40);
+  border: 1px solid rgba(255,255,255,.20);
+  backdrop-filter: blur(10px);
+}
+.pollen-arrow:hover{ background: rgba(8,12,36,.55); }
+.pollen-fade{ height: 56px; } /* stronger fade to indicate more */
+
+/* v14.8: reduce extra top whitespace in hero */
+.hero-main{ margin-top: 6px !important; }
+.hero-focus{ margin-top: -22px !important; } /* pull the centered temp card upward */
+@media (min-width: 992px){
+  .hero-card{ padding-top: 22px !important; padding-bottom: 22px !important; }
+}
+
+/* v14.8: pollen wrapper allows arrow to protrude without affecting rounded corners */
+.pollen-wrap{ position: relative; overflow: visible; }
+.pollen-box{ overflow: hidden; } /* keep corners */
+.pollen-arrow{
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: -18px;            /* protrude over border */
+  width: 52px;
+  height: 44px;
+  border-radius: 999px;
+  border: 1px solid rgba(255,255,255,.20);
+  background: rgba(8,12,36,.38);
+  color: rgba(255,255,255,.92);
+  font-weight: 950;
+  display:grid;
+  place-items:center;
+  box-shadow: 0 14px 28px rgba(0,0,0,.22);
+  backdrop-filter: blur(10px);
+  z-index: 10;
+}
+.pollen-arrow:hover{ background: rgba(8,12,36,.52); }
+.arrow-icon{ font-size: 18px; line-height: 1; }
+
+/* v14.8: collapsed pollen shows 3 rows + a shaded hint of row 4 */
+.pollen-box{ --collapsed-h: 300px; } /* header + ~3.5 rows */
+.pollen-table-wrap{ max-height: var(--collapsed-h); overflow:hidden; }
+.pollen-box.expanded .pollen-table-wrap{ max-height: 900px; overflow:auto; }
+.pollen-box:not(.expanded) tbody tr:nth-child(4){ opacity: .45; }
+
+.pollen-fade{ height: 64px; }
+
+/* v14.9: arrow overlay centered on the shaded 4th-row area (no extra line) */
+.pollen-box{ position: relative; overflow: hidden; }
+.pollen-arrow{
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 26px;              /* sits over the 4th-row hint area */
+  width: 54px;
+  height: 44px;
+  border-radius: 999px;
+  border: 1px solid rgba(255,255,255,.22);
+  background: rgba(8,12,36,.40);
+  color: rgba(255,255,255,.94);
+  font-weight: 950;
+  display:grid;
+  place-items:center;
+  box-shadow: 0 14px 28px rgba(0,0,0,.22);
+  backdrop-filter: blur(10px);
+  z-index: 20;
+}
+.pollen-arrow:hover{ background: rgba(8,12,36,.55); }
+.arrow-icon{ font-size: 18px; line-height: 1; }
+.pollen-box.expanded .pollen-arrow{ bottom: 12px; } /* keep reachable when expanded */
+
+/* allow arrow to stick a bit over border */
+.pollen-box{ overflow: visible; }
+.pollen-box > .pollen-head,
+.pollen-box > .pollen-table-wrap,
+.pollen-box > .pollen-fade{ border-radius: 22px; }
+
+.pollen-arrow{ bottom: -14px; }
+.pollen-box.expanded .pollen-arrow{ bottom: -14px; }
+
+/* v14.11: pollen arrow protruding over border without extra row */
+.pollen-wrap{ position: relative; overflow: visible; }
+.pollen-box{ overflow: hidden; }
+.pollen-arrow{
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: -18px;
+  width: 54px;
+  height: 44px;
+  border-radius: 999px;
+  border: 1px solid rgba(255,255,255,.22);
+  background: rgba(8,12,36,.40);
+  color: rgba(255,255,255,.94);
+  font-weight: 950;
+  display:grid;
+  place-items:center;
+  box-shadow: 0 14px 28px rgba(0,0,0,.22);
+  backdrop-filter: blur(10px);
+  z-index: 50;
+}
+.pollen-arrow:hover{ background: rgba(8,12,36,.55); }
+.arrow-icon{ font-size: 18px; line-height: 1; }
+
+/* collapsed pollen shows 3 rows + half of 4th (no per-row dim) */
+.pollen-box{ --collapsed-h: 264px; } /* header+thead + ~3.5 rows */
+.pollen-table-wrap{ max-height: var(--collapsed-h); overflow:hidden; }
+.pollen-box.expanded .pollen-table-wrap{ max-height: 900px; overflow:auto; }
+.pollen-fade{ height: 70px; }
+
+/* clean rounded header corners (no stray lines) */
+.pollen-table{
+  border-collapse: separate !important;
+  border-spacing: 0 !important;
+}
+.pollen-table thead th:first-child{ border-top-left-radius: 18px; }
+.pollen-table thead th:last-child{ border-top-right-radius: 18px; }
+
+/* v14.12: pollen arrow visible + protruding */
+.pollen-wrap{ position: relative; overflow: visible; }
+.pollen-wrap .pollen-box{ overflow: hidden; }
+.pollen-arrow{
+  position:absolute;
+  left:50%;
+  transform:translateX(-50%);
+  bottom:-18px;
+  width:54px;
+  height:44px;
+  border-radius:999px;
+  border:1px solid rgba(255,255,255,.22);
+  background: rgba(8,12,36,.40);
+  color: rgba(255,255,255,.94);
+  font-weight:950;
+  display:grid;
+  place-items:center;
+  box-shadow:0 14px 28px rgba(0,0,0,.22);
+  backdrop-filter: blur(10px);
+  z-index:50;
+}
+.pollen-arrow:hover{ background: rgba(8,12,36,.55); }
+.arrow-icon{ font-size:18px; line-height:1; }
+
+/* collapsed: 3 rows + half of 4th (tighter than before) */
+.pollen-box{ --collapsed-h: 222px !important; }
+.pollen-table-wrap{ max-height: var(--collapsed-h); overflow:hidden; }
+.pollen-box.expanded .pollen-table-wrap{ max-height: 900px; overflow:auto; }
+.pollen-fade{ height: 72px; }
+
+/* v14.13: collapsed pollen shows 3 rows + half of 4th */
+.pollen-box{ --collapsed-h: 258px !important; } /* header+thead + ~3.5 rows */
+.pollen-fade{ height: 78px !important; }
+
+/* v14.13: clean pollen card corners */
+.pollen-wrap{ border-radius: 22px; }
+.pollen-box{
+  border-radius: 22px !important;
+  overflow: hidden !important;
+  background: rgba(20,32,88,.35) !important;
+  border: 1px solid rgba(255,255,255,.12) !important;
+  box-shadow: var(--shadow2);
+}
+.pollen-head{
+  background: rgba(255,255,255,.06);
+  border-radius: 22px 22px 0 0 !important;
+}
+.pollen-table-wrap{
+  border-radius: 0 0 22px 22px !important;
+}
+.pollen-table{
+  border-collapse: separate !important;
+  border-spacing: 0 !important;
+}
+.pollen-table thead th{
+  background: rgba(10,16,50,.72);
+}
+.pollen-table thead th:first-child{ border-top-left-radius: 0 !important; }
+.pollen-table thead th:last-child{ border-top-right-radius: 0 !important; }
+
+/* v14.14: stronger fade that covers ~half of the 4th visible row */
+.pollen-fade{
+  height: 120px !important;
+  background: linear-gradient(
+    180deg,
+    rgba(20,32,88,0) 0%,
+    rgba(20,32,88,0.15) 25%,
+    rgba(20,32,88,0.45) 55%,
+    rgba(20,32,88,0.75) 80%,
+    rgba(20,32,88,0.92) 100%
+  ) !important;
+}

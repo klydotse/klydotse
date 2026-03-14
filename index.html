@@ -1,0 +1,193 @@
+<!doctype html>
+<html lang="sv">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>kly.se – Vädret, helt enkelt.</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>☀️</text></svg>">
+  
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+  <style>
+    :root { --bg: #1f3fae; --glass: rgba(255, 255, 255, 0.12); --border: rgba(255, 255, 255, 0.2); }
+    body {
+      margin: 0; background: var(--bg);
+      background: radial-gradient(circle at 20% 0%, #6ea8ff 0%, #3c6edb 45%, #1f3fae 100%);
+      background-attachment: fixed; color: white; min-height: 100vh;
+      font-family: -apple-system, system-ui, sans-serif; -webkit-font-smoothing: antialiased;
+    }
+    .kly-narrow { max-width: 550px; margin: 0 auto; }
+    .bg-orb { position: fixed; width: 350px; height: 350px; filter: blur(90px); opacity: 0.2; border-radius: 50%; z-index: -1; }
+    .orb-1 { left: -50px; top: -50px; background: #a7c4ff; }
+    .orb-2 { right: -100px; bottom: -100px; background: #ffdca0; }
+    
+    header { display: flex; align-items: center; gap: 12px; }
+    .search-pill { background: var(--glass); border-radius: 50px; padding: 6px 15px; border: 1px solid var(--border); flex-grow: 1; backdrop-filter: blur(10px); display: flex; align-items: center; gap: 8px; }
+    .search-input { background: transparent; border: none; color: white; width: 100%; outline: none; font-weight: 600; }
+
+    .hero-card { background: var(--glass); backdrop-filter: blur(20px); border-radius: 28px; padding: 25px; border: 1px solid var(--border); }
+    .hero-temp { font-size: 5.5rem; font-weight: 900; letter-spacing: -4px; line-height: 1; }
+    .pill-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+    .mini-pill { background: rgba(0,0,0,0.2); padding: 10px; border-radius: 14px; font-size: 13px; font-weight: 600; display: flex; align-items: center; justify-content: center; gap: 6px; }
+
+    .summary-box { background: rgba(0,0,0,0.25); padding: 15px; border-radius: 18px; font-weight: 600; font-size: 14px; border-left: 4px solid #fbbf24; }
+    .glass-card { background: var(--glass); border-radius: 24px; overflow: hidden; border: 1px solid var(--border); backdrop-filter: blur(10px); }
+    
+    .hourly-row { display: flex; overflow-x: auto; gap: 15px; padding-bottom: 5px; scrollbar-width: none; }
+    .hour-item { text-align: center; min-width: 50px; }
+
+    .table { color: white !important; margin-bottom: 0; }
+    .table th { border: none; color: rgba(255,255,255,0.5); font-size: 10px; text-transform: uppercase; }
+    .table td { border-top: 1px solid rgba(255,255,255,0.05); padding: 12px 10px !important; vertical-align: middle; }
+    
+    .pollen-bar-bg { background: rgba(255,255,255,0.1); height: 6px; border-radius: 10px; flex-grow: 1; margin: 0 10px; overflow: hidden; }
+    .pollen-bar-fill { height: 100%; border-radius: 10px; transition: width 0.5s; }
+    .level-H { background: #f87171; } .level-M { background: #fbbf24; } .level-L { background: #34d399; }
+  </style>
+</head>
+<body>
+  <div class="bg-orb orb-1"></div><div class="bg-orb orb-2"></div>
+
+  <header class="container py-3 kly-narrow">
+    <div class="brand">
+      <div class="fw-black fs-4 text-white" style="letter-spacing:-1.5px; line-height:1">kly.se</div>
+      <div style="font-size:10px; opacity:0.7; font-weight:bold">Vädret, helt enkelt.</div>
+    </div>
+    <div class="search-pill">
+      <i class="bi bi-search opacity-50"></i>
+      <input id="searchInput" type="text" placeholder="Sök stad..." autocomplete="off" class="search-input" />
+    </div>
+    <div id="searchResults" class="search-results-box" hidden></div>
+  </header>
+
+  <main class="container pb-5 kly-narrow">
+    <section class="hero-card">
+      <div class="d-flex justify-content-between align-items-start">
+        <div>
+          <h1 id="placeName" class="m-0 fw-bold h4">Laddar...</h1>
+          <div id="placeCounty" class="small text-white-50">Hämtar data...</div>
+        </div>
+        <i id="heroIcon" class="bi bi-cloud-sun fs-1"></i>
+      </div>
+      <div class="d-flex align-items-end gap-2 mt-2">
+        <div class="hero-temp" id="tempNow">--</div><div class="fs-2 pb-2 opacity-50">°</div>
+        <div class="pb-2 ms-2">
+          <div id="weatherCond" class="fw-bold fs-5">--</div>
+          <div class="small text-white-50">Känns som <span id="feelsLike">--</span>°</div>
+        </div>
+      </div>
+      <div class="pill-grid mt-4">
+        <div class="mini-pill"><i class="bi bi-wind"></i> <span id="wind">--</span> m/s</div>
+        <div class="mini-pill"><i class="bi bi-sunrise"></i> <span id="sunrise">--:--</span></div>
+        <div class="mini-pill"><i class="bi bi-sunset"></i> <span id="sunset">--:--</span></div>
+        <div class="mini-pill"><i class="bi bi-cloud"></i> Moln: <span id="cloudCover">--</span>%</div>
+      </div>
+    </section>
+
+    <div class="summary-box mt-3" id="insightText">Vänta lite...</div>
+
+    <section class="mt-4 glass-card p-3">
+      <div class="hourly-row" id="hourlyRow"></div>
+    </section>
+
+    <section class="mt-4 glass-card">
+      <div class="p-3 border-bottom border-white-10 d-flex justify-content-between align-items-center">
+        <span class="fw-bold small opacity-75">POLLENRAPPORT</span>
+        <span id="pollenType" class="badge bg-white text-dark opacity-50" style="font-size:9px">Sverige</span>
+      </div>
+      <div class="p-3" id="pollenContainer"></div>
+      <div class="p-3 pt-0 border-top border-white-10">
+        <div class="small text-white-50 mb-2 mt-2">TREND (KOMMANDE 4 DAGAR)</div>
+        <div class="d-flex justify-content-between text-center" id="pollenTrend"></div>
+      </div>
+    </section>
+
+    <section class="mt-4 glass-card">
+      <div class="p-3 border-bottom border-white-10 fw-bold small opacity-75">10-DYGNSPROGNOS</div>
+      <table class="table table-borderless">
+        <thead><tr><th class="ps-3">DAG</th><th>VÄDER</th><th class="text-end">MIN/MAX</th><th class="text-end pe-3">NED.</th></tr></thead>
+        <tbody id="outlookRows"></tbody>
+      </table>
+    </section>
+
+    <footer class="mt-5 text-center text-white-50 small pb-5">
+      © 2026 kly.se · Data: Open-Meteo & Pollenkollen
+    </footer>
+  </main>
+
+  <script>
+    const $ = id => document.getElementById(id);
+    let state = { lat: 59.3293, lon: 18.0686, name: "Stockholm", country: "SE" };
+
+    async function update() {
+      const url = `https://api.open-meteo.com/v1/forecast?latitude=${state.lat}&longitude=${state.lon}&current=temperature_2m,apparent_temperature,weather_code,wind_speed_10m,relative_humidity_2m,cloud_cover,is_day&daily=weather_code,temperature_2m_max,temperature_2m_min,precipitation_probability_max,uv_index_max,sunrise,sunset&hourly=temperature_2m,weather_code,uv_index&timezone=auto&forecast_days=10`;
+      const res = await fetch(url);
+      const data = await res.json();
+
+      $("placeName").textContent = state.name;
+      $("tempNow").textContent = Math.round(data.current.temperature_2m);
+      $("feelsLike").textContent = Math.round(data.current.apparent_temperature);
+      $("weatherCond").textContent = data.current.weather_code < 3 ? "Klart" : "Växlande";
+      $("wind").textContent = Math.round(data.current.wind_speed_10m);
+      $("cloudCover").textContent = Math.round(data.current.cloud_cover);
+      $("sunrise").textContent = data.daily.sunrise[0].split("T")[1];
+      $("sunset").textContent = data.daily.sunset[0].split("T")[1];
+
+      // Insights
+      const uvMax = Math.max(...data.hourly.uv_index.slice(0, 24));
+      $("insightText").textContent = `UV-topp på ${Math.round(uvMax)} idag. Ingen nederbörd väntas i eftermiddag.`;
+
+      // Hourly
+      $("hourlyRow").innerHTML = data.hourly.time.slice(0, 24).map((t, i) => `
+        <div class="hour-item">
+          <div class="small opacity-50">${t.split("T")[1]}</div>
+          <div class="fw-bold my-1">${Math.round(data.hourly.temperature_2m[i])}°</div>
+          <i class="bi bi-cloud-sun"></i>
+        </div>
+      `).join("");
+
+      // Table
+      $("outlookRows").innerHTML = data.daily.time.map((t, i) => `
+        <tr>
+          <td class="ps-3 fw-bold">${i===0 ? 'Idag' : new Date(t).toLocaleDateString('sv-SE', {weekday:'short'})}</td>
+          <td><i class="bi bi-cloud-rain"></i></td>
+          <td class="text-end text-white-50">${Math.round(data.daily.temperature_2m_min[i])}° / <span class="text-white">${Math.round(data.daily.temperature_2m_max[i])}°</span></td>
+          <td class="text-end pe-3 text-info">${data.daily.precipitation_probability_max[i]}%</td>
+        </tr>
+      `).join("");
+
+      fetchPollen();
+    }
+
+    async function fetchPollen() {
+      const isSE = state.country === "SE";
+      $("pollenType").textContent = isSE ? "Sverige" : "Global API";
+      
+      const url = `https://air-quality-api.open-meteo.com/v1/air-quality?latitude=${state.lat}&longitude=${state.lon}&hourly=birch_pollen,grass_pollen,alder_pollen,mugwort_pollen,olive_pollen&forecast_days=4&timezone=auto`;
+      const res = await fetch(url);
+      const data = await res.json();
+
+      const plants = [
+        { name: "Björk", val: data.hourly.birch_pollen[12] },
+        { name: "Gräs", val: data.hourly.grass_pollen[12] },
+        { name: "Gråbo", val: data.hourly.mugwort_pollen[12] }
+      ];
+
+      $("pollenContainer").innerHTML = plants.map(p => `
+        <div class="d-flex align-items-center mb-2">
+          <div style="width:50px" class="small fw-bold">${p.name}</div>
+          <div class="pollen-bar-bg"><div class="pollen-bar-fill ${p.val > 30 ? 'level-H' : 'level-L'}" style="width:${Math.min(p.val*2, 100)}%"></div></div>
+          <div style="width:40px" class="small opacity-50 text-end">${p.val > 10 ? 'Måttlig' : 'Låg'}</div>
+        </div>
+      `).join("");
+
+      $("pollenTrend").innerHTML = [0, 24, 48, 72].map(h => `
+        <div><div class="small opacity-50">${h===0?'Idag':'Dag '+(h/24)}</div><div class="fw-bold">${data.hourly.birch_pollen[h]>20?'H':'L'}</div></div>
+      `).join("");
+    }
+
+    update();
+  </script>
+</body>
+</html>

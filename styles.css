@@ -1,0 +1,74 @@
+:root {
+  --bg1: #1f3fae; --bg2: #3c6edb; --bg3: #6ea8ff;
+  --text: rgba(255, 255, 255, 0.95);
+  --glass-bg: rgba(255, 255, 255, 0.1);
+  --glass-border: rgba(255, 255, 255, 0.15);
+  --shadow: 0 16px 32px rgba(0, 0, 0, 0.15);
+  --radius: 20px;
+  --font: 'Inter', sans-serif;
+}
+
+body {
+  margin: 0; font-family: var(--font); color: var(--text); min-height: 100vh;
+  background: radial-gradient(circle at 20% 0%, var(--bg3) 0%, var(--bg2) 45%, var(--bg1) 100%);
+  background-attachment: fixed;
+}
+
+.bg-orb { position: fixed; width: 500px; height: 500px; filter: blur(60px); opacity: 0.3; border-radius: 50%; z-index: -1; }
+.orb-1 { left: -100px; top: -100px; background: #a7c4ff; }
+.orb-2 { right: -150px; bottom: -150px; background: #ffdca0; }
+
+.kly-narrow { max-width: 800px; }
+.brand-mark { font-weight: 900; font-size: 24px; letter-spacing: -1px; }
+.brand-tagline { font-size: 12px; opacity: 0.7; font-weight: 600; margin-top: -4px; }
+
+/* Sökfält */
+.search-pill { background: var(--glass-bg); border: 1px solid var(--glass-border); border-radius: 50px; padding: 10px 16px; backdrop-filter: blur(10px); }
+.search-input { border: none; background: transparent; color: white; outline: none; width: 100%; font-weight: 600; }
+.search-input::placeholder { color: rgba(255,255,255,0.6); }
+.search-results { position: absolute; top: 110%; left: 0; right: 0; background: rgba(15, 25, 65, 0.95); border-radius: 16px; border: 1px solid var(--glass-border); backdrop-filter: blur(10px); z-index: 100; overflow: hidden; }
+.search-item { padding: 12px 16px; cursor: pointer; border-bottom: 1px solid rgba(255,255,255,0.05); }
+.search-item:hover { background: rgba(255,255,255,0.1); }
+
+.icon-btn { width: 44px; height: 44px; border: none; border-radius: 50px; background: var(--glass-bg); color: white; display: grid; place-items: center; border: 1px solid var(--glass-border); backdrop-filter: blur(10px); transition: background 0.2s; }
+.icon-btn:hover { background: rgba(255,255,255,0.2); }
+
+/* Kort (Cards) */
+.glass-card { background: var(--glass-bg); border: 1px solid var(--glass-border); border-radius: var(--radius); backdrop-filter: blur(14px); box-shadow: var(--shadow); }
+.border-white-10 { border-color: rgba(255,255,255,0.1) !important; }
+
+/* Hero */
+.hero-card { background: linear-gradient(135deg, rgba(255,255,255,0.15) 0%, rgba(255,255,255,0.05) 100%); border-radius: var(--radius); padding: 24px; border: 1px solid var(--glass-border); backdrop-filter: blur(20px); box-shadow: var(--shadow); }
+.hero-icon { font-size: 4rem; line-height: 1; }
+.hero-temp { font-size: 5rem; font-weight: 900; line-height: 0.8; letter-spacing: -2px; }
+.deg { font-size: 2.5rem; vertical-align: top; }
+
+/* Snabbfakta grid */
+.pill-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(130px, 1fr)); gap: 10px; }
+.mini-pill { background: rgba(0,0,0,0.15); padding: 8px 12px; border-radius: 12px; font-size: 13px; font-weight: 600; text-align: center; display: flex; align-items: center; justify-content: center; gap: 6px; }
+
+/* Textsammanfattning */
+.summary-line-box { background: rgba(0,0,0,0.2); padding: 14px 18px; border-radius: 16px; font-weight: 600; font-size: 14px; display: flex; align-items: center; }
+
+/* Scroll-lister */
+.hourly-scroll { overflow-x: auto; scrollbar-width: none; }
+.hourly-scroll::-webkit-scrollbar { display: none; }
+.hour-tile { min-width: 65px; text-align: center; padding: 10px; background: rgba(0,0,0,0.1); border-radius: 14px; }
+.hour-tile i { font-size: 1.5rem; margin: 5px 0; display: block; }
+
+/* 10-dygnstabell */
+.outlook-table td { padding: 12px 16px; vertical-align: middle; border-bottom: 1px solid rgba(255,255,255,0.05); }
+.outlook-table tr:last-child td { border-bottom: none; }
+
+/* Regngraf */
+.rain-graph-container { display: flex; align-items: flex-end; height: 60px; gap: 4px; padding-top: 10px; border-bottom: 1px solid rgba(255,255,255,0.2); }
+.rain-bar { flex: 1; background: #6ea8ff; border-radius: 4px 4px 0 0; min-height: 2px; transition: height 0.3s ease; }
+
+/* Pollen */
+.pollen-row { display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px; }
+.pollen-bar-bg { flex-grow: 1; height: 8px; background: rgba(255,255,255,0.1); border-radius: 10px; margin: 0 15px; position: relative; overflow: hidden; }
+.pollen-bar-fill { height: 100%; border-radius: 10px; position: absolute; left: 0; top: 0; }
+.level-N { background: transparent; }
+.level-L { background: #a8d5b0; } 
+.level-M { background: #f6c26b; } 
+.level-H { background: #ff7a7a; }

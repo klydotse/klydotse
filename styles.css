@@ -72,3 +72,20 @@ body {
 .level-L { background: #a8d5b0; } 
 .level-M { background: #f6c26b; } 
 .level-H { background: #ff7a7a; }
+
+/* Make secondary icons (clouds) more visible */
+.text-white-50 { color: rgba(255, 255, 255, 0.6) !important; }
+.bi-clouds-fill, .bi-cloud-fill { filter: drop-shadow(0 0 5px rgba(255,255,255,0.2)); }
+
+/* Ensure desktop scrollbar is visible but thin */
+.hourly-scroll {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(255,255,255,0.2) transparent;
+}
+.hourly-scroll::-webkit-scrollbar {
+  height: 6px;
+}
+.hourly-scroll::-webkit-scrollbar-thumb {
+  background: rgba(255,255,255,0.2);
+  border-radius: 10px;
+}

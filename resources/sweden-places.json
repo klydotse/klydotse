@@ -1,0 +1,8265 @@
+{
+  "version": "1.2",
+  "generated": "2026-03-03",
+  "country": "SE",
+  "sources": [
+    "Localities + coordinates: hej2010/svenska-orter (SCB-based, Apache-2.0).",
+    "Municipality coordinate: derived from largest locality per municipality in the same dataset.",
+    "Resorts/destinations: tagged where possible; otherwise added with approximate coordinates."
+  ],
+  "stats": {
+    "municipalities": 285,
+    "localities_ge_5000": 232,
+    "added_from_scb_locality_lt_5000": 11,
+    "manual_added_destinations": 16,
+    "manual_destinations_islands_nps": 8,
+    "total": 552
+  },
+  "places": [
+    {
+      "name": "Ale",
+      "municipality": "Ale kommun",
+      "county": "Västra Götaland län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 57.9079,
+      "lon": 12.0607,
+      "aliases": [
+        "Ale kommun"
+      ],
+      "tags": [],
+      "id": "ale-ale"
+    },
+    {
+      "name": "Alingsås",
+      "municipality": "Alingsås kommun",
+      "county": "Västra Götaland län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 57.9297,
+      "lon": 12.5275,
+      "aliases": [
+        "Alingsås kommun",
+        "Alingsas"
+      ],
+      "tags": [],
+      "id": "alingsas-alingsas-2"
+    },
+    {
+      "name": "Alvesta",
+      "municipality": "Alvesta kommun",
+      "county": "Kronoberg län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 56.9012,
+      "lon": 14.5526,
+      "aliases": [
+        "Alvesta kommun"
+      ],
+      "tags": [],
+      "id": "alvesta-alvesta-2"
+    },
+    {
+      "name": "Aneby",
+      "municipality": "Aneby kommun",
+      "county": "Jönköping län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 57.8416,
+      "lon": 14.8085,
+      "aliases": [
+        "Aneby kommun"
+      ],
+      "tags": [],
+      "id": "aneby-aneby"
+    },
+    {
+      "name": "Arboga",
+      "municipality": "Arboga kommun",
+      "county": "Västmanland län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 59.3953,
+      "lon": 15.8542,
+      "aliases": [
+        "Arboga kommun"
+      ],
+      "tags": [],
+      "id": "arboga-arboga-2"
+    },
+    {
+      "name": "Arjeplog",
+      "municipality": "Arjeplog kommun",
+      "county": "Norrbotten län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 66.0469,
+      "lon": 17.8531,
+      "aliases": [
+        "Arjeplog kommun"
+      ],
+      "tags": [],
+      "id": "arjeplog-arjeplog"
+    },
+    {
+      "name": "Arvidsjaur",
+      "municipality": "Arvidsjaur kommun",
+      "county": "Norrbotten län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 65.5915,
+      "lon": 19.1793,
+      "aliases": [
+        "Arvidsjaur kommun"
+      ],
+      "tags": [],
+      "id": "arvidsjaur-arvidsjaur"
+    },
+    {
+      "name": "Arvika",
+      "municipality": "Arvika kommun",
+      "county": "Värmland län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 59.6589,
+      "lon": 12.599,
+      "aliases": [
+        "Arvika kommun"
+      ],
+      "tags": [],
+      "id": "arvika-arvika-2"
+    },
+    {
+      "name": "Askersund",
+      "municipality": "Askersund kommun",
+      "county": "Örebro län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 58.8867,
+      "lon": 14.9204,
+      "aliases": [
+        "Askersund kommun"
+      ],
+      "tags": [],
+      "id": "askersund-askersund"
+    },
+    {
+      "name": "Avesta",
+      "municipality": "Avesta kommun",
+      "county": "Dalarna län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 60.1459,
+      "lon": 16.1425,
+      "aliases": [
+        "Avesta kommun"
+      ],
+      "tags": [],
+      "id": "avesta-avesta-2"
+    },
+    {
+      "name": "Bengtsfors",
+      "municipality": "Bengtsfors kommun",
+      "county": "Västra Götaland län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 59.0308,
+      "lon": 12.2161,
+      "aliases": [
+        "Bengtsfors kommun"
+      ],
+      "tags": [],
+      "id": "bengtsfors-bengtsfors"
+    },
+    {
+      "name": "Berg",
+      "municipality": "Berg kommun",
+      "county": "Jämtland län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 62.7654,
+      "lon": 14.4292,
+      "aliases": [
+        "Berg kommun"
+      ],
+      "tags": [],
+      "id": "berg-berg"
+    },
+    {
+      "name": "Bjurholm",
+      "municipality": "Bjurholm kommun",
+      "county": "Västerbotten län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 63.9293,
+      "lon": 19.2197,
+      "aliases": [
+        "Bjurholm kommun"
+      ],
+      "tags": [],
+      "id": "bjurholm-bjurholm"
+    },
+    {
+      "name": "Bjuv",
+      "municipality": "Bjuv kommun",
+      "county": "Skåne län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 56.0685,
+      "lon": 12.9517,
+      "aliases": [
+        "Bjuv kommun"
+      ],
+      "tags": [],
+      "id": "bjuv-bjuv-2"
+    },
+    {
+      "name": "Boden",
+      "municipality": "Boden kommun",
+      "county": "Norrbotten län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 65.8223,
+      "lon": 21.7084,
+      "aliases": [
+        "Boden kommun"
+      ],
+      "tags": [],
+      "id": "boden-boden-2"
+    },
+    {
+      "name": "Bollebygd",
+      "municipality": "Bollebygd kommun",
+      "county": "Västra Götaland län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 57.6739,
+      "lon": 12.5635,
+      "aliases": [
+        "Bollebygd kommun"
+      ],
+      "tags": [],
+      "id": "bollebygd-bollebygd"
+    },
+    {
+      "name": "Bollnäs",
+      "municipality": "Bollnäs kommun",
+      "county": "Gävleborg län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 61.3399,
+      "lon": 16.386,
+      "aliases": [
+        "Bollnäs kommun",
+        "Bollnas"
+      ],
+      "tags": [],
+      "id": "bollnas-bollnas-2"
+    },
+    {
+      "name": "Borgholm",
+      "municipality": "Borgholm kommun",
+      "county": "Kalmar län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 56.884,
+      "lon": 16.694,
+      "aliases": [
+        "Borgholm kommun"
+      ],
+      "tags": [],
+      "id": "borgholm-borgholm"
+    },
+    {
+      "name": "Borlänge",
+      "municipality": "Borlänge kommun",
+      "county": "Dalarna län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 60.4765,
+      "lon": 15.4471,
+      "aliases": [
+        "Borlänge kommun",
+        "Borlange"
+      ],
+      "tags": [],
+      "id": "borlange-borlange-2"
+    },
+    {
+      "name": "Borås",
+      "municipality": "Borås kommun",
+      "county": "Västra Götaland län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 57.7283,
+      "lon": 12.945,
+      "aliases": [
+        "Borås kommun",
+        "Boras"
+      ],
+      "tags": [],
+      "id": "boras-boras-2"
+    },
+    {
+      "name": "Botkyrka",
+      "municipality": "Botkyrka kommun",
+      "county": "Stockholm län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 59.1921,
+      "lon": 17.7117,
+      "aliases": [
+        "Botkyrka kommun"
+      ],
+      "tags": [],
+      "id": "botkyrka-botkyrka"
+    },
+    {
+      "name": "Boxholm",
+      "municipality": "Boxholm kommun",
+      "county": "Östergötland län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 58.1931,
+      "lon": 15.0465,
+      "aliases": [
+        "Boxholm kommun"
+      ],
+      "tags": [],
+      "id": "boxholm-boxholm"
+    },
+    {
+      "name": "Bromölla",
+      "municipality": "Bromölla kommun",
+      "county": "Skåne län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 56.0789,
+      "lon": 14.4729,
+      "aliases": [
+        "Bromölla kommun",
+        "Bromolla"
+      ],
+      "tags": [],
+      "id": "bromolla-bromolla-2"
+    },
+    {
+      "name": "Bräcke",
+      "municipality": "Bräcke kommun",
+      "county": "Jämtland län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 62.7493,
+      "lon": 15.4188,
+      "aliases": [
+        "Bräcke kommun",
+        "Bracke"
+      ],
+      "tags": [],
+      "id": "bracke-bracke"
+    },
+    {
+      "name": "Burlöv",
+      "municipality": "Burlöv kommun",
+      "county": "Skåne län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 55.6548,
+      "lon": 13.1158,
+      "aliases": [
+        "Burlöv kommun",
+        "Burlov"
+      ],
+      "tags": [],
+      "id": "burlov-burlov"
+    },
+    {
+      "name": "Båstad",
+      "municipality": "Båstad kommun",
+      "county": "Skåne län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 56.4273,
+      "lon": 12.8554,
+      "aliases": [
+        "Båstad kommun",
+        "Bastad"
+      ],
+      "tags": [],
+      "id": "bastad-bastad-2"
+    },
+    {
+      "name": "Dals-Ed",
+      "municipality": "Dals-Ed kommun",
+      "county": "Västra Götaland län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 58.9115,
+      "lon": 11.9392,
+      "aliases": [
+        "Dals-Ed kommun"
+      ],
+      "tags": [],
+      "id": "dals-ed-dals-ed"
+    },
+    {
+      "name": "Danderyd",
+      "municipality": "Danderyd kommun",
+      "county": "Stockholm län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 59.376,
+      "lon": 18.0888,
+      "aliases": [
+        "Danderyd kommun"
+      ],
+      "tags": [],
+      "id": "danderyd-danderyd"
+    },
+    {
+      "name": "Degerfors",
+      "municipality": "Degerfors kommun",
+      "county": "Örebro län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 59.2384,
+      "lon": 14.4274,
+      "aliases": [
+        "Degerfors kommun"
+      ],
+      "tags": [],
+      "id": "degerfors-degerfors-2"
+    },
+    {
+      "name": "Dorotea",
+      "municipality": "Dorotea kommun",
+      "county": "Västerbotten län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 64.2634,
+      "lon": 16.4055,
+      "aliases": [
+        "Dorotea kommun"
+      ],
+      "tags": [],
+      "id": "dorotea-dorotea"
+    },
+    {
+      "name": "Eda",
+      "municipality": "Eda kommun",
+      "county": "Värmland län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 59.8825,
+      "lon": 12.3045,
+      "aliases": [
+        "Eda kommun"
+      ],
+      "tags": [],
+      "id": "eda-eda"
+    },
+    {
+      "name": "Ekerö",
+      "municipality": "Ekerö kommun",
+      "county": "Stockholm län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 59.281,
+      "lon": 17.7936,
+      "aliases": [
+        "Ekerö kommun",
+        "Ekero"
+      ],
+      "tags": [],
+      "id": "ekero-ekero-2"
+    },
+    {
+      "name": "Eksjö",
+      "municipality": "Eksjö kommun",
+      "county": "Jönköping län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 57.6605,
+      "lon": 14.9685,
+      "aliases": [
+        "Eksjö kommun",
+        "Eksjo"
+      ],
+      "tags": [],
+      "id": "eksjo-eksjo-2"
+    },
+    {
+      "name": "Emmaboda",
+      "municipality": "Emmaboda kommun",
+      "county": "Kalmar län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 56.6278,
+      "lon": 15.5508,
+      "aliases": [
+        "Emmaboda kommun"
+      ],
+      "tags": [],
+      "id": "emmaboda-emmaboda"
+    },
+    {
+      "name": "Enköping",
+      "municipality": "Enköping kommun",
+      "county": "Uppsala län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 59.639,
+      "lon": 17.1047,
+      "aliases": [
+        "Enköping kommun",
+        "Enkoping"
+      ],
+      "tags": [],
+      "id": "enkoping-enkoping-2"
+    },
+    {
+      "name": "Eskilstuna",
+      "municipality": "Eskilstuna kommun",
+      "county": "Södermanland län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 59.3579,
+      "lon": 16.4795,
+      "aliases": [
+        "Eskilstuna kommun"
+      ],
+      "tags": [],
+      "id": "eskilstuna-eskilstuna-2"
+    },
+    {
+      "name": "Eslöv",
+      "municipality": "Eslöv kommun",
+      "county": "Skåne län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 55.8404,
+      "lon": 13.299,
+      "aliases": [
+        "Eslöv kommun",
+        "Eslov"
+      ],
+      "tags": [],
+      "id": "eslov-eslov-2"
+    },
+    {
+      "name": "Essunga",
+      "municipality": "Essunga kommun",
+      "county": "Västra Götaland län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 58.1884,
+      "lon": 12.7227,
+      "aliases": [
+        "Essunga kommun"
+      ],
+      "tags": [],
+      "id": "essunga-essunga"
+    },
+    {
+      "name": "Fagersta",
+      "municipality": "Fagersta kommun",
+      "county": "Västmanland län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 59.9967,
+      "lon": 15.8049,
+      "aliases": [
+        "Fagersta kommun"
+      ],
+      "tags": [],
+      "id": "fagersta-fagersta-2"
+    },
+    {
+      "name": "Falkenberg",
+      "municipality": "Falkenberg kommun",
+      "county": "Halland län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 56.8999,
+      "lon": 12.5019,
+      "aliases": [
+        "Falkenberg kommun"
+      ],
+      "tags": [],
+      "id": "falkenberg-falkenberg-2"
+    },
+    {
+      "name": "Falköping",
+      "municipality": "Falköping kommun",
+      "county": "Västra Götaland län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 58.1699,
+      "lon": 13.5552,
+      "aliases": [
+        "Falköping kommun",
+        "Falkoping"
+      ],
+      "tags": [],
+      "id": "falkoping-falkoping-2"
+    },
+    {
+      "name": "Falun",
+      "municipality": "Falun kommun",
+      "county": "Dalarna län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 60.6052,
+      "lon": 15.6031,
+      "aliases": [
+        "Falun kommun"
+      ],
+      "tags": [],
+      "id": "falun-falun-2"
+    },
+    {
+      "name": "Filipstad",
+      "municipality": "Filipstad kommun",
+      "county": "Värmland län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 59.706,
+      "lon": 14.1611,
+      "aliases": [
+        "Filipstad kommun"
+      ],
+      "tags": [],
+      "id": "filipstad-filipstad-2"
+    },
+    {
+      "name": "Finspång",
+      "municipality": "Finspång kommun",
+      "county": "Östergötland län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 58.7051,
+      "lon": 15.7626,
+      "aliases": [
+        "Finspång kommun",
+        "Finspang"
+      ],
+      "tags": [],
+      "id": "finspang-finspang-2"
+    },
+    {
+      "name": "Flen",
+      "municipality": "Flen kommun",
+      "county": "Södermanland län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 59.0604,
+      "lon": 16.5916,
+      "aliases": [
+        "Flen kommun"
+      ],
+      "tags": [],
+      "id": "flen-flen-2"
+    },
+    {
+      "name": "Forshaga",
+      "municipality": "Forshaga kommun",
+      "county": "Värmland län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 59.5306,
+      "lon": 13.485,
+      "aliases": [
+        "Forshaga kommun"
+      ],
+      "tags": [],
+      "id": "forshaga-forshaga-2"
+    },
+    {
+      "name": "Färgelanda",
+      "municipality": "Färgelanda kommun",
+      "county": "Västra Götaland län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 58.5705,
+      "lon": 11.9941,
+      "aliases": [
+        "Färgelanda kommun",
+        "Fargelanda"
+      ],
+      "tags": [],
+      "id": "fargelanda-fargelanda"
+    },
+    {
+      "name": "Gagnef",
+      "municipality": "Gagnef kommun",
+      "county": "Dalarna län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 60.5551,
+      "lon": 15.1106,
+      "aliases": [
+        "Gagnef kommun"
+      ],
+      "tags": [],
+      "id": "gagnef-gagnef"
+    },
+    {
+      "name": "Gislaved",
+      "municipality": "Gislaved kommun",
+      "county": "Jönköping län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 57.3027,
+      "lon": 13.5469,
+      "aliases": [
+        "Gislaved kommun"
+      ],
+      "tags": [],
+      "id": "gislaved-gislaved-2"
+    },
+    {
+      "name": "Gnesta",
+      "municipality": "Gnesta kommun",
+      "county": "Södermanland län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 59.0472,
+      "lon": 17.3046,
+      "aliases": [
+        "Gnesta kommun"
+      ],
+      "tags": [],
+      "id": "gnesta-gnesta-2"
+    },
+    {
+      "name": "Gnosjö",
+      "municipality": "Gnosjö kommun",
+      "county": "Jönköping län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 57.3525,
+      "lon": 13.7395,
+      "aliases": [
+        "Gnosjö kommun",
+        "Gnosjo"
+      ],
+      "tags": [],
+      "id": "gnosjo-gnosjo"
+    },
+    {
+      "name": "Gotland",
+      "municipality": "Gotland kommun",
+      "county": "Gotland län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 57.6296,
+      "lon": 18.3115,
+      "aliases": [
+        "Gotland kommun"
+      ],
+      "tags": [],
+      "id": "gotland-gotland"
+    },
+    {
+      "name": "Grums",
+      "municipality": "Grums kommun",
+      "county": "Värmland län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 59.3531,
+      "lon": 13.1095,
+      "aliases": [
+        "Grums kommun"
+      ],
+      "tags": [],
+      "id": "grums-grums"
+    },
+    {
+      "name": "Grästorp",
+      "municipality": "Grästorp kommun",
+      "county": "Västra Götaland län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 58.3322,
+      "lon": 12.6808,
+      "aliases": [
+        "Grästorp kommun",
+        "Grastorp"
+      ],
+      "tags": [],
+      "id": "grastorp-grastorp"
+    },
+    {
+      "name": "Gullspång",
+      "municipality": "Gullspång kommun",
+      "county": "Västra Götaland län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 58.9693,
+      "lon": 14.101,
+      "aliases": [
+        "Gullspång kommun",
+        "Gullspang"
+      ],
+      "tags": [],
+      "id": "gullspang-gullspang"
+    },
+    {
+      "name": "Gällivare",
+      "municipality": "Gällivare kommun",
+      "county": "Norrbotten län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 67.1438,
+      "lon": 20.6575,
+      "aliases": [
+        "Gällivare kommun",
+        "Gallivare"
+      ],
+      "tags": [],
+      "id": "gallivare-gallivare-2"
+    },
+    {
+      "name": "Gävle",
+      "municipality": "Gävle kommun",
+      "county": "Gävleborg län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 60.6868,
+      "lon": 17.1297,
+      "aliases": [
+        "Gävle kommun",
+        "Gavle"
+      ],
+      "tags": [],
+      "id": "gavle-gavle-2"
+    },
+    {
+      "name": "Göteborg",
+      "municipality": "Göteborg kommun",
+      "county": "Västra Götaland län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 57.657,
+      "lon": 11.9946,
+      "aliases": [
+        "Göteborg kommun",
+        "Goteborg"
+      ],
+      "tags": [],
+      "id": "goteborg-goteborg-2"
+    },
+    {
+      "name": "Götene",
+      "municipality": "Götene kommun",
+      "county": "Västra Götaland län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 58.5222,
+      "lon": 13.4539,
+      "aliases": [
+        "Götene kommun",
+        "Gotene"
+      ],
+      "tags": [],
+      "id": "gotene-gotene-2"
+    },
+    {
+      "name": "Habo",
+      "municipality": "Habo kommun",
+      "county": "Jönköping län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 57.9042,
+      "lon": 14.0855,
+      "aliases": [
+        "Habo kommun"
+      ],
+      "tags": [],
+      "id": "habo-habo-2"
+    },
+    {
+      "name": "Hagfors",
+      "municipality": "Hagfors kommun",
+      "county": "Värmland län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 60.0327,
+      "lon": 13.6936,
+      "aliases": [
+        "Hagfors kommun"
+      ],
+      "tags": [],
+      "id": "hagfors-hagfors"
+    },
+    {
+      "name": "Hallsberg",
+      "municipality": "Hallsberg kommun",
+      "county": "Örebro län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 59.0741,
+      "lon": 15.0659,
+      "aliases": [
+        "Hallsberg kommun"
+      ],
+      "tags": [],
+      "id": "hallsberg-hallsberg-2"
+    },
+    {
+      "name": "Hallstahammar",
+      "municipality": "Hallstahammar kommun",
+      "county": "Västmanland län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 59.6149,
+      "lon": 16.2355,
+      "aliases": [
+        "Hallstahammar kommun"
+      ],
+      "tags": [],
+      "id": "hallstahammar-hallstahammar-2"
+    },
+    {
+      "name": "Halmstad",
+      "municipality": "Halmstad kommun",
+      "county": "Halland län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 56.6672,
+      "lon": 12.851,
+      "aliases": [
+        "Halmstad kommun"
+      ],
+      "tags": [],
+      "id": "halmstad-halmstad-2"
+    },
+    {
+      "name": "Hammarö",
+      "municipality": "Hammarö kommun",
+      "county": "Värmland län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 59.332,
+      "lon": 13.4985,
+      "aliases": [
+        "Hammarö kommun",
+        "Hammaro"
+      ],
+      "tags": [],
+      "id": "hammaro-hammaro"
+    },
+    {
+      "name": "Haninge",
+      "municipality": "Haninge kommun",
+      "county": "Stockholm län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 59.1145,
+      "lon": 18.0642,
+      "aliases": [
+        "Haninge kommun"
+      ],
+      "tags": [],
+      "id": "haninge-haninge"
+    },
+    {
+      "name": "Haparanda",
+      "municipality": "Haparanda kommun",
+      "county": "Norrbotten län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 65.8542,
+      "lon": 24.1041,
+      "aliases": [
+        "Haparanda kommun"
+      ],
+      "tags": [],
+      "id": "haparanda-haparanda-2"
+    },
+    {
+      "name": "Heby",
+      "municipality": "Heby kommun",
+      "county": "Uppsala län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 59.943,
+      "lon": 16.8553,
+      "aliases": [
+        "Heby kommun"
+      ],
+      "tags": [],
+      "id": "heby-heby"
+    },
+    {
+      "name": "Hedemora",
+      "municipality": "Hedemora kommun",
+      "county": "Dalarna län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 60.2809,
+      "lon": 15.9809,
+      "aliases": [
+        "Hedemora kommun"
+      ],
+      "tags": [],
+      "id": "hedemora-hedemora-2"
+    },
+    {
+      "name": "Helsingborg",
+      "municipality": "Helsingborg kommun",
+      "county": "Skåne län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 56.0391,
+      "lon": 12.7212,
+      "aliases": [
+        "Helsingborg kommun"
+      ],
+      "tags": [],
+      "id": "helsingborg-helsingborg-2"
+    },
+    {
+      "name": "Herrljunga",
+      "municipality": "Herrljunga kommun",
+      "county": "Västra Götaland län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 58.0803,
+      "lon": 13.0351,
+      "aliases": [
+        "Herrljunga kommun"
+      ],
+      "tags": [],
+      "id": "herrljunga-herrljunga"
+    },
+    {
+      "name": "Hjo",
+      "municipality": "Hjo kommun",
+      "county": "Västra Götaland län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 58.303,
+      "lon": 14.2762,
+      "aliases": [
+        "Hjo kommun"
+      ],
+      "tags": [],
+      "id": "hjo-hjo-2"
+    },
+    {
+      "name": "Hofors",
+      "municipality": "Hofors kommun",
+      "county": "Gävleborg län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 60.5435,
+      "lon": 16.2948,
+      "aliases": [
+        "Hofors kommun"
+      ],
+      "tags": [],
+      "id": "hofors-hofors-2"
+    },
+    {
+      "name": "Huddinge",
+      "municipality": "Huddinge kommun",
+      "county": "Stockholm län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 59.1967,
+      "lon": 18.0618,
+      "aliases": [
+        "Huddinge kommun"
+      ],
+      "tags": [],
+      "id": "huddinge-huddinge"
+    },
+    {
+      "name": "Hudiksvall",
+      "municipality": "Hudiksvall kommun",
+      "county": "Gävleborg län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 61.7312,
+      "lon": 17.1372,
+      "aliases": [
+        "Hudiksvall kommun"
+      ],
+      "tags": [],
+      "id": "hudiksvall-hudiksvall-2"
+    },
+    {
+      "name": "Hultsfred",
+      "municipality": "Hultsfred kommun",
+      "county": "Kalmar län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 57.4943,
+      "lon": 15.8411,
+      "aliases": [
+        "Hultsfred kommun"
+      ],
+      "tags": [],
+      "id": "hultsfred-hultsfred-2"
+    },
+    {
+      "name": "Hylte",
+      "municipality": "Hylte kommun",
+      "county": "Halland län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 57.0034,
+      "lon": 13.2395,
+      "aliases": [
+        "Hylte kommun"
+      ],
+      "tags": [],
+      "id": "hylte-hylte"
+    },
+    {
+      "name": "Hällefors",
+      "municipality": "Hällefors kommun",
+      "county": "Örebro län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 59.783,
+      "lon": 14.5167,
+      "aliases": [
+        "Hällefors kommun",
+        "Hallefors"
+      ],
+      "tags": [],
+      "id": "hallefors-hallefors"
+    },
+    {
+      "name": "Härjedalen",
+      "municipality": "Härjedalen kommun",
+      "county": "Jämtland län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 62.0351,
+      "lon": 14.3641,
+      "aliases": [
+        "Härjedalen kommun",
+        "Harjedalen"
+      ],
+      "tags": [],
+      "id": "harjedalen-harjedalen"
+    },
+    {
+      "name": "Härnösand",
+      "municipality": "Härnösand kommun",
+      "county": "Västernorrland län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 62.6291,
+      "lon": 17.9386,
+      "aliases": [
+        "Härnösand kommun",
+        "Harnosand"
+      ],
+      "tags": [],
+      "id": "harnosand-harnosand-2"
+    },
+    {
+      "name": "Härryda",
+      "municipality": "Härryda kommun",
+      "county": "Västra Götaland län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 57.6561,
+      "lon": 12.1323,
+      "aliases": [
+        "Härryda kommun",
+        "Harryda"
+      ],
+      "tags": [],
+      "id": "harryda-harryda"
+    },
+    {
+      "name": "Hässleholm",
+      "municipality": "Hässleholm kommun",
+      "county": "Skåne län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 56.1552,
+      "lon": 13.7797,
+      "aliases": [
+        "Hässleholm kommun",
+        "Hassleholm"
+      ],
+      "tags": [],
+      "id": "hassleholm-hassleholm-2"
+    },
+    {
+      "name": "Håbo",
+      "municipality": "Håbo kommun",
+      "county": "Uppsala län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 59.5606,
+      "lon": 17.5175,
+      "aliases": [
+        "Håbo kommun",
+        "Habo"
+      ],
+      "tags": [],
+      "id": "habo-habo-3"
+    },
+    {
+      "name": "Höganäs",
+      "municipality": "Höganäs kommun",
+      "county": "Skåne län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 56.2087,
+      "lon": 12.5506,
+      "aliases": [
+        "Höganäs kommun",
+        "Hoganas"
+      ],
+      "tags": [],
+      "id": "hoganas-hoganas-2"
+    },
+    {
+      "name": "Högsby",
+      "municipality": "Högsby kommun",
+      "county": "Kalmar län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 57.1698,
+      "lon": 16.023,
+      "aliases": [
+        "Högsby kommun",
+        "Hogsby"
+      ],
+      "tags": [],
+      "id": "hogsby-hogsby"
+    },
+    {
+      "name": "Hörby",
+      "municipality": "Hörby kommun",
+      "county": "Skåne län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 55.8468,
+      "lon": 13.6623,
+      "aliases": [
+        "Hörby kommun",
+        "Horby"
+      ],
+      "tags": [],
+      "id": "horby-horby-2"
+    },
+    {
+      "name": "Höör",
+      "municipality": "Höör kommun",
+      "county": "Skåne län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 55.9239,
+      "lon": 13.5468,
+      "aliases": [
+        "Höör kommun",
+        "Hoor"
+      ],
+      "tags": [],
+      "id": "hoor-hoor-2"
+    },
+    {
+      "name": "Jokkmokk",
+      "municipality": "Jokkmokk kommun",
+      "county": "Norrbotten län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 66.6061,
+      "lon": 19.8334,
+      "aliases": [
+        "Jokkmokk kommun"
+      ],
+      "tags": [],
+      "id": "jokkmokk-jokkmokk"
+    },
+    {
+      "name": "Jönköping",
+      "municipality": "Jönköping kommun",
+      "county": "Jönköping län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 57.7451,
+      "lon": 14.1328,
+      "aliases": [
+        "Jönköping kommun",
+        "Jonkoping"
+      ],
+      "tags": [],
+      "id": "jonkoping-jonkoping-2"
+    },
+    {
+      "name": "Kalix",
+      "municipality": "Kalix kommun",
+      "county": "Norrbotten län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 65.8582,
+      "lon": 23.1478,
+      "aliases": [
+        "Kalix kommun"
+      ],
+      "tags": [],
+      "id": "kalix-kalix-2"
+    },
+    {
+      "name": "Kalmar",
+      "municipality": "Kalmar kommun",
+      "county": "Kalmar län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 56.6831,
+      "lon": 16.342,
+      "aliases": [
+        "Kalmar kommun"
+      ],
+      "tags": [],
+      "id": "kalmar-kalmar-2"
+    },
+    {
+      "name": "Karlsborg",
+      "municipality": "Karlsborg kommun",
+      "county": "Västra Götaland län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 58.5406,
+      "lon": 14.5071,
+      "aliases": [
+        "Karlsborg kommun"
+      ],
+      "tags": [],
+      "id": "karlsborg-karlsborg"
+    },
+    {
+      "name": "Karlshamn",
+      "municipality": "Karlshamn kommun",
+      "county": "Blekinge län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 56.2021,
+      "lon": 14.8428,
+      "aliases": [
+        "Karlshamn kommun"
+      ],
+      "tags": [],
+      "id": "karlshamn-karlshamn-2"
+    },
+    {
+      "name": "Karlskoga",
+      "municipality": "Karlskoga kommun",
+      "county": "Örebro län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 59.3352,
+      "lon": 14.5273,
+      "aliases": [
+        "Karlskoga kommun"
+      ],
+      "tags": [],
+      "id": "karlskoga-karlskoga-2"
+    },
+    {
+      "name": "Karlskrona",
+      "municipality": "Karlskrona kommun",
+      "county": "Blekinge län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 56.1921,
+      "lon": 15.6279,
+      "aliases": [
+        "Karlskrona kommun"
+      ],
+      "tags": [],
+      "id": "karlskrona-karlskrona-2"
+    },
+    {
+      "name": "Karlstad",
+      "municipality": "Karlstad kommun",
+      "county": "Värmland län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 59.4046,
+      "lon": 13.5058,
+      "aliases": [
+        "Karlstad kommun"
+      ],
+      "tags": [],
+      "id": "karlstad-karlstad-2"
+    },
+    {
+      "name": "Katrineholm",
+      "municipality": "Katrineholm kommun",
+      "county": "Södermanland län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 58.9922,
+      "lon": 16.1962,
+      "aliases": [
+        "Katrineholm kommun"
+      ],
+      "tags": [],
+      "id": "katrineholm-katrineholm-2"
+    },
+    {
+      "name": "Kil",
+      "municipality": "Kil kommun",
+      "county": "Värmland län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 59.521,
+      "lon": 13.2962,
+      "aliases": [
+        "Kil kommun"
+      ],
+      "tags": [],
+      "id": "kil-kil-2"
+    },
+    {
+      "name": "Kinda",
+      "municipality": "Kinda kommun",
+      "county": "Östergötland län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 57.9856,
+      "lon": 15.6317,
+      "aliases": [
+        "Kinda kommun"
+      ],
+      "tags": [],
+      "id": "kinda-kinda"
+    },
+    {
+      "name": "Kiruna",
+      "municipality": "Kiruna kommun",
+      "county": "Norrbotten län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 67.8523,
+      "lon": 20.2681,
+      "aliases": [
+        "Kiruna kommun"
+      ],
+      "tags": [],
+      "id": "kiruna-kiruna-2"
+    },
+    {
+      "name": "Klippan",
+      "municipality": "Klippan kommun",
+      "county": "Skåne län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 56.1354,
+      "lon": 13.1545,
+      "aliases": [
+        "Klippan kommun"
+      ],
+      "tags": [],
+      "id": "klippan-klippan-2"
+    },
+    {
+      "name": "Knivsta",
+      "municipality": "Knivsta kommun",
+      "county": "Uppsala län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 59.7264,
+      "lon": 17.7939,
+      "aliases": [
+        "Knivsta kommun"
+      ],
+      "tags": [],
+      "id": "knivsta-knivsta-2"
+    },
+    {
+      "name": "Kramfors",
+      "municipality": "Kramfors kommun",
+      "county": "Västernorrland län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 62.9215,
+      "lon": 17.7723,
+      "aliases": [
+        "Kramfors kommun"
+      ],
+      "tags": [],
+      "id": "kramfors-kramfors-2"
+    },
+    {
+      "name": "Kristianstad",
+      "municipality": "Kristianstad kommun",
+      "county": "Skåne län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 56.023,
+      "lon": 14.1256,
+      "aliases": [
+        "Kristianstad kommun"
+      ],
+      "tags": [],
+      "id": "kristianstad-kristianstad-2"
+    },
+    {
+      "name": "Kristinehamn",
+      "municipality": "Kristinehamn kommun",
+      "county": "Värmland län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 59.3057,
+      "lon": 14.105,
+      "aliases": [
+        "Kristinehamn kommun"
+      ],
+      "tags": [],
+      "id": "kristinehamn-kristinehamn-2"
+    },
+    {
+      "name": "Krokom",
+      "municipality": "Krokom kommun",
+      "county": "Jämtland län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 63.3305,
+      "lon": 14.4482,
+      "aliases": [
+        "Krokom kommun"
+      ],
+      "tags": [],
+      "id": "krokom-krokom"
+    },
+    {
+      "name": "Kumla",
+      "municipality": "Kumla kommun",
+      "county": "Örebro län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 59.127,
+      "lon": 15.1379,
+      "aliases": [
+        "Kumla kommun"
+      ],
+      "tags": [],
+      "id": "kumla-kumla-2"
+    },
+    {
+      "name": "Kungsbacka",
+      "municipality": "Kungsbacka kommun",
+      "county": "Halland län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 57.4197,
+      "lon": 12.022,
+      "aliases": [
+        "Kungsbacka kommun"
+      ],
+      "tags": [],
+      "id": "kungsbacka-kungsbacka"
+    },
+    {
+      "name": "Kungsör",
+      "municipality": "Kungsör kommun",
+      "county": "Västmanland län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 59.4217,
+      "lon": 16.1087,
+      "aliases": [
+        "Kungsör kommun",
+        "Kungsor"
+      ],
+      "tags": [],
+      "id": "kungsor-kungsor-2"
+    },
+    {
+      "name": "Kungälv",
+      "municipality": "Kungälv kommun",
+      "county": "Västra Götaland län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 57.8786,
+      "lon": 11.9381,
+      "aliases": [
+        "Kungälv kommun",
+        "Kungalv"
+      ],
+      "tags": [],
+      "id": "kungalv-kungalv-2"
+    },
+    {
+      "name": "Kävlinge",
+      "municipality": "Kävlinge kommun",
+      "county": "Skåne län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 55.7961,
+      "lon": 13.114,
+      "aliases": [
+        "Kävlinge kommun",
+        "Kavlinge"
+      ],
+      "tags": [],
+      "id": "kavlinge-kavlinge-2"
+    },
+    {
+      "name": "Köping",
+      "municipality": "Köping kommun",
+      "county": "Västmanland län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 59.5126,
+      "lon": 15.9914,
+      "aliases": [
+        "Köping kommun",
+        "Koping"
+      ],
+      "tags": [],
+      "id": "koping-koping-2"
+    },
+    {
+      "name": "Laholm",
+      "municipality": "Laholm kommun",
+      "county": "Halland län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 56.5045,
+      "lon": 13.0329,
+      "aliases": [
+        "Laholm kommun"
+      ],
+      "tags": [],
+      "id": "laholm-laholm-2"
+    },
+    {
+      "name": "Landskrona",
+      "municipality": "Landskrona kommun",
+      "county": "Skåne län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 55.8817,
+      "lon": 12.8447,
+      "aliases": [
+        "Landskrona kommun"
+      ],
+      "tags": [],
+      "id": "landskrona-landskrona-2"
+    },
+    {
+      "name": "Laxå",
+      "municipality": "Laxå kommun",
+      "county": "Örebro län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 58.9819,
+      "lon": 14.6215,
+      "aliases": [
+        "Laxå kommun",
+        "Laxa"
+      ],
+      "tags": [],
+      "id": "laxa-laxa"
+    },
+    {
+      "name": "Lekeberg",
+      "municipality": "Lekeberg kommun",
+      "county": "Örebro län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 59.2467,
+      "lon": 14.904,
+      "aliases": [
+        "Lekeberg kommun"
+      ],
+      "tags": [],
+      "id": "lekeberg-lekeberg"
+    },
+    {
+      "name": "Leksand",
+      "municipality": "Leksand kommun",
+      "county": "Dalarna län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 60.7319,
+      "lon": 15.0304,
+      "aliases": [
+        "Leksand kommun"
+      ],
+      "tags": [],
+      "id": "leksand-leksand-2"
+    },
+    {
+      "name": "Lerum",
+      "municipality": "Lerum kommun",
+      "county": "Västra Götaland län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 57.7853,
+      "lon": 12.3037,
+      "aliases": [
+        "Lerum kommun"
+      ],
+      "tags": [],
+      "id": "lerum-lerum-2"
+    },
+    {
+      "name": "Lessebo",
+      "municipality": "Lessebo kommun",
+      "county": "Kronoberg län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 56.7841,
+      "lon": 15.1386,
+      "aliases": [
+        "Lessebo kommun"
+      ],
+      "tags": [],
+      "id": "lessebo-lessebo"
+    },
+    {
+      "name": "Lidingö",
+      "municipality": "Lidingö kommun",
+      "county": "Stockholm län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 59.3616,
+      "lon": 18.1395,
+      "aliases": [
+        "Lidingö kommun",
+        "Lidingo"
+      ],
+      "tags": [],
+      "id": "lidingo-lidingo-2"
+    },
+    {
+      "name": "Lidköping",
+      "municipality": "Lidköping kommun",
+      "county": "Västra Götaland län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 58.4958,
+      "lon": 13.1464,
+      "aliases": [
+        "Lidköping kommun",
+        "Lidkoping"
+      ],
+      "tags": [],
+      "id": "lidkoping-lidkoping-2"
+    },
+    {
+      "name": "Lilla Edet",
+      "municipality": "Lilla Edet kommun",
+      "county": "Västra Götaland län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 58.132,
+      "lon": 12.1345,
+      "aliases": [
+        "Lilla Edet kommun"
+      ],
+      "tags": [],
+      "id": "lilla-edet-lilla-edet"
+    },
+    {
+      "name": "Lindesberg",
+      "municipality": "Lindesberg kommun",
+      "county": "Örebro län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 59.5904,
+      "lon": 15.1932,
+      "aliases": [
+        "Lindesberg kommun"
+      ],
+      "tags": [],
+      "id": "lindesberg-lindesberg-2"
+    },
+    {
+      "name": "Linköping",
+      "municipality": "Linköping kommun",
+      "county": "Östergötland län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 58.3986,
+      "lon": 15.6264,
+      "aliases": [
+        "Linköping kommun",
+        "Linkoping"
+      ],
+      "tags": [],
+      "id": "linkoping-linkoping-2"
+    },
+    {
+      "name": "Ljungby",
+      "municipality": "Ljungby kommun",
+      "county": "Kronoberg län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 56.8303,
+      "lon": 13.9399,
+      "aliases": [
+        "Ljungby kommun"
+      ],
+      "tags": [],
+      "id": "ljungby-ljungby-2"
+    },
+    {
+      "name": "Ljusdal",
+      "municipality": "Ljusdal kommun",
+      "county": "Gävleborg län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 61.8306,
+      "lon": 16.0712,
+      "aliases": [
+        "Ljusdal kommun"
+      ],
+      "tags": [],
+      "id": "ljusdal-ljusdal-2"
+    },
+    {
+      "name": "Ljusnarsberg",
+      "municipality": "Ljusnarsberg kommun",
+      "county": "Örebro län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 59.867,
+      "lon": 14.9838,
+      "aliases": [
+        "Ljusnarsberg kommun"
+      ],
+      "tags": [],
+      "id": "ljusnarsberg-ljusnarsberg"
+    },
+    {
+      "name": "Lomma",
+      "municipality": "Lomma kommun",
+      "county": "Skåne län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 55.6743,
+      "lon": 13.0764,
+      "aliases": [
+        "Lomma kommun"
+      ],
+      "tags": [],
+      "id": "lomma-lomma-2"
+    },
+    {
+      "name": "Ludvika",
+      "municipality": "Ludvika kommun",
+      "county": "Dalarna län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 60.1291,
+      "lon": 15.1943,
+      "aliases": [
+        "Ludvika kommun"
+      ],
+      "tags": [],
+      "id": "ludvika-ludvika-2"
+    },
+    {
+      "name": "Luleå",
+      "municipality": "Luleå kommun",
+      "county": "Norrbotten län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 65.5879,
+      "lon": 22.1906,
+      "aliases": [
+        "Luleå kommun",
+        "Lulea"
+      ],
+      "tags": [],
+      "id": "lulea-lulea-2"
+    },
+    {
+      "name": "Lund",
+      "municipality": "Lund kommun",
+      "county": "Skåne län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 55.7079,
+      "lon": 13.1997,
+      "aliases": [
+        "Lund kommun"
+      ],
+      "tags": [],
+      "id": "lund-lund-2"
+    },
+    {
+      "name": "Lycksele",
+      "municipality": "Lycksele kommun",
+      "county": "Västerbotten län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 64.5916,
+      "lon": 18.669,
+      "aliases": [
+        "Lycksele kommun"
+      ],
+      "tags": [],
+      "id": "lycksele-lycksele-2"
+    },
+    {
+      "name": "Lysekil",
+      "municipality": "Lysekil kommun",
+      "county": "Västra Götaland län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 58.2817,
+      "lon": 11.4521,
+      "aliases": [
+        "Lysekil kommun"
+      ],
+      "tags": [],
+      "id": "lysekil-lysekil-2"
+    },
+    {
+      "name": "Malmö",
+      "municipality": "Malmö kommun",
+      "county": "Skåne län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 55.5968,
+      "lon": 13.0123,
+      "aliases": [
+        "Malmö kommun",
+        "Malmo"
+      ],
+      "tags": [],
+      "id": "malmo-malmo-2"
+    },
+    {
+      "name": "Malung-Sälen",
+      "municipality": "Malung-Sälen kommun",
+      "county": "Dalarna län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 60.6765,
+      "lon": 13.6968,
+      "aliases": [
+        "Malung-Sälen kommun",
+        "Malung-Salen"
+      ],
+      "tags": [],
+      "id": "malung-salen-malung-salen"
+    },
+    {
+      "name": "Malå",
+      "municipality": "Malå kommun",
+      "county": "Västerbotten län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 65.1855,
+      "lon": 18.7369,
+      "aliases": [
+        "Malå kommun",
+        "Mala"
+      ],
+      "tags": [],
+      "id": "mala-mala"
+    },
+    {
+      "name": "Mariestad",
+      "municipality": "Mariestad kommun",
+      "county": "Västra Götaland län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 58.7028,
+      "lon": 13.8301,
+      "aliases": [
+        "Mariestad kommun"
+      ],
+      "tags": [],
+      "id": "mariestad-mariestad-2"
+    },
+    {
+      "name": "Mark",
+      "municipality": "Mark kommun",
+      "county": "Västra Götaland län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 57.4944,
+      "lon": 12.6765,
+      "aliases": [
+        "Mark kommun"
+      ],
+      "tags": [],
+      "id": "mark-mark"
+    },
+    {
+      "name": "Markaryd",
+      "municipality": "Markaryd kommun",
+      "county": "Kronoberg län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 56.4637,
+      "lon": 13.5913,
+      "aliases": [
+        "Markaryd kommun"
+      ],
+      "tags": [],
+      "id": "markaryd-markaryd-2"
+    },
+    {
+      "name": "Mellerud",
+      "municipality": "Mellerud kommun",
+      "county": "Västra Götaland län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 58.6988,
+      "lon": 12.4588,
+      "aliases": [
+        "Mellerud kommun"
+      ],
+      "tags": [],
+      "id": "mellerud-mellerud"
+    },
+    {
+      "name": "Mjölby",
+      "municipality": "Mjölby kommun",
+      "county": "Östergötland län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 58.3316,
+      "lon": 15.1159,
+      "aliases": [
+        "Mjölby kommun",
+        "Mjolby"
+      ],
+      "tags": [],
+      "id": "mjolby-mjolby-2"
+    },
+    {
+      "name": "Mora",
+      "municipality": "Mora kommun",
+      "county": "Dalarna län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 61.014,
+      "lon": 14.5638,
+      "aliases": [
+        "Mora kommun"
+      ],
+      "tags": [],
+      "id": "mora-mora-2"
+    },
+    {
+      "name": "Motala",
+      "municipality": "Motala kommun",
+      "county": "Östergötland län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 58.5458,
+      "lon": 15.0334,
+      "aliases": [
+        "Motala kommun"
+      ],
+      "tags": [],
+      "id": "motala-motala-2"
+    },
+    {
+      "name": "Mullsjö",
+      "municipality": "Mullsjö kommun",
+      "county": "Jönköping län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 57.9151,
+      "lon": 13.8771,
+      "aliases": [
+        "Mullsjö kommun",
+        "Mullsjo"
+      ],
+      "tags": [],
+      "id": "mullsjo-mullsjo-2"
+    },
+    {
+      "name": "Munkedal",
+      "municipality": "Munkedal kommun",
+      "county": "Västra Götaland län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 58.4769,
+      "lon": 11.6779,
+      "aliases": [
+        "Munkedal kommun"
+      ],
+      "tags": [],
+      "id": "munkedal-munkedal"
+    },
+    {
+      "name": "Munkfors",
+      "municipality": "Munkfors kommun",
+      "county": "Värmland län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 59.8327,
+      "lon": 13.5406,
+      "aliases": [
+        "Munkfors kommun"
+      ],
+      "tags": [],
+      "id": "munkfors-munkfors"
+    },
+    {
+      "name": "Mölndal",
+      "municipality": "Mölndal kommun",
+      "county": "Västra Götaland län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 57.6287,
+      "lon": 12.0232,
+      "aliases": [
+        "Mölndal kommun",
+        "Molndal"
+      ],
+      "tags": [],
+      "id": "molndal-molndal"
+    },
+    {
+      "name": "Mönsterås",
+      "municipality": "Mönsterås kommun",
+      "county": "Kalmar län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 57.0398,
+      "lon": 16.4487,
+      "aliases": [
+        "Mönsterås kommun",
+        "Monsteras"
+      ],
+      "tags": [],
+      "id": "monsteras-monsteras-2"
+    },
+    {
+      "name": "Mörbylånga",
+      "municipality": "Mörbylånga kommun",
+      "county": "Kalmar län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 56.6473,
+      "lon": 16.4857,
+      "aliases": [
+        "Mörbylånga kommun",
+        "Morbylanga"
+      ],
+      "tags": [],
+      "id": "morbylanga-morbylanga"
+    },
+    {
+      "name": "Nacka",
+      "municipality": "Nacka kommun",
+      "county": "Stockholm län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 59.2776,
+      "lon": 18.2919,
+      "aliases": [
+        "Nacka kommun"
+      ],
+      "tags": [],
+      "id": "nacka-nacka"
+    },
+    {
+      "name": "Nora",
+      "municipality": "Nora kommun",
+      "county": "Örebro län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 59.5132,
+      "lon": 15.0299,
+      "aliases": [
+        "Nora kommun"
+      ],
+      "tags": [],
+      "id": "nora-nora-2"
+    },
+    {
+      "name": "Norberg",
+      "municipality": "Norberg kommun",
+      "county": "Västmanland län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 60.0826,
+      "lon": 15.9474,
+      "aliases": [
+        "Norberg kommun"
+      ],
+      "tags": [],
+      "id": "norberg-norberg"
+    },
+    {
+      "name": "Nordanstig",
+      "municipality": "Nordanstig kommun",
+      "county": "Gävleborg län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 61.9813,
+      "lon": 17.061,
+      "aliases": [
+        "Nordanstig kommun"
+      ],
+      "tags": [],
+      "id": "nordanstig-nordanstig"
+    },
+    {
+      "name": "Nordmaling",
+      "municipality": "Nordmaling kommun",
+      "county": "Västerbotten län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 63.5709,
+      "lon": 19.5016,
+      "aliases": [
+        "Nordmaling kommun"
+      ],
+      "tags": [],
+      "id": "nordmaling-nordmaling"
+    },
+    {
+      "name": "Norrköping",
+      "municipality": "Norrköping kommun",
+      "county": "Östergötland län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 58.5843,
+      "lon": 16.1848,
+      "aliases": [
+        "Norrköping kommun",
+        "Norrkoping"
+      ],
+      "tags": [],
+      "id": "norrkoping-norrkoping-2"
+    },
+    {
+      "name": "Norrtälje",
+      "municipality": "Norrtälje kommun",
+      "county": "Stockholm län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 59.756,
+      "lon": 18.7138,
+      "aliases": [
+        "Norrtälje kommun",
+        "Norrtalje"
+      ],
+      "tags": [],
+      "id": "norrtalje-norrtalje-2"
+    },
+    {
+      "name": "Norsjö",
+      "municipality": "Norsjö kommun",
+      "county": "Västerbotten län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 64.9153,
+      "lon": 19.481,
+      "aliases": [
+        "Norsjö kommun",
+        "Norsjo"
+      ],
+      "tags": [],
+      "id": "norsjo-norsjo"
+    },
+    {
+      "name": "Nybro",
+      "municipality": "Nybro kommun",
+      "county": "Kalmar län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 56.7484,
+      "lon": 15.9113,
+      "aliases": [
+        "Nybro kommun"
+      ],
+      "tags": [],
+      "id": "nybro-nybro-2"
+    },
+    {
+      "name": "Nykvarn",
+      "municipality": "Nykvarn kommun",
+      "county": "Stockholm län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 59.1717,
+      "lon": 17.442,
+      "aliases": [
+        "Nykvarn kommun"
+      ],
+      "tags": [],
+      "id": "nykvarn-nykvarn-2"
+    },
+    {
+      "name": "Nyköping",
+      "municipality": "Nyköping kommun",
+      "county": "Södermanland län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 58.7473,
+      "lon": 17.0261,
+      "aliases": [
+        "Nyköping kommun",
+        "Nykoping"
+      ],
+      "tags": [],
+      "id": "nykoping-nykoping-2"
+    },
+    {
+      "name": "Nynäshamn",
+      "municipality": "Nynäshamn kommun",
+      "county": "Stockholm län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 58.9077,
+      "lon": 17.9468,
+      "aliases": [
+        "Nynäshamn kommun",
+        "Nynashamn"
+      ],
+      "tags": [],
+      "id": "nynashamn-nynashamn-2"
+    },
+    {
+      "name": "Nässjö",
+      "municipality": "Nässjö kommun",
+      "county": "Jönköping län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 57.6546,
+      "lon": 14.7048,
+      "aliases": [
+        "Nässjö kommun",
+        "Nassjo"
+      ],
+      "tags": [],
+      "id": "nassjo-nassjo-2"
+    },
+    {
+      "name": "Ockelbo",
+      "municipality": "Ockelbo kommun",
+      "county": "Gävleborg län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 60.8985,
+      "lon": 16.718,
+      "aliases": [
+        "Ockelbo kommun"
+      ],
+      "tags": [],
+      "id": "ockelbo-ockelbo"
+    },
+    {
+      "name": "Olofström",
+      "municipality": "Olofström kommun",
+      "county": "Blekinge län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 56.2773,
+      "lon": 14.5299,
+      "aliases": [
+        "Olofström kommun",
+        "Olofstrom"
+      ],
+      "tags": [],
+      "id": "olofstrom-olofstrom-2"
+    },
+    {
+      "name": "Orsa",
+      "municipality": "Orsa kommun",
+      "county": "Dalarna län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 61.0996,
+      "lon": 14.6503,
+      "aliases": [
+        "Orsa kommun"
+      ],
+      "tags": [],
+      "id": "orsa-orsa-2"
+    },
+    {
+      "name": "Orust",
+      "municipality": "Orust kommun",
+      "county": "Västra Götaland län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 58.2351,
+      "lon": 11.669,
+      "aliases": [
+        "Orust kommun"
+      ],
+      "tags": [],
+      "id": "orust-orust"
+    },
+    {
+      "name": "Osby",
+      "municipality": "Osby kommun",
+      "county": "Skåne län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 56.3796,
+      "lon": 13.9974,
+      "aliases": [
+        "Osby kommun"
+      ],
+      "tags": [],
+      "id": "osby-osby-2"
+    },
+    {
+      "name": "Oskarshamn",
+      "municipality": "Oskarshamn kommun",
+      "county": "Kalmar län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 57.2714,
+      "lon": 16.4475,
+      "aliases": [
+        "Oskarshamn kommun"
+      ],
+      "tags": [],
+      "id": "oskarshamn-oskarshamn-2"
+    },
+    {
+      "name": "Ovanåker",
+      "municipality": "Ovanåker kommun",
+      "county": "Gävleborg län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 61.3834,
+      "lon": 15.8139,
+      "aliases": [
+        "Ovanåker kommun",
+        "Ovanaker"
+      ],
+      "tags": [],
+      "id": "ovanaker-ovanaker"
+    },
+    {
+      "name": "Oxelösund",
+      "municipality": "Oxelösund kommun",
+      "county": "Södermanland län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 58.6711,
+      "lon": 17.0826,
+      "aliases": [
+        "Oxelösund kommun",
+        "Oxelosund"
+      ],
+      "tags": [],
+      "id": "oxelosund-oxelosund-2"
+    },
+    {
+      "name": "Pajala",
+      "municipality": "Pajala kommun",
+      "county": "Norrbotten län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 67.2144,
+      "lon": 23.3712,
+      "aliases": [
+        "Pajala kommun"
+      ],
+      "tags": [],
+      "id": "pajala-pajala"
+    },
+    {
+      "name": "Partille",
+      "municipality": "Partille kommun",
+      "county": "Västra Götaland län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 57.745,
+      "lon": 12.1734,
+      "aliases": [
+        "Partille kommun"
+      ],
+      "tags": [],
+      "id": "partille-partille"
+    },
+    {
+      "name": "Perstorp",
+      "municipality": "Perstorp kommun",
+      "county": "Skåne län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 56.136,
+      "lon": 13.397,
+      "aliases": [
+        "Perstorp kommun"
+      ],
+      "tags": [],
+      "id": "perstorp-perstorp-2"
+    },
+    {
+      "name": "Piteå",
+      "municipality": "Piteå kommun",
+      "county": "Norrbotten län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 65.2958,
+      "lon": 21.5001,
+      "aliases": [
+        "Piteå kommun",
+        "Pitea"
+      ],
+      "tags": [],
+      "id": "pitea-pitea-2"
+    },
+    {
+      "name": "Ragunda",
+      "municipality": "Ragunda kommun",
+      "county": "Jämtland län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 63.1084,
+      "lon": 16.3194,
+      "aliases": [
+        "Ragunda kommun"
+      ],
+      "tags": [],
+      "id": "ragunda-ragunda"
+    },
+    {
+      "name": "Robertsfors",
+      "municipality": "Robertsfors kommun",
+      "county": "Västerbotten län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 64.1924,
+      "lon": 20.8509,
+      "aliases": [
+        "Robertsfors kommun"
+      ],
+      "tags": [],
+      "id": "robertsfors-robertsfors"
+    },
+    {
+      "name": "Ronneby",
+      "municipality": "Ronneby kommun",
+      "county": "Blekinge län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 56.2087,
+      "lon": 15.2818,
+      "aliases": [
+        "Ronneby kommun"
+      ],
+      "tags": [],
+      "id": "ronneby-ronneby-2"
+    },
+    {
+      "name": "Rättvik",
+      "municipality": "Rättvik kommun",
+      "county": "Dalarna län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 60.8691,
+      "lon": 15.1078,
+      "aliases": [
+        "Rättvik kommun",
+        "Rattvik"
+      ],
+      "tags": [],
+      "id": "rattvik-rattvik-2"
+    },
+    {
+      "name": "Sala",
+      "municipality": "Sala kommun",
+      "county": "Västmanland län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 59.9275,
+      "lon": 16.5855,
+      "aliases": [
+        "Sala kommun"
+      ],
+      "tags": [],
+      "id": "sala-sala-2"
+    },
+    {
+      "name": "Sandviken",
+      "municipality": "Sandviken kommun",
+      "county": "Gävleborg län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 60.6028,
+      "lon": 16.7654,
+      "aliases": [
+        "Sandviken kommun"
+      ],
+      "tags": [],
+      "id": "sandviken-sandviken-2"
+    },
+    {
+      "name": "Sigtuna",
+      "municipality": "Sigtuna kommun",
+      "county": "Stockholm län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 59.6233,
+      "lon": 17.8365,
+      "aliases": [
+        "Sigtuna kommun"
+      ],
+      "tags": [],
+      "id": "sigtuna-sigtuna-2"
+    },
+    {
+      "name": "Simrishamn",
+      "municipality": "Simrishamn kommun",
+      "county": "Skåne län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 55.5495,
+      "lon": 14.335,
+      "aliases": [
+        "Simrishamn kommun"
+      ],
+      "tags": [],
+      "id": "simrishamn-simrishamn-2"
+    },
+    {
+      "name": "Sjöbo",
+      "municipality": "Sjöbo kommun",
+      "county": "Skåne län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 55.6313,
+      "lon": 13.6853,
+      "aliases": [
+        "Sjöbo kommun",
+        "Sjobo"
+      ],
+      "tags": [],
+      "id": "sjobo-sjobo-2"
+    },
+    {
+      "name": "Skara",
+      "municipality": "Skara kommun",
+      "county": "Västra Götaland län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 58.3825,
+      "lon": 13.4348,
+      "aliases": [
+        "Skara kommun"
+      ],
+      "tags": [],
+      "id": "skara-skara-2"
+    },
+    {
+      "name": "Skellefteå",
+      "municipality": "Skellefteå kommun",
+      "county": "Västerbotten län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 64.7528,
+      "lon": 20.8717,
+      "aliases": [
+        "Skellefteå kommun",
+        "Skelleftea"
+      ],
+      "tags": [],
+      "id": "skelleftea-skelleftea-2"
+    },
+    {
+      "name": "Skinnskatteberg",
+      "municipality": "Skinnskatteberg kommun",
+      "county": "Västmanland län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 59.8249,
+      "lon": 15.6937,
+      "aliases": [
+        "Skinnskatteberg kommun"
+      ],
+      "tags": [],
+      "id": "skinnskatteberg-skinnskatteberg"
+    },
+    {
+      "name": "Skurup",
+      "municipality": "Skurup kommun",
+      "county": "Skåne län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 55.4893,
+      "lon": 13.503,
+      "aliases": [
+        "Skurup kommun"
+      ],
+      "tags": [],
+      "id": "skurup-skurup-2"
+    },
+    {
+      "name": "Skövde",
+      "municipality": "Skövde kommun",
+      "county": "Västra Götaland län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 58.3984,
+      "lon": 13.8616,
+      "aliases": [
+        "Skövde kommun",
+        "Skovde"
+      ],
+      "tags": [],
+      "id": "skovde-skovde-2"
+    },
+    {
+      "name": "Smedjebacken",
+      "municipality": "Smedjebacken kommun",
+      "county": "Dalarna län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 60.1466,
+      "lon": 15.3788,
+      "aliases": [
+        "Smedjebacken kommun"
+      ],
+      "tags": [],
+      "id": "smedjebacken-smedjebacken-2"
+    },
+    {
+      "name": "Sollefteå",
+      "municipality": "Sollefteå kommun",
+      "county": "Västernorrland län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 63.1692,
+      "lon": 17.2676,
+      "aliases": [
+        "Sollefteå kommun",
+        "Solleftea"
+      ],
+      "tags": [],
+      "id": "solleftea-solleftea-2"
+    },
+    {
+      "name": "Sollentuna",
+      "municipality": "Sollentuna kommun",
+      "county": "Stockholm län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 59.4658,
+      "lon": 17.8805,
+      "aliases": [
+        "Sollentuna kommun"
+      ],
+      "tags": [],
+      "id": "sollentuna-sollentuna"
+    },
+    {
+      "name": "Sorsele",
+      "municipality": "Sorsele kommun",
+      "county": "Västerbotten län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 65.5326,
+      "lon": 17.5416,
+      "aliases": [
+        "Sorsele kommun"
+      ],
+      "tags": [],
+      "id": "sorsele-sorsele"
+    },
+    {
+      "name": "Sotenäs",
+      "municipality": "Sotenäs kommun",
+      "county": "Västra Götaland län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 58.3697,
+      "lon": 11.2328,
+      "aliases": [
+        "Sotenäs kommun",
+        "Sotenas"
+      ],
+      "tags": [],
+      "id": "sotenas-sotenas"
+    },
+    {
+      "name": "Staffanstorp",
+      "municipality": "Staffanstorp kommun",
+      "county": "Skåne län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 55.6391,
+      "lon": 13.2075,
+      "aliases": [
+        "Staffanstorp kommun"
+      ],
+      "tags": [],
+      "id": "staffanstorp-staffanstorp-2"
+    },
+    {
+      "name": "Stenungsund",
+      "municipality": "Stenungsund kommun",
+      "county": "Västra Götaland län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 58.0606,
+      "lon": 11.8397,
+      "aliases": [
+        "Stenungsund kommun"
+      ],
+      "tags": [],
+      "id": "stenungsund-stenungsund-2"
+    },
+    {
+      "name": "Stockholm",
+      "municipality": "Stockholm kommun",
+      "county": "Stockholm län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 59.3202,
+      "lon": 17.9545,
+      "aliases": [
+        "Stockholm kommun"
+      ],
+      "tags": [],
+      "id": "stockholm-stockholm-2"
+    },
+    {
+      "name": "Storfors",
+      "municipality": "Storfors kommun",
+      "county": "Värmland län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 59.5374,
+      "lon": 14.2749,
+      "aliases": [
+        "Storfors kommun"
+      ],
+      "tags": [],
+      "id": "storfors-storfors"
+    },
+    {
+      "name": "Storuman",
+      "municipality": "Storuman kommun",
+      "county": "Västerbotten län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 65.0994,
+      "lon": 17.1196,
+      "aliases": [
+        "Storuman kommun"
+      ],
+      "tags": [],
+      "id": "storuman-storuman"
+    },
+    {
+      "name": "Strängnäs",
+      "municipality": "Strängnäs kommun",
+      "county": "Södermanland län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 59.3595,
+      "lon": 17.0336,
+      "aliases": [
+        "Strängnäs kommun",
+        "Strangnas"
+      ],
+      "tags": [],
+      "id": "strangnas-strangnas-2"
+    },
+    {
+      "name": "Strömstad",
+      "municipality": "Strömstad kommun",
+      "county": "Västra Götaland län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 58.9465,
+      "lon": 11.1965,
+      "aliases": [
+        "Strömstad kommun",
+        "Stromstad"
+      ],
+      "tags": [],
+      "id": "stromstad-stromstad-2"
+    },
+    {
+      "name": "Strömsund",
+      "municipality": "Strömsund kommun",
+      "county": "Jämtland län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 63.8541,
+      "lon": 15.5789,
+      "aliases": [
+        "Strömsund kommun",
+        "Stromsund"
+      ],
+      "tags": [],
+      "id": "stromsund-stromsund"
+    },
+    {
+      "name": "Sundsvall",
+      "municipality": "Sundsvall kommun",
+      "county": "Västernorrland län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 62.4185,
+      "lon": 17.2097,
+      "aliases": [
+        "Sundsvall kommun"
+      ],
+      "tags": [],
+      "id": "sundsvall-sundsvall"
+    },
+    {
+      "name": "Sunne",
+      "municipality": "Sunne kommun",
+      "county": "Värmland län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 59.84,
+      "lon": 13.1427,
+      "aliases": [
+        "Sunne kommun"
+      ],
+      "tags": [],
+      "id": "sunne-sunne-2"
+    },
+    {
+      "name": "Surahammar",
+      "municipality": "Surahammar kommun",
+      "county": "Västmanland län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 59.7055,
+      "lon": 16.2231,
+      "aliases": [
+        "Surahammar kommun"
+      ],
+      "tags": [],
+      "id": "surahammar-surahammar-2"
+    },
+    {
+      "name": "Svalöv",
+      "municipality": "Svalöv kommun",
+      "county": "Skåne län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 55.9157,
+      "lon": 13.1037,
+      "aliases": [
+        "Svalöv kommun",
+        "Svalov"
+      ],
+      "tags": [],
+      "id": "svalov-svalov"
+    },
+    {
+      "name": "Svedala",
+      "municipality": "Svedala kommun",
+      "county": "Skåne län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 55.5117,
+      "lon": 13.2359,
+      "aliases": [
+        "Svedala kommun"
+      ],
+      "tags": [],
+      "id": "svedala-svedala-2"
+    },
+    {
+      "name": "Svenljunga",
+      "municipality": "Svenljunga kommun",
+      "county": "Västra Götaland län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 57.4959,
+      "lon": 13.1079,
+      "aliases": [
+        "Svenljunga kommun"
+      ],
+      "tags": [],
+      "id": "svenljunga-svenljunga"
+    },
+    {
+      "name": "Säffle",
+      "municipality": "Säffle kommun",
+      "county": "Värmland län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 59.1323,
+      "lon": 12.9169,
+      "aliases": [
+        "Säffle kommun",
+        "Saffle"
+      ],
+      "tags": [],
+      "id": "saffle-saffle-2"
+    },
+    {
+      "name": "Säter",
+      "municipality": "Säter kommun",
+      "county": "Dalarna län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 60.3374,
+      "lon": 15.7405,
+      "aliases": [
+        "Säter kommun",
+        "Sater"
+      ],
+      "tags": [],
+      "id": "sater-sater"
+    },
+    {
+      "name": "Sävsjö",
+      "municipality": "Sävsjö kommun",
+      "county": "Jönköping län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 57.3948,
+      "lon": 14.664,
+      "aliases": [
+        "Sävsjö kommun",
+        "Savsjo"
+      ],
+      "tags": [],
+      "id": "savsjo-savsjo-2"
+    },
+    {
+      "name": "Söderhamn",
+      "municipality": "Söderhamn kommun",
+      "county": "Gävleborg län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 61.3113,
+      "lon": 17.0779,
+      "aliases": [
+        "Söderhamn kommun",
+        "Soderhamn"
+      ],
+      "tags": [],
+      "id": "soderhamn-soderhamn-2"
+    },
+    {
+      "name": "Söderköping",
+      "municipality": "Söderköping kommun",
+      "county": "Östergötland län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 58.4775,
+      "lon": 16.3315,
+      "aliases": [
+        "Söderköping kommun",
+        "Soderkoping"
+      ],
+      "tags": [],
+      "id": "soderkoping-soderkoping-2"
+    },
+    {
+      "name": "Södertälje",
+      "municipality": "Södertälje kommun",
+      "county": "Stockholm län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 59.1941,
+      "lon": 17.6304,
+      "aliases": [
+        "Södertälje kommun",
+        "Sodertalje"
+      ],
+      "tags": [],
+      "id": "sodertalje-sodertalje-2"
+    },
+    {
+      "name": "Sölvesborg",
+      "municipality": "Sölvesborg kommun",
+      "county": "Blekinge län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 56.0476,
+      "lon": 14.5562,
+      "aliases": [
+        "Sölvesborg kommun",
+        "Solvesborg"
+      ],
+      "tags": [],
+      "id": "solvesborg-solvesborg-2"
+    },
+    {
+      "name": "Tanum",
+      "municipality": "Tanum kommun",
+      "county": "Västra Götaland län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 58.7195,
+      "lon": 11.3295,
+      "aliases": [
+        "Tanum kommun"
+      ],
+      "tags": [],
+      "id": "tanum-tanum"
+    },
+    {
+      "name": "Tibro",
+      "municipality": "Tibro kommun",
+      "county": "Västra Götaland län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 58.4173,
+      "lon": 14.157,
+      "aliases": [
+        "Tibro kommun"
+      ],
+      "tags": [],
+      "id": "tibro-tibro-2"
+    },
+    {
+      "name": "Tidaholm",
+      "municipality": "Tidaholm kommun",
+      "county": "Västra Götaland län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 58.1789,
+      "lon": 13.9587,
+      "aliases": [
+        "Tidaholm kommun"
+      ],
+      "tags": [],
+      "id": "tidaholm-tidaholm-2"
+    },
+    {
+      "name": "Tierp",
+      "municipality": "Tierp kommun",
+      "county": "Uppsala län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 60.3475,
+      "lon": 17.5137,
+      "aliases": [
+        "Tierp kommun"
+      ],
+      "tags": [],
+      "id": "tierp-tierp-2"
+    },
+    {
+      "name": "Timrå",
+      "municipality": "Timrå kommun",
+      "county": "Västernorrland län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 62.507,
+      "lon": 17.5125,
+      "aliases": [
+        "Timrå kommun",
+        "Timra"
+      ],
+      "tags": [],
+      "id": "timra-timra"
+    },
+    {
+      "name": "Tingsryd",
+      "municipality": "Tingsryd kommun",
+      "county": "Kronoberg län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 56.5271,
+      "lon": 14.9723,
+      "aliases": [
+        "Tingsryd kommun"
+      ],
+      "tags": [],
+      "id": "tingsryd-tingsryd"
+    },
+    {
+      "name": "Tjörn",
+      "municipality": "Tjörn kommun",
+      "county": "Västra Götaland län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 57.9807,
+      "lon": 11.5604,
+      "aliases": [
+        "Tjörn kommun",
+        "Tjorn"
+      ],
+      "tags": [],
+      "id": "tjorn-tjorn"
+    },
+    {
+      "name": "Tomelilla",
+      "municipality": "Tomelilla kommun",
+      "county": "Skåne län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 55.551,
+      "lon": 13.9483,
+      "aliases": [
+        "Tomelilla kommun"
+      ],
+      "tags": [],
+      "id": "tomelilla-tomelilla-2"
+    },
+    {
+      "name": "Torsby",
+      "municipality": "Torsby kommun",
+      "county": "Värmland län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 60.1365,
+      "lon": 13.0133,
+      "aliases": [
+        "Torsby kommun"
+      ],
+      "tags": [],
+      "id": "torsby-torsby"
+    },
+    {
+      "name": "Torsås",
+      "municipality": "Torsås kommun",
+      "county": "Kalmar län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 56.4087,
+      "lon": 16.0022,
+      "aliases": [
+        "Torsås kommun",
+        "Torsas"
+      ],
+      "tags": [],
+      "id": "torsas-torsas"
+    },
+    {
+      "name": "Tranemo",
+      "municipality": "Tranemo kommun",
+      "county": "Västra Götaland län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 57.4892,
+      "lon": 13.3478,
+      "aliases": [
+        "Tranemo kommun"
+      ],
+      "tags": [],
+      "id": "tranemo-tranemo"
+    },
+    {
+      "name": "Tranås",
+      "municipality": "Tranås kommun",
+      "county": "Jönköping län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 58.0313,
+      "lon": 14.9783,
+      "aliases": [
+        "Tranås kommun",
+        "Tranas"
+      ],
+      "tags": [],
+      "id": "tranas-tranas-2"
+    },
+    {
+      "name": "Trelleborg",
+      "municipality": "Trelleborg kommun",
+      "county": "Skåne län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 55.3682,
+      "lon": 13.2123,
+      "aliases": [
+        "Trelleborg kommun"
+      ],
+      "tags": [],
+      "id": "trelleborg-trelleborg-2"
+    },
+    {
+      "name": "Trollhättan",
+      "municipality": "Trollhättan kommun",
+      "county": "Västra Götaland län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 58.2886,
+      "lon": 12.2987,
+      "aliases": [
+        "Trollhättan kommun",
+        "Trollhattan"
+      ],
+      "tags": [],
+      "id": "trollhattan-trollhattan-2"
+    },
+    {
+      "name": "Trosa",
+      "municipality": "Trosa kommun",
+      "county": "Södermanland län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 58.8971,
+      "lon": 17.5557,
+      "aliases": [
+        "Trosa kommun"
+      ],
+      "tags": [],
+      "id": "trosa-trosa-2"
+    },
+    {
+      "name": "Täby",
+      "municipality": "Täby kommun",
+      "county": "Stockholm län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 59.4669,
+      "lon": 18.129,
+      "aliases": [
+        "Täby kommun",
+        "Taby"
+      ],
+      "tags": [],
+      "id": "taby-taby"
+    },
+    {
+      "name": "Töreboda",
+      "municipality": "Töreboda kommun",
+      "county": "Västra Götaland län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 58.7067,
+      "lon": 14.1322,
+      "aliases": [
+        "Töreboda kommun",
+        "Toreboda"
+      ],
+      "tags": [],
+      "id": "toreboda-toreboda"
+    },
+    {
+      "name": "Uddevalla",
+      "municipality": "Uddevalla kommun",
+      "county": "Västra Götaland län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 58.3544,
+      "lon": 11.909,
+      "aliases": [
+        "Uddevalla kommun"
+      ],
+      "tags": [],
+      "id": "uddevalla-uddevalla-2"
+    },
+    {
+      "name": "Ulricehamn",
+      "municipality": "Ulricehamn kommun",
+      "county": "Västra Götaland län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 57.7882,
+      "lon": 13.4193,
+      "aliases": [
+        "Ulricehamn kommun"
+      ],
+      "tags": [],
+      "id": "ulricehamn-ulricehamn-2"
+    },
+    {
+      "name": "Umeå",
+      "municipality": "Umeå kommun",
+      "county": "Västerbotten län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 63.8307,
+      "lon": 20.2558,
+      "aliases": [
+        "Umeå kommun",
+        "Umea"
+      ],
+      "tags": [],
+      "id": "umea-umea-2"
+    },
+    {
+      "name": "Upplands Väsby",
+      "municipality": "Upplands Väsby kommun",
+      "county": "Stockholm län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 59.5417,
+      "lon": 17.9161,
+      "aliases": [
+        "Upplands Väsby kommun",
+        "Upplands Vasby"
+      ],
+      "tags": [],
+      "id": "upplands-vasby-upplands-vasby"
+    },
+    {
+      "name": "Upplands-Bro",
+      "municipality": "Upplands-Bro kommun",
+      "county": "Stockholm län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 59.4864,
+      "lon": 17.7315,
+      "aliases": [
+        "Upplands-Bro kommun"
+      ],
+      "tags": [],
+      "id": "upplands-bro-upplands-bro"
+    },
+    {
+      "name": "Uppsala",
+      "municipality": "Uppsala kommun",
+      "county": "Uppsala län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 59.8434,
+      "lon": 17.5501,
+      "aliases": [
+        "Uppsala kommun"
+      ],
+      "tags": [],
+      "id": "uppsala-uppsala-2"
+    },
+    {
+      "name": "Uppvidinge",
+      "municipality": "Uppvidinge kommun",
+      "county": "Kronoberg län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 57.1665,
+      "lon": 15.3485,
+      "aliases": [
+        "Uppvidinge kommun"
+      ],
+      "tags": [],
+      "id": "uppvidinge-uppvidinge"
+    },
+    {
+      "name": "Vadstena",
+      "municipality": "Vadstena kommun",
+      "county": "Östergötland län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 58.4461,
+      "lon": 14.8943,
+      "aliases": [
+        "Vadstena kommun"
+      ],
+      "tags": [],
+      "id": "vadstena-vadstena-2"
+    },
+    {
+      "name": "Vaggeryd",
+      "municipality": "Vaggeryd kommun",
+      "county": "Jönköping län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 57.4971,
+      "lon": 14.1357,
+      "aliases": [
+        "Vaggeryd kommun"
+      ],
+      "tags": [],
+      "id": "vaggeryd-vaggeryd-2"
+    },
+    {
+      "name": "Valdemarsvik",
+      "municipality": "Valdemarsvik kommun",
+      "county": "Östergötland län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 58.206,
+      "lon": 16.5901,
+      "aliases": [
+        "Valdemarsvik kommun"
+      ],
+      "tags": [],
+      "id": "valdemarsvik-valdemarsvik"
+    },
+    {
+      "name": "Vallentuna",
+      "municipality": "Vallentuna kommun",
+      "county": "Stockholm län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 59.5194,
+      "lon": 18.0803,
+      "aliases": [
+        "Vallentuna kommun"
+      ],
+      "tags": [],
+      "id": "vallentuna-vallentuna-2"
+    },
+    {
+      "name": "Vansbro",
+      "municipality": "Vansbro kommun",
+      "county": "Dalarna län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 60.5119,
+      "lon": 14.222,
+      "aliases": [
+        "Vansbro kommun"
+      ],
+      "tags": [],
+      "id": "vansbro-vansbro"
+    },
+    {
+      "name": "Vara",
+      "municipality": "Vara kommun",
+      "county": "Västra Götaland län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 58.2623,
+      "lon": 12.9622,
+      "aliases": [
+        "Vara kommun"
+      ],
+      "tags": [],
+      "id": "vara-vara"
+    },
+    {
+      "name": "Varberg",
+      "municipality": "Varberg kommun",
+      "county": "Halland län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 57.0918,
+      "lon": 12.2614,
+      "aliases": [
+        "Varberg kommun"
+      ],
+      "tags": [],
+      "id": "varberg-varberg-2"
+    },
+    {
+      "name": "Vaxholm",
+      "municipality": "Vaxholm kommun",
+      "county": "Stockholm län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 59.4085,
+      "lon": 18.3179,
+      "aliases": [
+        "Vaxholm kommun"
+      ],
+      "tags": [],
+      "id": "vaxholm-vaxholm-2"
+    },
+    {
+      "name": "Vellinge",
+      "municipality": "Vellinge kommun",
+      "county": "Skåne län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 55.4103,
+      "lon": 12.9597,
+      "aliases": [
+        "Vellinge kommun"
+      ],
+      "tags": [],
+      "id": "vellinge-vellinge-2"
+    },
+    {
+      "name": "Vetlanda",
+      "municipality": "Vetlanda kommun",
+      "county": "Jönköping län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 57.4218,
+      "lon": 15.0804,
+      "aliases": [
+        "Vetlanda kommun"
+      ],
+      "tags": [],
+      "id": "vetlanda-vetlanda-2"
+    },
+    {
+      "name": "Vilhelmina",
+      "municipality": "Vilhelmina kommun",
+      "county": "Västerbotten län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 64.6235,
+      "lon": 16.6591,
+      "aliases": [
+        "Vilhelmina kommun"
+      ],
+      "tags": [],
+      "id": "vilhelmina-vilhelmina"
+    },
+    {
+      "name": "Vimmerby",
+      "municipality": "Vimmerby kommun",
+      "county": "Kalmar län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 57.6672,
+      "lon": 15.8524,
+      "aliases": [
+        "Vimmerby kommun"
+      ],
+      "tags": [],
+      "id": "vimmerby-vimmerby-2"
+    },
+    {
+      "name": "Vindeln",
+      "municipality": "Vindeln kommun",
+      "county": "Västerbotten län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 64.1998,
+      "lon": 19.7271,
+      "aliases": [
+        "Vindeln kommun"
+      ],
+      "tags": [],
+      "id": "vindeln-vindeln"
+    },
+    {
+      "name": "Vingåker",
+      "municipality": "Vingåker kommun",
+      "county": "Södermanland län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 59.0496,
+      "lon": 15.8787,
+      "aliases": [
+        "Vingåker kommun",
+        "Vingaker"
+      ],
+      "tags": [],
+      "id": "vingaker-vingaker"
+    },
+    {
+      "name": "Vänersborg",
+      "municipality": "Vänersborg kommun",
+      "county": "Västra Götaland län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 58.3619,
+      "lon": 12.3168,
+      "aliases": [
+        "Vänersborg kommun",
+        "Vanersborg"
+      ],
+      "tags": [],
+      "id": "vanersborg-vanersborg-2"
+    },
+    {
+      "name": "Vännäs",
+      "municipality": "Vännäs kommun",
+      "county": "Västerbotten län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 63.9053,
+      "lon": 19.7415,
+      "aliases": [
+        "Vännäs kommun",
+        "Vannas"
+      ],
+      "tags": [],
+      "id": "vannas-vannas"
+    },
+    {
+      "name": "Värmdö",
+      "municipality": "Värmdö kommun",
+      "county": "Stockholm län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 59.3388,
+      "lon": 18.487,
+      "aliases": [
+        "Värmdö kommun",
+        "Varmdo"
+      ],
+      "tags": [],
+      "id": "varmdo-varmdo"
+    },
+    {
+      "name": "Värnamo",
+      "municipality": "Värnamo kommun",
+      "county": "Jönköping län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 57.1905,
+      "lon": 14.0349,
+      "aliases": [
+        "Värnamo kommun",
+        "Varnamo"
+      ],
+      "tags": [],
+      "id": "varnamo-varnamo-2"
+    },
+    {
+      "name": "Västervik",
+      "municipality": "Västervik kommun",
+      "county": "Kalmar län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 57.7603,
+      "lon": 16.6271,
+      "aliases": [
+        "Västervik kommun",
+        "Vastervik"
+      ],
+      "tags": [],
+      "id": "vastervik-vastervik-2"
+    },
+    {
+      "name": "Västerås",
+      "municipality": "Västerås kommun",
+      "county": "Västmanland län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 59.6301,
+      "lon": 16.5429,
+      "aliases": [
+        "Västerås kommun",
+        "Vasteras"
+      ],
+      "tags": [],
+      "id": "vasteras-vasteras-2"
+    },
+    {
+      "name": "Växjö",
+      "municipality": "Växjö kommun",
+      "county": "Kronoberg län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 56.8873,
+      "lon": 14.7917,
+      "aliases": [
+        "Växjö kommun",
+        "Vaxjo"
+      ],
+      "tags": [],
+      "id": "vaxjo-vaxjo-2"
+    },
+    {
+      "name": "Vårgårda",
+      "municipality": "Vårgårda kommun",
+      "county": "Västra Götaland län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 58.0358,
+      "lon": 12.8094,
+      "aliases": [
+        "Vårgårda kommun",
+        "Vargarda"
+      ],
+      "tags": [],
+      "id": "vargarda-vargarda-2"
+    },
+    {
+      "name": "Ydre",
+      "municipality": "Ydre kommun",
+      "county": "Östergötland län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 57.8262,
+      "lon": 15.2814,
+      "aliases": [
+        "Ydre kommun"
+      ],
+      "tags": [],
+      "id": "ydre-ydre"
+    },
+    {
+      "name": "Ystad",
+      "municipality": "Ystad kommun",
+      "county": "Skåne län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 55.4377,
+      "lon": 13.8334,
+      "aliases": [
+        "Ystad kommun"
+      ],
+      "tags": [],
+      "id": "ystad-ystad-2"
+    },
+    {
+      "name": "Älmhult",
+      "municipality": "Älmhult kommun",
+      "county": "Kronoberg län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 56.5572,
+      "lon": 14.1368,
+      "aliases": [
+        "Älmhult kommun",
+        "Almhult"
+      ],
+      "tags": [],
+      "id": "almhult-almhult-2"
+    },
+    {
+      "name": "Älvdalen",
+      "municipality": "Älvdalen kommun",
+      "county": "Dalarna län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 61.2237,
+      "lon": 14.0451,
+      "aliases": [
+        "Älvdalen kommun",
+        "Alvdalen"
+      ],
+      "tags": [],
+      "id": "alvdalen-alvdalen"
+    },
+    {
+      "name": "Älvkarleby",
+      "municipality": "Älvkarleby kommun",
+      "county": "Uppsala län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 60.6313,
+      "lon": 17.3764,
+      "aliases": [
+        "Älvkarleby kommun",
+        "Alvkarleby"
+      ],
+      "tags": [],
+      "id": "alvkarleby-alvkarleby"
+    },
+    {
+      "name": "Älvsbyn",
+      "municipality": "Älvsbyn kommun",
+      "county": "Norrbotten län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 65.6792,
+      "lon": 21.0101,
+      "aliases": [
+        "Älvsbyn kommun",
+        "Alvsbyn"
+      ],
+      "tags": [],
+      "id": "alvsbyn-alvsbyn"
+    },
+    {
+      "name": "Ängelholm",
+      "municipality": "Ängelholm kommun",
+      "county": "Skåne län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 56.2798,
+      "lon": 12.8346,
+      "aliases": [
+        "Ängelholm kommun",
+        "Angelholm"
+      ],
+      "tags": [],
+      "id": "angelholm-angelholm-2"
+    },
+    {
+      "name": "Åmål",
+      "municipality": "Åmål kommun",
+      "county": "Västra Götaland län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 59.0516,
+      "lon": 12.6963,
+      "aliases": [
+        "Åmål kommun",
+        "Amal"
+      ],
+      "tags": [],
+      "id": "amal-amal-2"
+    },
+    {
+      "name": "Ånge",
+      "municipality": "Ånge kommun",
+      "county": "Västernorrland län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 62.5232,
+      "lon": 15.6099,
+      "aliases": [
+        "Ånge kommun",
+        "Ange"
+      ],
+      "tags": [],
+      "id": "ange-ange"
+    },
+    {
+      "name": "Åre",
+      "municipality": "Åre kommun",
+      "county": "Jämtland län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 63.3959,
+      "lon": 12.8846,
+      "aliases": [
+        "Åre kommun",
+        "Are"
+      ],
+      "tags": [],
+      "id": "are-are"
+    },
+    {
+      "name": "Årjäng",
+      "municipality": "Årjäng kommun",
+      "county": "Värmland län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 59.3838,
+      "lon": 12.1343,
+      "aliases": [
+        "Årjäng kommun",
+        "Arjang"
+      ],
+      "tags": [],
+      "id": "arjang-arjang"
+    },
+    {
+      "name": "Åsele",
+      "municipality": "Åsele kommun",
+      "county": "Västerbotten län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 64.1608,
+      "lon": 17.3419,
+      "aliases": [
+        "Åsele kommun",
+        "Asele"
+      ],
+      "tags": [],
+      "id": "asele-asele"
+    },
+    {
+      "name": "Åstorp",
+      "municipality": "Åstorp kommun",
+      "county": "Skåne län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 56.1364,
+      "lon": 12.9335,
+      "aliases": [
+        "Åstorp kommun",
+        "Astorp"
+      ],
+      "tags": [],
+      "id": "astorp-astorp-2"
+    },
+    {
+      "name": "Åtvidaberg",
+      "municipality": "Åtvidaberg kommun",
+      "county": "Östergötland län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 58.1993,
+      "lon": 15.9955,
+      "aliases": [
+        "Åtvidaberg kommun",
+        "Atvidaberg"
+      ],
+      "tags": [],
+      "id": "atvidaberg-atvidaberg-2"
+    },
+    {
+      "name": "Öckerö",
+      "municipality": "Öckerö kommun",
+      "county": "Västra Götaland län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 57.7022,
+      "lon": 11.6449,
+      "aliases": [
+        "Öckerö kommun",
+        "Ockero"
+      ],
+      "tags": [],
+      "id": "ockero-ockero"
+    },
+    {
+      "name": "Ödeshög",
+      "municipality": "Ödeshög kommun",
+      "county": "Östergötland län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 58.2304,
+      "lon": 14.6561,
+      "aliases": [
+        "Ödeshög kommun",
+        "Odeshog"
+      ],
+      "tags": [],
+      "id": "odeshog-odeshog"
+    },
+    {
+      "name": "Örebro",
+      "municipality": "Örebro kommun",
+      "county": "Örebro län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 59.2609,
+      "lon": 15.1914,
+      "aliases": [
+        "Örebro kommun",
+        "Orebro"
+      ],
+      "tags": [],
+      "id": "orebro-orebro-2"
+    },
+    {
+      "name": "Örkelljunga",
+      "municipality": "Örkelljunga kommun",
+      "county": "Skåne län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 56.2855,
+      "lon": 13.2942,
+      "aliases": [
+        "Örkelljunga kommun",
+        "Orkelljunga"
+      ],
+      "tags": [],
+      "id": "orkelljunga-orkelljunga-2"
+    },
+    {
+      "name": "Örnsköldsvik",
+      "municipality": "Örnsköldsvik kommun",
+      "county": "Västernorrland län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 63.2935,
+      "lon": 18.5541,
+      "aliases": [
+        "Örnsköldsvik kommun",
+        "Ornskoldsvik"
+      ],
+      "tags": [],
+      "id": "ornskoldsvik-ornskoldsvik-2"
+    },
+    {
+      "name": "Östersund",
+      "municipality": "Östersund kommun",
+      "county": "Jämtland län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 63.1453,
+      "lon": 14.717,
+      "aliases": [
+        "Östersund kommun",
+        "Ostersund"
+      ],
+      "tags": [],
+      "id": "ostersund-ostersund-2"
+    },
+    {
+      "name": "Österåker",
+      "municipality": "Österåker kommun",
+      "county": "Stockholm län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 59.4876,
+      "lon": 18.2441,
+      "aliases": [
+        "Österåker kommun",
+        "Osteraker"
+      ],
+      "tags": [],
+      "id": "osteraker-osteraker"
+    },
+    {
+      "name": "Östhammar",
+      "municipality": "Östhammar kommun",
+      "county": "Uppsala län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 60.2589,
+      "lon": 18.3611,
+      "aliases": [
+        "Östhammar kommun",
+        "Osthammar"
+      ],
+      "tags": [],
+      "id": "osthammar-osthammar"
+    },
+    {
+      "name": "Östra Göinge",
+      "municipality": "Östra Göinge kommun",
+      "county": "Skåne län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 56.2572,
+      "lon": 14.0765,
+      "aliases": [
+        "Östra Göinge kommun",
+        "Ostra Goinge"
+      ],
+      "tags": [],
+      "id": "ostra-goinge-ostra-goinge"
+    },
+    {
+      "name": "Överkalix",
+      "municipality": "Överkalix kommun",
+      "county": "Norrbotten län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 66.3189,
+      "lon": 22.8428,
+      "aliases": [
+        "Överkalix kommun",
+        "Overkalix"
+      ],
+      "tags": [],
+      "id": "overkalix-overkalix"
+    },
+    {
+      "name": "Övertorneå",
+      "municipality": "Övertorneå kommun",
+      "county": "Norrbotten län",
+      "country": "SE",
+      "type": "municipality",
+      "population": null,
+      "lat": 66.3856,
+      "lon": 23.6241,
+      "aliases": [
+        "Övertorneå kommun",
+        "Overtornea"
+      ],
+      "tags": [],
+      "id": "overtornea-overtornea"
+    },
+    {
+      "name": "Stockholm",
+      "municipality": "Stockholm kommun",
+      "county": "Stockholm län",
+      "country": "SE",
+      "population": 1652895,
+      "lat": 59.3202,
+      "lon": 17.9545,
+      "type": "major_city",
+      "aliases": [],
+      "tags": [],
+      "id": "stockholm-stockholm"
+    },
+    {
+      "name": "Göteborg",
+      "municipality": "Göteborg kommun",
+      "county": "Västra Götaland län",
+      "country": "SE",
+      "population": 674529,
+      "lat": 57.657,
+      "lon": 11.9946,
+      "type": "major_city",
+      "aliases": [
+        "Goteborg"
+      ],
+      "tags": [],
+      "id": "goteborg-goteborg"
+    },
+    {
+      "name": "Malmö",
+      "municipality": "Malmö kommun",
+      "county": "Skåne län",
+      "country": "SE",
+      "population": 339316,
+      "lat": 55.5968,
+      "lon": 13.0123,
+      "type": "major_city",
+      "aliases": [
+        "Malmo"
+      ],
+      "tags": [],
+      "id": "malmo-malmo"
+    },
+    {
+      "name": "Uppsala",
+      "municipality": "Uppsala kommun",
+      "county": "Uppsala län",
+      "country": "SE",
+      "population": 174982,
+      "lat": 59.8434,
+      "lon": 17.5501,
+      "type": "city",
+      "aliases": [],
+      "tags": [],
+      "id": "uppsala-uppsala"
+    },
+    {
+      "name": "Upplands Väsby och Sollentuna",
+      "municipality": "Sollentuna kommun",
+      "county": "Stockholm län",
+      "country": "SE",
+      "population": 156517,
+      "lat": 59.4658,
+      "lon": 17.8805,
+      "type": "city",
+      "aliases": [
+        "Upplands Vasby och Sollentuna"
+      ],
+      "tags": [],
+      "id": "upplands-vasby-och-sollentuna-sollentuna"
+    },
+    {
+      "name": "Västerås",
+      "municipality": "Västerås kommun",
+      "county": "Västmanland län",
+      "country": "SE",
+      "population": 131643,
+      "lat": 59.6301,
+      "lon": 16.5429,
+      "type": "city",
+      "aliases": [
+        "Vasteras"
+      ],
+      "tags": [],
+      "id": "vasteras-vasteras"
+    },
+    {
+      "name": "Örebro",
+      "municipality": "Örebro kommun",
+      "county": "Örebro län",
+      "country": "SE",
+      "population": 128658,
+      "lat": 59.2609,
+      "lon": 15.1914,
+      "type": "city",
+      "aliases": [
+        "Orebro"
+      ],
+      "tags": [],
+      "id": "orebro-orebro"
+    },
+    {
+      "name": "Linköping",
+      "municipality": "Linköping kommun",
+      "county": "Östergötland län",
+      "country": "SE",
+      "population": 116851,
+      "lat": 58.3986,
+      "lon": 15.6264,
+      "type": "city",
+      "aliases": [
+        "Linkoping"
+      ],
+      "tags": [],
+      "id": "linkoping-linkoping"
+    },
+    {
+      "name": "Helsingborg",
+      "municipality": "Helsingborg kommun",
+      "county": "Skåne län",
+      "country": "SE",
+      "population": 116029,
+      "lat": 56.0391,
+      "lon": 12.7212,
+      "type": "city",
+      "aliases": [],
+      "tags": [],
+      "id": "helsingborg-helsingborg"
+    },
+    {
+      "name": "Jönköping",
+      "municipality": "Jönköping kommun",
+      "county": "Jönköping län",
+      "country": "SE",
+      "population": 103032,
+      "lat": 57.7451,
+      "lon": 14.1328,
+      "type": "city",
+      "aliases": [
+        "Jonkoping"
+      ],
+      "tags": [],
+      "id": "jonkoping-jonkoping"
+    },
+    {
+      "name": "Lund",
+      "municipality": "Lund kommun",
+      "county": "Skåne län",
+      "country": "SE",
+      "population": 98308,
+      "lat": 55.7079,
+      "lon": 13.1997,
+      "type": "town",
+      "aliases": [],
+      "tags": [],
+      "id": "lund-lund"
+    },
+    {
+      "name": "Norrköping",
+      "municipality": "Norrköping kommun",
+      "county": "Östergötland län",
+      "country": "SE",
+      "population": 98229,
+      "lat": 58.5843,
+      "lon": 16.1848,
+      "type": "town",
+      "aliases": [
+        "Norrkoping"
+      ],
+      "tags": [],
+      "id": "norrkoping-norrkoping"
+    },
+    {
+      "name": "Umeå",
+      "municipality": "Umeå kommun",
+      "county": "Västerbotten län",
+      "country": "SE",
+      "population": 94243,
+      "lat": 63.8307,
+      "lon": 20.2558,
+      "type": "town",
+      "aliases": [
+        "Umea"
+      ],
+      "tags": [],
+      "id": "umea-umea"
+    },
+    {
+      "name": "Gävle",
+      "municipality": "Gävle kommun",
+      "county": "Gävleborg län",
+      "country": "SE",
+      "population": 86533,
+      "lat": 60.6868,
+      "lon": 17.1297,
+      "type": "town",
+      "aliases": [
+        "Gavle"
+      ],
+      "tags": [],
+      "id": "gavle-gavle"
+    },
+    {
+      "name": "Södertälje",
+      "municipality": "Södertälje kommun",
+      "county": "Stockholm län",
+      "country": "SE",
+      "population": 78377,
+      "lat": 59.1941,
+      "lon": 17.6304,
+      "type": "town",
+      "aliases": [
+        "Sodertalje"
+      ],
+      "tags": [],
+      "id": "sodertalje-sodertalje"
+    },
+    {
+      "name": "Borås",
+      "municipality": "Borås kommun",
+      "county": "Västra Götaland län",
+      "country": "SE",
+      "population": 75565,
+      "lat": 57.7283,
+      "lon": 12.945,
+      "type": "town",
+      "aliases": [
+        "Boras"
+      ],
+      "tags": [],
+      "id": "boras-boras"
+    },
+    {
+      "name": "Växjö",
+      "municipality": "Växjö kommun",
+      "county": "Kronoberg län",
+      "country": "SE",
+      "population": 74052,
+      "lat": 56.8873,
+      "lon": 14.7917,
+      "type": "town",
+      "aliases": [
+        "Vaxjo"
+      ],
+      "tags": [],
+      "id": "vaxjo-vaxjo"
+    },
+    {
+      "name": "Halmstad",
+      "municipality": "Halmstad kommun",
+      "county": "Halland län",
+      "country": "SE",
+      "population": 72979,
+      "lat": 56.6672,
+      "lon": 12.851,
+      "type": "town",
+      "aliases": [],
+      "tags": [],
+      "id": "halmstad-halmstad"
+    },
+    {
+      "name": "Sundsvall och Timrå",
+      "municipality": "Sundsvall kommun",
+      "county": "Västernorrland län",
+      "country": "SE",
+      "population": 70918,
+      "lat": 62.4185,
+      "lon": 17.2097,
+      "type": "town",
+      "aliases": [
+        "Sundsvall och Timra"
+      ],
+      "tags": [],
+      "id": "sundsvall-och-timra-sundsvall"
+    },
+    {
+      "name": "Eskilstuna",
+      "municipality": "Eskilstuna kommun",
+      "county": "Södermanland län",
+      "country": "SE",
+      "population": 70646,
+      "lat": 59.3579,
+      "lon": 16.4795,
+      "type": "town",
+      "aliases": [],
+      "tags": [],
+      "id": "eskilstuna-eskilstuna"
+    },
+    {
+      "name": "Karlstad",
+      "municipality": "Karlstad kommun",
+      "county": "Värmland län",
+      "country": "SE",
+      "population": 69615,
+      "lat": 59.4046,
+      "lon": 13.5058,
+      "type": "town",
+      "aliases": [],
+      "tags": [],
+      "id": "karlstad-karlstad"
+    },
+    {
+      "name": "Östersund",
+      "municipality": "Östersund kommun",
+      "county": "Jämtland län",
+      "country": "SE",
+      "population": 53992,
+      "lat": 63.1453,
+      "lon": 14.717,
+      "type": "town",
+      "aliases": [
+        "Ostersund"
+      ],
+      "tags": [],
+      "id": "ostersund-ostersund"
+    },
+    {
+      "name": "Trollhättan",
+      "municipality": "Trollhättan kommun",
+      "county": "Västra Götaland län",
+      "country": "SE",
+      "population": 50069,
+      "lat": 58.2886,
+      "lon": 12.2987,
+      "type": "town",
+      "aliases": [
+        "Trollhattan"
+      ],
+      "tags": [],
+      "id": "trollhattan-trollhattan"
+    },
+    {
+      "name": "Luleå",
+      "municipality": "Luleå kommun",
+      "county": "Norrbotten län",
+      "country": "SE",
+      "population": 49646,
+      "lat": 65.5879,
+      "lon": 22.1906,
+      "type": "town",
+      "aliases": [
+        "Lulea"
+      ],
+      "tags": [],
+      "id": "lulea-lulea"
+    },
+    {
+      "name": "Nordöstra Göteborg",
+      "municipality": "Göteborg kommun",
+      "county": "Västra Götaland län",
+      "country": "SE",
+      "population": 48217,
+      "lat": 57.7947,
+      "lon": 12.0452,
+      "type": "town",
+      "aliases": [
+        "Nordostra Goteborg"
+      ],
+      "tags": [],
+      "id": "nordostra-goteborg-goteborg"
+    },
+    {
+      "name": "Tumba",
+      "municipality": "Botkyrka kommun",
+      "county": "Stockholm län",
+      "country": "SE",
+      "population": 46893,
+      "lat": 59.1921,
+      "lon": 17.7117,
+      "type": "town",
+      "aliases": [],
+      "tags": [],
+      "id": "tumba-botkyrka"
+    },
+    {
+      "name": "Lidingö",
+      "municipality": "Lidingö kommun",
+      "county": "Stockholm län",
+      "country": "SE",
+      "population": 44642,
+      "lat": 59.3616,
+      "lon": 18.1395,
+      "type": "town",
+      "aliases": [
+        "Lidingo"
+      ],
+      "tags": [],
+      "id": "lidingo-lidingo"
+    },
+    {
+      "name": "Borlänge",
+      "municipality": "Borlänge kommun",
+      "county": "Dalarna län",
+      "country": "SE",
+      "population": 44299,
+      "lat": 60.4765,
+      "lon": 15.4471,
+      "type": "town",
+      "aliases": [
+        "Borlange"
+      ],
+      "tags": [],
+      "id": "borlange-borlange"
+    },
+    {
+      "name": "Kalmar",
+      "municipality": "Kalmar kommun",
+      "county": "Kalmar län",
+      "country": "SE",
+      "population": 42622,
+      "lat": 56.6831,
+      "lon": 16.342,
+      "type": "town",
+      "aliases": [],
+      "tags": [],
+      "id": "kalmar-kalmar"
+    },
+    {
+      "name": "Kristianstad",
+      "municipality": "Kristianstad kommun",
+      "county": "Skåne län",
+      "country": "SE",
+      "population": 41198,
+      "lat": 56.023,
+      "lon": 14.1256,
+      "type": "town",
+      "aliases": [],
+      "tags": [],
+      "id": "kristianstad-kristianstad"
+    },
+    {
+      "name": "Skövde",
+      "municipality": "Skövde kommun",
+      "county": "Västra Götaland län",
+      "country": "SE",
+      "population": 40422,
+      "lat": 58.3984,
+      "lon": 13.8616,
+      "type": "town",
+      "aliases": [
+        "Skovde"
+      ],
+      "tags": [],
+      "id": "skovde-skovde"
+    },
+    {
+      "name": "Falun",
+      "municipality": "Falun kommun",
+      "county": "Dalarna län",
+      "country": "SE",
+      "population": 39939,
+      "lat": 60.6052,
+      "lon": 15.6031,
+      "type": "town",
+      "aliases": [],
+      "tags": [],
+      "id": "falun-falun"
+    },
+    {
+      "name": "Nyköping",
+      "municipality": "Nyköping kommun",
+      "county": "Södermanland län",
+      "country": "SE",
+      "population": 39770,
+      "lat": 58.7473,
+      "lon": 17.0261,
+      "type": "town",
+      "aliases": [
+        "Nykoping"
+      ],
+      "tags": [],
+      "id": "nykoping-nykoping"
+    },
+    {
+      "name": "Skellefteå",
+      "municipality": "Skellefteå kommun",
+      "county": "Västerbotten län",
+      "country": "SE",
+      "population": 39146,
+      "lat": 64.7528,
+      "lon": 20.8717,
+      "type": "town",
+      "aliases": [
+        "Skelleftea"
+      ],
+      "tags": [],
+      "id": "skelleftea-skelleftea"
+    },
+    {
+      "name": "Varberg",
+      "municipality": "Varberg kommun",
+      "county": "Halland län",
+      "country": "SE",
+      "population": 38575,
+      "lat": 57.0918,
+      "lon": 12.2614,
+      "type": "town",
+      "aliases": [],
+      "tags": [],
+      "id": "varberg-varberg"
+    },
+    {
+      "name": "Åkersberga",
+      "municipality": "Österåker kommun",
+      "county": "Stockholm län",
+      "country": "SE",
+      "population": 37714,
+      "lat": 59.4876,
+      "lon": 18.2441,
+      "type": "town",
+      "aliases": [
+        "Akersberga"
+      ],
+      "tags": [],
+      "id": "akersberga-osteraker"
+    },
+    {
+      "name": "Karlskrona",
+      "municipality": "Karlskrona kommun",
+      "county": "Blekinge län",
+      "country": "SE",
+      "population": 36423,
+      "lat": 56.1921,
+      "lon": 15.6279,
+      "type": "town",
+      "aliases": [],
+      "tags": [],
+      "id": "karlskrona-karlskrona"
+    },
+    {
+      "name": "Uddevalla",
+      "municipality": "Uddevalla kommun",
+      "county": "Västra Götaland län",
+      "country": "SE",
+      "population": 35639,
+      "lat": 58.3544,
+      "lon": 11.909,
+      "type": "town",
+      "aliases": [],
+      "tags": [],
+      "id": "uddevalla-uddevalla"
+    },
+    {
+      "name": "Vallentuna",
+      "municipality": "Vallentuna kommun",
+      "county": "Stockholm län",
+      "country": "SE",
+      "population": 33918,
+      "lat": 59.5194,
+      "lon": 18.0803,
+      "type": "town",
+      "aliases": [],
+      "tags": [],
+      "id": "vallentuna-vallentuna"
+    },
+    {
+      "name": "Landskrona",
+      "municipality": "Landskrona kommun",
+      "county": "Skåne län",
+      "country": "SE",
+      "population": 33859,
+      "lat": 55.8817,
+      "lon": 12.8447,
+      "type": "town",
+      "aliases": [],
+      "tags": [],
+      "id": "landskrona-landskrona"
+    },
+    {
+      "name": "Örnsköldsvik",
+      "municipality": "Örnsköldsvik kommun",
+      "county": "Västernorrland län",
+      "country": "SE",
+      "population": 33399,
+      "lat": 63.2935,
+      "lon": 18.5541,
+      "type": "town",
+      "aliases": [
+        "Ornskoldsvik"
+      ],
+      "tags": [],
+      "id": "ornskoldsvik-ornskoldsvik"
+    },
+    {
+      "name": "Västerhaninge",
+      "municipality": "Haninge kommun",
+      "county": "Stockholm län",
+      "country": "SE",
+      "population": 31941,
+      "lat": 59.1145,
+      "lon": 18.0642,
+      "type": "town",
+      "aliases": [
+        "Vasterhaninge"
+      ],
+      "tags": [],
+      "id": "vasterhaninge-haninge"
+    },
+    {
+      "name": "Motala",
+      "municipality": "Motala kommun",
+      "county": "Östergötland län",
+      "country": "SE",
+      "population": 31367,
+      "lat": 58.5458,
+      "lon": 15.0334,
+      "type": "town",
+      "aliases": [],
+      "tags": [],
+      "id": "motala-motala"
+    },
+    {
+      "name": "Trelleborg",
+      "municipality": "Trelleborg kommun",
+      "county": "Skåne län",
+      "country": "SE",
+      "population": 31366,
+      "lat": 55.3682,
+      "lon": 13.2123,
+      "type": "town",
+      "aliases": [],
+      "tags": [],
+      "id": "trelleborg-trelleborg"
+    },
+    {
+      "name": "Ängelholm",
+      "municipality": "Ängelholm kommun",
+      "county": "Skåne län",
+      "country": "SE",
+      "population": 31089,
+      "lat": 56.2798,
+      "lon": 12.8346,
+      "type": "town",
+      "aliases": [
+        "Angelholm"
+      ],
+      "tags": [],
+      "id": "angelholm-angelholm"
+    },
+    {
+      "name": "Märsta",
+      "municipality": "Sigtuna kommun",
+      "county": "Stockholm län",
+      "country": "SE",
+      "population": 30576,
+      "lat": 59.6233,
+      "lon": 17.8365,
+      "type": "town",
+      "aliases": [
+        "Marsta"
+      ],
+      "tags": [],
+      "id": "marsta-sigtuna"
+    },
+    {
+      "name": "Falkenberg",
+      "municipality": "Falkenberg kommun",
+      "county": "Halland län",
+      "country": "SE",
+      "population": 29671,
+      "lat": 56.8999,
+      "lon": 12.5019,
+      "type": "town",
+      "aliases": [],
+      "tags": [],
+      "id": "falkenberg-falkenberg"
+    },
+    {
+      "name": "Kungälv",
+      "municipality": "Kungälv kommun",
+      "county": "Västra Götaland län",
+      "country": "SE",
+      "population": 28912,
+      "lat": 57.8786,
+      "lon": 11.9381,
+      "type": "town",
+      "aliases": [
+        "Kungalv"
+      ],
+      "tags": [],
+      "id": "kungalv-kungalv"
+    },
+    {
+      "name": "Lerum",
+      "municipality": "Lerum kommun",
+      "county": "Västra Götaland län",
+      "country": "SE",
+      "population": 28789,
+      "lat": 57.7853,
+      "lon": 12.3037,
+      "type": "town",
+      "aliases": [],
+      "tags": [],
+      "id": "lerum-lerum"
+    },
+    {
+      "name": "Alingsås",
+      "municipality": "Alingsås kommun",
+      "county": "Västra Götaland län",
+      "country": "SE",
+      "population": 27895,
+      "lat": 57.9297,
+      "lon": 12.5275,
+      "type": "town",
+      "aliases": [
+        "Alingsas"
+      ],
+      "tags": [],
+      "id": "alingsas-alingsas"
+    },
+    {
+      "name": "Karlskoga",
+      "municipality": "Karlskoga kommun",
+      "county": "Örebro län",
+      "country": "SE",
+      "population": 27261,
+      "lat": 59.3352,
+      "lon": 14.5273,
+      "type": "town",
+      "aliases": [],
+      "tags": [],
+      "id": "karlskoga-karlskoga"
+    },
+    {
+      "name": "Enköping",
+      "municipality": "Enköping kommun",
+      "county": "Uppsala län",
+      "country": "SE",
+      "population": 26353,
+      "lat": 59.639,
+      "lon": 17.1047,
+      "type": "town",
+      "aliases": [
+        "Enkoping"
+      ],
+      "tags": [],
+      "id": "enkoping-enkoping"
+    },
+    {
+      "name": "Visby",
+      "municipality": "Gotland kommun",
+      "county": "Gotland län",
+      "country": "SE",
+      "population": 26305,
+      "lat": 57.6296,
+      "lon": 18.3115,
+      "type": "town",
+      "aliases": [],
+      "tags": [],
+      "id": "visby-gotland"
+    },
+    {
+      "name": "Mölnlycke",
+      "municipality": "Härryda kommun",
+      "county": "Västra Götaland län",
+      "country": "SE",
+      "population": 25172,
+      "lat": 57.6561,
+      "lon": 12.1323,
+      "type": "town",
+      "aliases": [
+        "Molnlycke"
+      ],
+      "tags": [],
+      "id": "molnlycke-harryda"
+    },
+    {
+      "name": "Gustavsberg",
+      "municipality": "Värmdö kommun",
+      "county": "Stockholm län",
+      "country": "SE",
+      "population": 25034,
+      "lat": 59.3388,
+      "lon": 18.487,
+      "type": "town",
+      "aliases": [],
+      "tags": [],
+      "id": "gustavsberg-varmdo"
+    },
+    {
+      "name": "Sandviken",
+      "municipality": "Sandviken kommun",
+      "county": "Gävleborg län",
+      "country": "SE",
+      "population": 24827,
+      "lat": 60.6028,
+      "lon": 16.7654,
+      "type": "town",
+      "aliases": [],
+      "tags": [],
+      "id": "sandviken-sandviken"
+    },
+    {
+      "name": "Vänersborg",
+      "municipality": "Vänersborg kommun",
+      "county": "Västra Götaland län",
+      "country": "SE",
+      "population": 24731,
+      "lat": 58.3619,
+      "lon": 12.3168,
+      "type": "town",
+      "aliases": [
+        "Vanersborg"
+      ],
+      "tags": [],
+      "id": "vanersborg-vanersborg"
+    },
+    {
+      "name": "Katrineholm",
+      "municipality": "Katrineholm kommun",
+      "county": "Södermanland län",
+      "country": "SE",
+      "population": 23953,
+      "lat": 58.9922,
+      "lon": 16.1962,
+      "type": "town",
+      "aliases": [],
+      "tags": [],
+      "id": "katrineholm-katrineholm"
+    },
+    {
+      "name": "Piteå",
+      "municipality": "Piteå kommun",
+      "county": "Norrbotten län",
+      "country": "SE",
+      "population": 23824,
+      "lat": 65.2958,
+      "lon": 21.5001,
+      "type": "town",
+      "aliases": [
+        "Pitea"
+      ],
+      "tags": [],
+      "id": "pitea-pitea"
+    },
+    {
+      "name": "Norrtälje",
+      "municipality": "Norrtälje kommun",
+      "county": "Stockholm län",
+      "country": "SE",
+      "population": 23606,
+      "lat": 59.756,
+      "lon": 18.7138,
+      "type": "town",
+      "aliases": [
+        "Norrtalje"
+      ],
+      "tags": [],
+      "id": "norrtalje-norrtalje"
+    },
+    {
+      "name": "Lidköping",
+      "municipality": "Lidköping kommun",
+      "county": "Västra Götaland län",
+      "country": "SE",
+      "population": 23585,
+      "lat": 58.4958,
+      "lon": 13.1464,
+      "type": "town",
+      "aliases": [
+        "Lidkoping"
+      ],
+      "tags": [],
+      "id": "lidkoping-lidkoping"
+    },
+    {
+      "name": "Västervik",
+      "municipality": "Västervik kommun",
+      "county": "Kalmar län",
+      "country": "SE",
+      "population": 21615,
+      "lat": 57.7603,
+      "lon": 16.6271,
+      "type": "town",
+      "aliases": [
+        "Vastervik"
+      ],
+      "tags": [],
+      "id": "vastervik-vastervik"
+    },
+    {
+      "name": "Ystad",
+      "municipality": "Ystad kommun",
+      "county": "Skåne län",
+      "country": "SE",
+      "population": 21259,
+      "lat": 55.4377,
+      "lon": 13.8334,
+      "type": "town",
+      "aliases": [],
+      "tags": [],
+      "id": "ystad-ystad"
+    },
+    {
+      "name": "Eslöv",
+      "municipality": "Eslöv kommun",
+      "county": "Skåne län",
+      "country": "SE",
+      "population": 20422,
+      "lat": 55.8404,
+      "lon": 13.299,
+      "type": "town",
+      "aliases": [
+        "Eslov"
+      ],
+      "tags": [],
+      "id": "eslov-eslov"
+    },
+    {
+      "name": "Värnamo",
+      "municipality": "Värnamo kommun",
+      "county": "Jönköping län",
+      "country": "SE",
+      "population": 20273,
+      "lat": 57.1905,
+      "lon": 14.0349,
+      "type": "town",
+      "aliases": [
+        "Varnamo"
+      ],
+      "tags": [],
+      "id": "varnamo-varnamo"
+    },
+    {
+      "name": "Åre",
+      "municipality": "Åre kommun",
+      "county": "Jämtland län",
+      "country": "SE",
+      "population": 3699,
+      "lat": 63.3959,
+      "lon": 12.8846,
+      "type": "resort",
+      "aliases": [
+        "Are"
+      ],
+      "tags": [
+        "destination",
+        "ski"
+      ],
+      "id": "are-are-2"
+    },
+    {
+      "name": "Funäsdalen",
+      "municipality": "Härjedalen kommun",
+      "county": "Jämtland län",
+      "country": "SE",
+      "population": 1064,
+      "lat": 62.546,
+      "lon": 12.5504,
+      "type": "resort",
+      "aliases": [
+        "Funasdalen"
+      ],
+      "tags": [
+        "destination",
+        "ski"
+      ],
+      "id": "funasdalen-harjedalen"
+    },
+    {
+      "name": "Sälen",
+      "municipality": "Malung-Sälen kommun",
+      "county": "Dalarna län",
+      "country": "SE",
+      "population": 946,
+      "lat": 61.1526,
+      "lon": 13.2665,
+      "type": "resort",
+      "aliases": [
+        "Salen"
+      ],
+      "tags": [
+        "destination",
+        "ski"
+      ],
+      "id": "salen-malung-salen"
+    },
+    {
+      "name": "Idre",
+      "municipality": "Älvdalen kommun",
+      "county": "Dalarna län",
+      "country": "SE",
+      "population": 695,
+      "lat": 61.8609,
+      "lon": 12.7247,
+      "type": "resort",
+      "aliases": [],
+      "tags": [
+        "destination",
+        "ski"
+      ],
+      "id": "idre-alvdalen"
+    },
+    {
+      "name": "Vemdalen",
+      "municipality": "Härjedalen kommun",
+      "county": "Jämtland län",
+      "country": "SE",
+      "population": 661,
+      "lat": 62.4504,
+      "lon": 13.8605,
+      "type": "resort",
+      "aliases": [],
+      "tags": [
+        "destination",
+        "ski"
+      ],
+      "id": "vemdalen-harjedalen"
+    },
+    {
+      "name": "Tärnaby",
+      "municipality": "Storuman kommun",
+      "county": "Västerbotten län",
+      "country": "SE",
+      "population": 415,
+      "lat": 65.7137,
+      "lon": 15.2827,
+      "type": "resort",
+      "aliases": [
+        "Tarnaby"
+      ],
+      "tags": [
+        "destination",
+        "ski"
+      ],
+      "id": "tarnaby-storuman"
+    },
+    {
+      "name": "Björkliden",
+      "municipality": "Kiruna kommun",
+      "county": "Norrbottens län",
+      "country": "SE",
+      "type": "resort",
+      "population": null,
+      "lat": 68.408,
+      "lon": 18.689,
+      "aliases": [
+        "Bjorkliden"
+      ],
+      "tags": [
+        "destination",
+        "ski"
+      ],
+      "id": "bjorkliden-kiruna"
+    },
+    {
+      "name": "Branäs",
+      "municipality": "Torsby kommun",
+      "county": "Värmlands län",
+      "country": "SE",
+      "type": "resort",
+      "population": null,
+      "lat": 60.258,
+      "lon": 13.079,
+      "aliases": [
+        "Branas"
+      ],
+      "tags": [
+        "destination",
+        "ski"
+      ],
+      "id": "branas-torsby"
+    },
+    {
+      "name": "Hemavan",
+      "municipality": "Storumans kommun",
+      "county": "Västerbottens län",
+      "country": "SE",
+      "type": "resort",
+      "population": null,
+      "lat": 65.817,
+      "lon": 15.083,
+      "aliases": [],
+      "tags": [
+        "destination",
+        "ski"
+      ],
+      "id": "hemavan-storumans"
+    },
+    {
+      "name": "Hundfjället",
+      "municipality": "Malung-Sälens kommun",
+      "county": "Dalarnas län",
+      "country": "SE",
+      "type": "resort",
+      "population": null,
+      "lat": 61.16,
+      "lon": 13.14,
+      "aliases": [
+        "Hundfjallet"
+      ],
+      "tags": [
+        "destination",
+        "ski"
+      ],
+      "id": "hundfjallet-malung-salens"
+    },
+    {
+      "name": "Kittelfjäll",
+      "municipality": "Vilhelmina kommun",
+      "county": "Västerbottens län",
+      "country": "SE",
+      "type": "resort",
+      "population": null,
+      "lat": 65.279,
+      "lon": 15.508,
+      "aliases": [
+        "Kittelfjall"
+      ],
+      "tags": [
+        "destination",
+        "ski"
+      ],
+      "id": "kittelfjall-vilhelmina"
+    },
+    {
+      "name": "Kläppen",
+      "municipality": "Malung-Sälens kommun",
+      "county": "Dalarnas län",
+      "country": "SE",
+      "type": "resort",
+      "population": null,
+      "lat": 61.158,
+      "lon": 13.236,
+      "aliases": [
+        "Klappen"
+      ],
+      "tags": [
+        "destination",
+        "ski"
+      ],
+      "id": "klappen-malung-salens"
+    },
+    {
+      "name": "Lindvallen",
+      "municipality": "Malung-Sälens kommun",
+      "county": "Dalarnas län",
+      "country": "SE",
+      "type": "resort",
+      "population": null,
+      "lat": 61.156,
+      "lon": 13.275,
+      "aliases": [],
+      "tags": [
+        "destination",
+        "ski"
+      ],
+      "id": "lindvallen-malung-salens"
+    },
+    {
+      "name": "Riksgränsen",
+      "municipality": "Kiruna kommun",
+      "county": "Norrbottens län",
+      "country": "SE",
+      "type": "resort",
+      "population": null,
+      "lat": 68.426,
+      "lon": 18.128,
+      "aliases": [
+        "Riksgransen"
+      ],
+      "tags": [
+        "destination",
+        "ski"
+      ],
+      "id": "riksgransen-kiruna"
+    },
+    {
+      "name": "Stöten",
+      "municipality": "Malung-Sälens kommun",
+      "county": "Dalarnas län",
+      "country": "SE",
+      "type": "resort",
+      "population": null,
+      "lat": 61.223,
+      "lon": 12.91,
+      "aliases": [
+        "Stoten"
+      ],
+      "tags": [
+        "destination",
+        "ski"
+      ],
+      "id": "stoten-malung-salens"
+    },
+    {
+      "name": "Säfsen",
+      "municipality": "Ludvika kommun",
+      "county": "Dalarnas län",
+      "country": "SE",
+      "type": "resort",
+      "population": null,
+      "lat": 60.179,
+      "lon": 14.633,
+      "aliases": [
+        "Safsen",
+        "Säfsnäs"
+      ],
+      "tags": [
+        "destination",
+        "ski"
+      ],
+      "id": "safsen-ludvika"
+    },
+    {
+      "name": "Tandådalen",
+      "municipality": "Malung-Sälens kommun",
+      "county": "Dalarnas län",
+      "country": "SE",
+      "type": "resort",
+      "population": null,
+      "lat": 61.16,
+      "lon": 13.065,
+      "aliases": [
+        "Tandadalen"
+      ],
+      "tags": [
+        "destination",
+        "ski"
+      ],
+      "id": "tandadalen-malung-salens"
+    },
+    {
+      "name": "Karlshamn",
+      "municipality": "Karlshamn kommun",
+      "county": "Blekinge län",
+      "country": "SE",
+      "population": 19966,
+      "lat": 56.2021,
+      "lon": 14.8428,
+      "type": "locality",
+      "aliases": [],
+      "tags": [],
+      "id": "karlshamn-karlshamn"
+    },
+    {
+      "name": "Hässleholm",
+      "municipality": "Hässleholm kommun",
+      "county": "Skåne län",
+      "country": "SE",
+      "population": 19760,
+      "lat": 56.1552,
+      "lon": 13.7797,
+      "type": "locality",
+      "aliases": [
+        "Hassleholm"
+      ],
+      "tags": [],
+      "id": "hassleholm-hassleholm"
+    },
+    {
+      "name": "Oskarshamn",
+      "municipality": "Oskarshamn kommun",
+      "county": "Kalmar län",
+      "country": "SE",
+      "population": 18817,
+      "lat": 57.2714,
+      "lon": 16.4475,
+      "type": "locality",
+      "aliases": [],
+      "tags": [],
+      "id": "oskarshamn-oskarshamn"
+    },
+    {
+      "name": "Nässjö",
+      "municipality": "Nässjö kommun",
+      "county": "Jönköping län",
+      "country": "SE",
+      "population": 18639,
+      "lat": 57.6546,
+      "lon": 14.7048,
+      "type": "locality",
+      "aliases": [
+        "Nassjo"
+      ],
+      "tags": [],
+      "id": "nassjo-nassjo"
+    },
+    {
+      "name": "Köping",
+      "municipality": "Köping kommun",
+      "county": "Västmanland län",
+      "country": "SE",
+      "population": 18605,
+      "lat": 59.5126,
+      "lon": 15.9914,
+      "type": "locality",
+      "aliases": [
+        "Koping"
+      ],
+      "tags": [],
+      "id": "koping-koping"
+    },
+    {
+      "name": "Kristinehamn",
+      "municipality": "Kristinehamn kommun",
+      "county": "Värmland län",
+      "country": "SE",
+      "population": 18358,
+      "lat": 59.3057,
+      "lon": 14.105,
+      "type": "locality",
+      "aliases": [],
+      "tags": [],
+      "id": "kristinehamn-kristinehamn"
+    },
+    {
+      "name": "Härnösand",
+      "municipality": "Härnösand kommun",
+      "county": "Västernorrland län",
+      "country": "SE",
+      "population": 18236,
+      "lat": 62.6291,
+      "lon": 17.9386,
+      "type": "locality",
+      "aliases": [
+        "Harnosand"
+      ],
+      "tags": [],
+      "id": "harnosand-harnosand"
+    },
+    {
+      "name": "Falköping",
+      "municipality": "Falköping kommun",
+      "county": "Västra Götaland län",
+      "country": "SE",
+      "population": 17924,
+      "lat": 58.1699,
+      "lon": 13.5552,
+      "type": "locality",
+      "aliases": [
+        "Falkoping"
+      ],
+      "tags": [],
+      "id": "falkoping-falkoping"
+    },
+    {
+      "name": "Kumla",
+      "municipality": "Kumla kommun",
+      "county": "Örebro län",
+      "country": "SE",
+      "population": 17889,
+      "lat": 59.127,
+      "lon": 15.1379,
+      "type": "locality",
+      "aliases": [],
+      "tags": [],
+      "id": "kumla-kumla"
+    },
+    {
+      "name": "Staffanstorp",
+      "municipality": "Staffanstorp kommun",
+      "county": "Skåne län",
+      "country": "SE",
+      "population": 17838,
+      "lat": 55.6391,
+      "lon": 13.2075,
+      "type": "locality",
+      "aliases": [],
+      "tags": [],
+      "id": "staffanstorp-staffanstorp"
+    },
+    {
+      "name": "Kiruna",
+      "municipality": "Kiruna kommun",
+      "county": "Norrbotten län",
+      "country": "SE",
+      "population": 17284,
+      "lat": 67.8523,
+      "lon": 20.2681,
+      "type": "locality",
+      "aliases": [],
+      "tags": [],
+      "id": "kiruna-kiruna"
+    },
+    {
+      "name": "Kungsängen och Brunna",
+      "municipality": "Upplands-Bro kommun",
+      "county": "Stockholm län",
+      "country": "SE",
+      "population": 16899,
+      "lat": 59.4864,
+      "lon": 17.7315,
+      "type": "locality",
+      "aliases": [
+        "Kungsangen och Brunna"
+      ],
+      "tags": [],
+      "id": "kungsangen-och-brunna-upplands-bro"
+    },
+    {
+      "name": "Hudiksvall",
+      "municipality": "Hudiksvall kommun",
+      "county": "Gävleborg län",
+      "country": "SE",
+      "population": 16792,
+      "lat": 61.7312,
+      "lon": 17.1372,
+      "type": "locality",
+      "aliases": [],
+      "tags": [],
+      "id": "hudiksvall-hudiksvall"
+    },
+    {
+      "name": "Mariestad",
+      "municipality": "Mariestad kommun",
+      "county": "Västra Götaland län",
+      "country": "SE",
+      "population": 16750,
+      "lat": 58.7028,
+      "lon": 13.8301,
+      "type": "locality",
+      "aliases": [],
+      "tags": [],
+      "id": "mariestad-mariestad"
+    },
+    {
+      "name": "Boden",
+      "municipality": "Boden kommun",
+      "county": "Norrbotten län",
+      "country": "SE",
+      "population": 16644,
+      "lat": 65.8223,
+      "lon": 21.7084,
+      "type": "locality",
+      "aliases": [],
+      "tags": [],
+      "id": "boden-boden"
+    },
+    {
+      "name": "Nynäshamn",
+      "municipality": "Nynäshamn kommun",
+      "county": "Stockholm län",
+      "country": "SE",
+      "population": 16447,
+      "lat": 58.9077,
+      "lon": 17.9468,
+      "type": "locality",
+      "aliases": [
+        "Nynashamn"
+      ],
+      "tags": [],
+      "id": "nynashamn-nynashamn"
+    },
+    {
+      "name": "Höganäs",
+      "municipality": "Höganäs kommun",
+      "county": "Skåne län",
+      "country": "SE",
+      "population": 16274,
+      "lat": 56.2087,
+      "lon": 12.5506,
+      "type": "locality",
+      "aliases": [
+        "Hoganas"
+      ],
+      "tags": [],
+      "id": "hoganas-hoganas"
+    },
+    {
+      "name": "Bålsta",
+      "municipality": "Håbo kommun",
+      "county": "Uppsala län",
+      "country": "SE",
+      "population": 16205,
+      "lat": 59.5606,
+      "lon": 17.5175,
+      "type": "locality",
+      "aliases": [
+        "Balsta"
+      ],
+      "tags": [],
+      "id": "balsta-habo"
+    },
+    {
+      "name": "Ljungby",
+      "municipality": "Ljungby kommun",
+      "county": "Kronoberg län",
+      "country": "SE",
+      "population": 16076,
+      "lat": 56.8303,
+      "lon": 13.9399,
+      "type": "locality",
+      "aliases": [],
+      "tags": [],
+      "id": "ljungby-ljungby"
+    },
+    {
+      "name": "Avesta",
+      "municipality": "Avesta kommun",
+      "county": "Dalarna län",
+      "country": "SE",
+      "population": 16055,
+      "lat": 60.1459,
+      "lon": 16.1425,
+      "type": "locality",
+      "aliases": [],
+      "tags": [],
+      "id": "avesta-avesta"
+    },
+    {
+      "name": "Ludvika",
+      "municipality": "Ludvika kommun",
+      "county": "Dalarna län",
+      "country": "SE",
+      "population": 15675,
+      "lat": 60.1291,
+      "lon": 15.1943,
+      "type": "locality",
+      "aliases": [],
+      "tags": [],
+      "id": "ludvika-ludvika"
+    },
+    {
+      "name": "Höllviken och Ljunghusen",
+      "municipality": "Vellinge kommun",
+      "county": "Skåne län",
+      "country": "SE",
+      "population": 15669,
+      "lat": 55.4103,
+      "lon": 12.9597,
+      "type": "locality",
+      "aliases": [
+        "Hollviken och Ljunghusen"
+      ],
+      "tags": [],
+      "id": "hollviken-och-ljunghusen-vellinge"
+    },
+    {
+      "name": "Kinna",
+      "municipality": "Mark kommun",
+      "county": "Västra Götaland län",
+      "country": "SE",
+      "population": 15507,
+      "lat": 57.4944,
+      "lon": 12.6765,
+      "type": "locality",
+      "aliases": [],
+      "tags": [],
+      "id": "kinna-mark"
+    },
+    {
+      "name": "Bunkeflostrand",
+      "municipality": "Malmö kommun",
+      "county": "Skåne län",
+      "country": "SE",
+      "population": 15488,
+      "lat": 55.5406,
+      "lon": 12.9192,
+      "type": "locality",
+      "aliases": [],
+      "tags": [],
+      "id": "bunkeflostrand-malmo"
+    },
+    {
+      "name": "Strängnäs",
+      "municipality": "Strängnäs kommun",
+      "county": "Södermanland län",
+      "country": "SE",
+      "population": 15369,
+      "lat": 59.3595,
+      "lon": 17.0336,
+      "type": "locality",
+      "aliases": [
+        "Strangnas"
+      ],
+      "tags": [],
+      "id": "strangnas-strangnas"
+    },
+    {
+      "name": "Tranås",
+      "municipality": "Tranås kommun",
+      "county": "Jönköping län",
+      "country": "SE",
+      "population": 14611,
+      "lat": 58.0313,
+      "lon": 14.9783,
+      "type": "locality",
+      "aliases": [
+        "Tranas"
+      ],
+      "tags": [],
+      "id": "tranas-tranas"
+    },
+    {
+      "name": "Skoghall",
+      "municipality": "Hammarö kommun",
+      "county": "Värmland län",
+      "country": "SE",
+      "population": 14610,
+      "lat": 59.332,
+      "lon": 13.4985,
+      "type": "locality",
+      "aliases": [],
+      "tags": [],
+      "id": "skoghall-hammaro"
+    },
+    {
+      "name": "Stenungsund",
+      "municipality": "Stenungsund kommun",
+      "county": "Västra Götaland län",
+      "country": "SE",
+      "population": 14381,
+      "lat": 58.0606,
+      "lon": 11.8397,
+      "type": "locality",
+      "aliases": [],
+      "tags": [],
+      "id": "stenungsund-stenungsund"
+    },
+    {
+      "name": "Mjölby",
+      "municipality": "Mjölby kommun",
+      "county": "Östergötland län",
+      "country": "SE",
+      "population": 14282,
+      "lat": 58.3316,
+      "lon": 15.1159,
+      "type": "locality",
+      "aliases": [
+        "Mjolby"
+      ],
+      "tags": [],
+      "id": "mjolby-mjolby"
+    },
+    {
+      "name": "Arvika",
+      "municipality": "Arvika kommun",
+      "county": "Värmland län",
+      "country": "SE",
+      "population": 14186,
+      "lat": 59.6589,
+      "lon": 12.599,
+      "type": "locality",
+      "aliases": [],
+      "tags": [],
+      "id": "arvika-arvika"
+    },
+    {
+      "name": "Oxie",
+      "municipality": "Malmö kommun",
+      "county": "Skåne län",
+      "country": "SE",
+      "population": 14040,
+      "lat": 55.5407,
+      "lon": 13.0976,
+      "type": "locality",
+      "aliases": [],
+      "tags": [],
+      "id": "oxie-malmo"
+    },
+    {
+      "name": "Höör",
+      "municipality": "Höör kommun",
+      "county": "Skåne län",
+      "country": "SE",
+      "population": 14004,
+      "lat": 55.9239,
+      "lon": 13.5468,
+      "type": "locality",
+      "aliases": [
+        "Hoor"
+      ],
+      "tags": [],
+      "id": "hoor-hoor"
+    },
+    {
+      "name": "Bollnäs",
+      "municipality": "Bollnäs kommun",
+      "county": "Gävleborg län",
+      "country": "SE",
+      "population": 13918,
+      "lat": 61.3399,
+      "lon": 16.386,
+      "type": "locality",
+      "aliases": [
+        "Bollnas"
+      ],
+      "tags": [],
+      "id": "bollnas-bollnas"
+    },
+    {
+      "name": "Vetlanda",
+      "municipality": "Vetlanda kommun",
+      "county": "Jönköping län",
+      "country": "SE",
+      "population": 13895,
+      "lat": 57.4218,
+      "lon": 15.0804,
+      "type": "locality",
+      "aliases": [],
+      "tags": [],
+      "id": "vetlanda-vetlanda"
+    },
+    {
+      "name": "Sala",
+      "municipality": "Sala kommun",
+      "county": "Västmanland län",
+      "country": "SE",
+      "population": 13702,
+      "lat": 59.9275,
+      "lon": 16.5855,
+      "type": "locality",
+      "aliases": [],
+      "tags": [],
+      "id": "sala-sala"
+    },
+    {
+      "name": "Lomma",
+      "municipality": "Lomma kommun",
+      "county": "Skåne län",
+      "country": "SE",
+      "population": 13699,
+      "lat": 55.6743,
+      "lon": 13.0764,
+      "type": "locality",
+      "aliases": [],
+      "tags": [],
+      "id": "lomma-lomma"
+    },
+    {
+      "name": "Nybro",
+      "municipality": "Nybro kommun",
+      "county": "Kalmar län",
+      "country": "SE",
+      "population": 13584,
+      "lat": 56.7484,
+      "lon": 15.9113,
+      "type": "locality",
+      "aliases": [],
+      "tags": [],
+      "id": "nybro-nybro"
+    },
+    {
+      "name": "Svedala",
+      "municipality": "Svedala kommun",
+      "county": "Skåne län",
+      "country": "SE",
+      "population": 13433,
+      "lat": 55.5117,
+      "lon": 13.2359,
+      "type": "locality",
+      "aliases": [],
+      "tags": [],
+      "id": "svedala-svedala"
+    },
+    {
+      "name": "Finspång",
+      "municipality": "Finspång kommun",
+      "county": "Östergötland län",
+      "country": "SE",
+      "population": 13186,
+      "lat": 58.7051,
+      "lon": 15.7626,
+      "type": "locality",
+      "aliases": [
+        "Finspang"
+      ],
+      "tags": [],
+      "id": "finspang-finspang"
+    },
+    {
+      "name": "Mora",
+      "municipality": "Mora kommun",
+      "county": "Dalarna län",
+      "country": "SE",
+      "population": 12830,
+      "lat": 61.014,
+      "lon": 14.5638,
+      "type": "locality",
+      "aliases": [],
+      "tags": [],
+      "id": "mora-mora"
+    },
+    {
+      "name": "Ronneby",
+      "municipality": "Ronneby kommun",
+      "county": "Blekinge län",
+      "country": "SE",
+      "population": 12636,
+      "lat": 56.2087,
+      "lon": 15.2818,
+      "type": "locality",
+      "aliases": [],
+      "tags": [],
+      "id": "ronneby-ronneby"
+    },
+    {
+      "name": "Onsala",
+      "municipality": "Kungsbacka kommun",
+      "county": "Halland län",
+      "country": "SE",
+      "population": 12486,
+      "lat": 57.4197,
+      "lon": 12.022,
+      "type": "locality",
+      "aliases": [],
+      "tags": [],
+      "id": "onsala-kungsbacka"
+    },
+    {
+      "name": "Gällivare",
+      "municipality": "Gällivare kommun",
+      "county": "Norrbotten län",
+      "country": "SE",
+      "population": 12385,
+      "lat": 67.1438,
+      "lon": 20.6575,
+      "type": "locality",
+      "aliases": [
+        "Gallivare"
+      ],
+      "tags": [],
+      "id": "gallivare-gallivare"
+    },
+    {
+      "name": "Ekerö",
+      "municipality": "Ekerö kommun",
+      "county": "Stockholm län",
+      "country": "SE",
+      "population": 12270,
+      "lat": 59.281,
+      "lon": 17.7936,
+      "type": "locality",
+      "aliases": [
+        "Ekero"
+      ],
+      "tags": [],
+      "id": "ekero-ekero"
+    },
+    {
+      "name": "Söderhamn",
+      "municipality": "Söderhamn kommun",
+      "county": "Gävleborg län",
+      "country": "SE",
+      "population": 12038,
+      "lat": 61.3113,
+      "lon": 17.0779,
+      "type": "locality",
+      "aliases": [
+        "Soderhamn"
+      ],
+      "tags": [],
+      "id": "soderhamn-soderhamn"
+    },
+    {
+      "name": "Ulricehamn",
+      "municipality": "Ulricehamn kommun",
+      "county": "Västra Götaland län",
+      "country": "SE",
+      "population": 11794,
+      "lat": 57.7882,
+      "lon": 13.4193,
+      "type": "locality",
+      "aliases": [],
+      "tags": [],
+      "id": "ulricehamn-ulricehamn"
+    },
+    {
+      "name": "Fagersta",
+      "municipality": "Fagersta kommun",
+      "county": "Västmanland län",
+      "country": "SE",
+      "population": 11771,
+      "lat": 59.9967,
+      "lon": 15.8049,
+      "type": "locality",
+      "aliases": [],
+      "tags": [],
+      "id": "fagersta-fagersta"
+    },
+    {
+      "name": "Nödinge-Nol",
+      "municipality": "Ale kommun",
+      "county": "Västra Götaland län",
+      "country": "SE",
+      "population": 11658,
+      "lat": 57.9079,
+      "lon": 12.0607,
+      "type": "locality",
+      "aliases": [
+        "Nodinge-Nol"
+      ],
+      "tags": [],
+      "id": "nodinge-nol-ale"
+    },
+    {
+      "name": "Oxelösund",
+      "municipality": "Oxelösund kommun",
+      "county": "Södermanland län",
+      "country": "SE",
+      "population": 11485,
+      "lat": 58.6711,
+      "lon": 17.0826,
+      "type": "locality",
+      "aliases": [
+        "Oxelosund"
+      ],
+      "tags": [],
+      "id": "oxelosund-oxelosund"
+    },
+    {
+      "name": "Skara",
+      "municipality": "Skara kommun",
+      "county": "Västra Götaland län",
+      "country": "SE",
+      "population": 11475,
+      "lat": 58.3825,
+      "lon": 13.4348,
+      "type": "locality",
+      "aliases": [],
+      "tags": [],
+      "id": "skara-skara"
+    },
+    {
+      "name": "Bjuv",
+      "municipality": "Bjuv kommun",
+      "county": "Skåne län",
+      "country": "SE",
+      "population": 11209,
+      "lat": 56.0685,
+      "lon": 12.9517,
+      "type": "locality",
+      "aliases": [],
+      "tags": [],
+      "id": "bjuv-bjuv"
+    },
+    {
+      "name": "Eksjö",
+      "municipality": "Eksjö kommun",
+      "county": "Jönköping län",
+      "country": "SE",
+      "population": 11077,
+      "lat": 57.6605,
+      "lon": 14.9685,
+      "type": "locality",
+      "aliases": [
+        "Eksjo"
+      ],
+      "tags": [],
+      "id": "eksjo-eksjo"
+    },
+    {
+      "name": "Älmhult",
+      "municipality": "Älmhult kommun",
+      "county": "Kronoberg län",
+      "country": "SE",
+      "population": 11053,
+      "lat": 56.5572,
+      "lon": 14.1368,
+      "type": "locality",
+      "aliases": [
+        "Almhult"
+      ],
+      "tags": [],
+      "id": "almhult-almhult"
+    },
+    {
+      "name": "Arboga",
+      "municipality": "Arboga kommun",
+      "county": "Västmanland län",
+      "country": "SE",
+      "population": 10906,
+      "lat": 59.3953,
+      "lon": 15.8542,
+      "type": "locality",
+      "aliases": [],
+      "tags": [],
+      "id": "arboga-arboga"
+    },
+    {
+      "name": "Åhus",
+      "municipality": "Kristianstad kommun",
+      "county": "Skåne län",
+      "country": "SE",
+      "population": 10877,
+      "lat": 55.9268,
+      "lon": 14.297,
+      "type": "locality",
+      "aliases": [
+        "Ahus"
+      ],
+      "tags": [],
+      "id": "ahus-kristianstad"
+    },
+    {
+      "name": "Kävlinge",
+      "municipality": "Kävlinge kommun",
+      "county": "Skåne län",
+      "country": "SE",
+      "population": 10453,
+      "lat": 55.7961,
+      "lon": 13.114,
+      "type": "locality",
+      "aliases": [
+        "Kavlinge"
+      ],
+      "tags": [],
+      "id": "kavlinge-kavlinge"
+    },
+    {
+      "name": "Sigtuna",
+      "municipality": "Sigtuna kommun",
+      "county": "Stockholm län",
+      "country": "SE",
+      "population": 10407,
+      "lat": 59.6183,
+      "lon": 17.7213,
+      "type": "locality",
+      "aliases": [],
+      "tags": [],
+      "id": "sigtuna-sigtuna"
+    },
+    {
+      "name": "Hallstahammar",
+      "municipality": "Hallstahammar kommun",
+      "county": "Västmanland län",
+      "country": "SE",
+      "population": 10147,
+      "lat": 59.6149,
+      "lon": 16.2355,
+      "type": "locality",
+      "aliases": [],
+      "tags": [],
+      "id": "hallstahammar-hallstahammar"
+    },
+    {
+      "name": "Åstorp",
+      "municipality": "Åstorp kommun",
+      "county": "Skåne län",
+      "country": "SE",
+      "population": 10063,
+      "lat": 56.1364,
+      "lon": 12.9335,
+      "type": "locality",
+      "aliases": [
+        "Astorp"
+      ],
+      "tags": [],
+      "id": "astorp-astorp"
+    },
+    {
+      "name": "Gislaved",
+      "municipality": "Gislaved kommun",
+      "county": "Jönköping län",
+      "country": "SE",
+      "population": 10029,
+      "lat": 57.3027,
+      "lon": 13.5469,
+      "type": "locality",
+      "aliases": [],
+      "tags": [],
+      "id": "gislaved-gislaved"
+    },
+    {
+      "name": "Landvetter",
+      "municipality": "Härryda kommun",
+      "county": "Västra Götaland län",
+      "country": "SE",
+      "population": 9999,
+      "lat": 57.6809,
+      "lon": 12.2155,
+      "type": "locality",
+      "aliases": [],
+      "tags": [],
+      "id": "landvetter-harryda"
+    },
+    {
+      "name": "Bjärred",
+      "municipality": "Lomma kommun",
+      "county": "Skåne län",
+      "country": "SE",
+      "population": 9816,
+      "lat": 55.7168,
+      "lon": 13.0318,
+      "type": "locality",
+      "aliases": [
+        "Bjarred"
+      ],
+      "tags": [],
+      "id": "bjarred-lomma"
+    },
+    {
+      "name": "Knivsta",
+      "municipality": "Knivsta kommun",
+      "county": "Uppsala län",
+      "country": "SE",
+      "population": 9771,
+      "lat": 59.7264,
+      "lon": 17.7939,
+      "type": "locality",
+      "aliases": [],
+      "tags": [],
+      "id": "knivsta-knivsta"
+    },
+    {
+      "name": "Sävja",
+      "municipality": "Uppsala kommun",
+      "county": "Uppsala län",
+      "country": "SE",
+      "population": 9614,
+      "lat": 59.815,
+      "lon": 17.7046,
+      "type": "locality",
+      "aliases": [
+        "Savja"
+      ],
+      "tags": [],
+      "id": "savja-uppsala"
+    },
+    {
+      "name": "Lindesberg",
+      "municipality": "Lindesberg kommun",
+      "county": "Örebro län",
+      "country": "SE",
+      "population": 9575,
+      "lat": 59.5904,
+      "lon": 15.1932,
+      "type": "locality",
+      "aliases": [],
+      "tags": [],
+      "id": "lindesberg-lindesberg"
+    },
+    {
+      "name": "Habo",
+      "municipality": "Habo kommun",
+      "county": "Jönköping län",
+      "country": "SE",
+      "population": 9499,
+      "lat": 57.9042,
+      "lon": 14.0855,
+      "type": "locality",
+      "aliases": [],
+      "tags": [],
+      "id": "habo-habo"
+    },
+    {
+      "name": "Bro",
+      "municipality": "Upplands-Bro kommun",
+      "county": "Stockholm län",
+      "country": "SE",
+      "population": 9440,
+      "lat": 59.5187,
+      "lon": 17.6374,
+      "type": "locality",
+      "aliases": [],
+      "tags": [],
+      "id": "bro-upplands-bro"
+    },
+    {
+      "name": "Saltsjöbaden",
+      "municipality": "Nacka kommun",
+      "county": "Stockholm län",
+      "country": "SE",
+      "population": 9409,
+      "lat": 59.2776,
+      "lon": 18.2919,
+      "type": "locality",
+      "aliases": [
+        "Saltsjobaden"
+      ],
+      "tags": [],
+      "id": "saltsjobaden-nacka"
+    },
+    {
+      "name": "Skurup",
+      "municipality": "Skurup kommun",
+      "county": "Skåne län",
+      "country": "SE",
+      "population": 9233,
+      "lat": 55.4893,
+      "lon": 13.503,
+      "type": "locality",
+      "aliases": [],
+      "tags": [],
+      "id": "skurup-skurup"
+    },
+    {
+      "name": "Alvesta",
+      "municipality": "Alvesta kommun",
+      "county": "Kronoberg län",
+      "country": "SE",
+      "population": 9172,
+      "lat": 56.9012,
+      "lon": 14.5526,
+      "type": "locality",
+      "aliases": [],
+      "tags": [],
+      "id": "alvesta-alvesta"
+    },
+    {
+      "name": "Torshälla",
+      "municipality": "Eskilstuna kommun",
+      "county": "Södermanland län",
+      "country": "SE",
+      "population": 9167,
+      "lat": 59.4337,
+      "lon": 16.4562,
+      "type": "locality",
+      "aliases": [
+        "Torshalla"
+      ],
+      "tags": [],
+      "id": "torshalla-eskilstuna"
+    },
+    {
+      "name": "Hönö och Öckerö",
+      "municipality": "Öckerö kommun",
+      "county": "Västra Götaland län",
+      "country": "SE",
+      "population": 9114,
+      "lat": 57.7022,
+      "lon": 11.6449,
+      "type": "locality",
+      "aliases": [
+        "Hono och Ockero"
+      ],
+      "tags": [],
+      "id": "hono-och-ockero-ockero"
+    },
+    {
+      "name": "Klippan",
+      "municipality": "Klippan kommun",
+      "county": "Skåne län",
+      "country": "SE",
+      "population": 9049,
+      "lat": 56.1354,
+      "lon": 13.1545,
+      "type": "locality",
+      "aliases": [],
+      "tags": [],
+      "id": "klippan-klippan"
+    },
+    {
+      "name": "Bankeryd",
+      "municipality": "Jönköping kommun",
+      "county": "Jönköping län",
+      "country": "SE",
+      "population": 8997,
+      "lat": 57.8499,
+      "lon": 14.1162,
+      "type": "locality",
+      "aliases": [],
+      "tags": [],
+      "id": "bankeryd-jonkoping"
+    },
+    {
+      "name": "Åmål",
+      "municipality": "Åmål kommun",
+      "county": "Västra Götaland län",
+      "country": "SE",
+      "population": 8954,
+      "lat": 59.0516,
+      "lon": 12.6963,
+      "type": "locality",
+      "aliases": [
+        "Amal"
+      ],
+      "tags": [],
+      "id": "amal-amal"
+    },
+    {
+      "name": "Säffle",
+      "municipality": "Säffle kommun",
+      "county": "Värmland län",
+      "country": "SE",
+      "population": 8823,
+      "lat": 59.1323,
+      "lon": 12.9169,
+      "type": "locality",
+      "aliases": [
+        "Saffle"
+      ],
+      "tags": [],
+      "id": "saffle-saffle"
+    },
+    {
+      "name": "Sölvesborg",
+      "municipality": "Sölvesborg kommun",
+      "county": "Blekinge län",
+      "country": "SE",
+      "population": 8744,
+      "lat": 56.0476,
+      "lon": 14.5562,
+      "type": "locality",
+      "aliases": [
+        "Solvesborg"
+      ],
+      "tags": [],
+      "id": "solvesborg-solvesborg"
+    },
+    {
+      "name": "Tibro",
+      "municipality": "Tibro kommun",
+      "county": "Västra Götaland län",
+      "country": "SE",
+      "population": 8588,
+      "lat": 58.4173,
+      "lon": 14.157,
+      "type": "locality",
+      "aliases": [],
+      "tags": [],
+      "id": "tibro-tibro"
+    },
+    {
+      "name": "Lycksele",
+      "municipality": "Lycksele kommun",
+      "county": "Västerbotten län",
+      "country": "SE",
+      "population": 8580,
+      "lat": 64.5916,
+      "lon": 18.669,
+      "type": "locality",
+      "aliases": [],
+      "tags": [],
+      "id": "lycksele-lycksele"
+    },
+    {
+      "name": "Sjöbo",
+      "municipality": "Sjöbo kommun",
+      "county": "Skåne län",
+      "country": "SE",
+      "population": 8565,
+      "lat": 55.6313,
+      "lon": 13.6853,
+      "type": "locality",
+      "aliases": [
+        "Sjobo"
+      ],
+      "tags": [],
+      "id": "sjobo-sjobo"
+    },
+    {
+      "name": "Nykvarn",
+      "municipality": "Nykvarn kommun",
+      "county": "Stockholm län",
+      "country": "SE",
+      "population": 8508,
+      "lat": 59.1717,
+      "lon": 17.442,
+      "type": "locality",
+      "aliases": [],
+      "tags": [],
+      "id": "nykvarn-nykvarn"
+    },
+    {
+      "name": "Kil",
+      "municipality": "Kil kommun",
+      "county": "Värmland län",
+      "country": "SE",
+      "population": 8381,
+      "lat": 59.521,
+      "lon": 13.2962,
+      "type": "locality",
+      "aliases": [],
+      "tags": [],
+      "id": "kil-kil"
+    },
+    {
+      "name": "Hallsberg",
+      "municipality": "Hallsberg kommun",
+      "county": "Örebro län",
+      "country": "SE",
+      "population": 8321,
+      "lat": 59.0741,
+      "lon": 15.0659,
+      "type": "locality",
+      "aliases": [],
+      "tags": [],
+      "id": "hallsberg-hallsberg"
+    },
+    {
+      "name": "Tidaholm",
+      "municipality": "Tidaholm kommun",
+      "county": "Västra Götaland län",
+      "country": "SE",
+      "population": 8285,
+      "lat": 58.1789,
+      "lon": 13.9587,
+      "type": "locality",
+      "aliases": [],
+      "tags": [],
+      "id": "tidaholm-tidaholm"
+    },
+    {
+      "name": "Sollefteå",
+      "municipality": "Sollefteå kommun",
+      "county": "Västernorrland län",
+      "country": "SE",
+      "population": 8270,
+      "lat": 63.1692,
+      "lon": 17.2676,
+      "type": "locality",
+      "aliases": [
+        "Solleftea"
+      ],
+      "tags": [],
+      "id": "solleftea-solleftea"
+    },
+    {
+      "name": "Kalix",
+      "municipality": "Kalix kommun",
+      "county": "Norrbotten län",
+      "country": "SE",
+      "population": 8226,
+      "lat": 65.8582,
+      "lon": 23.1478,
+      "type": "locality",
+      "aliases": [],
+      "tags": [],
+      "id": "kalix-kalix"
+    },
+    {
+      "name": "Vimmerby",
+      "municipality": "Vimmerby kommun",
+      "county": "Kalmar län",
+      "country": "SE",
+      "population": 8176,
+      "lat": 57.6672,
+      "lon": 15.8524,
+      "type": "locality",
+      "aliases": [],
+      "tags": [],
+      "id": "vimmerby-vimmerby"
+    },
+    {
+      "name": "Bromölla",
+      "municipality": "Bromölla kommun",
+      "county": "Skåne län",
+      "country": "SE",
+      "population": 7905,
+      "lat": 56.0789,
+      "lon": 14.4729,
+      "type": "locality",
+      "aliases": [
+        "Bromolla"
+      ],
+      "tags": [],
+      "id": "bromolla-bromolla"
+    },
+    {
+      "name": "Fisksätra",
+      "municipality": "Nacka kommun",
+      "county": "Stockholm län",
+      "country": "SE",
+      "population": 7897,
+      "lat": 59.2917,
+      "lon": 18.2549,
+      "type": "locality",
+      "aliases": [
+        "Fisksatra"
+      ],
+      "tags": [],
+      "id": "fisksatra-nacka"
+    },
+    {
+      "name": "Strömstad",
+      "municipality": "Strömstad kommun",
+      "county": "Västra Götaland län",
+      "country": "SE",
+      "population": 7836,
+      "lat": 58.9465,
+      "lon": 11.1965,
+      "type": "locality",
+      "aliases": [
+        "Stromstad"
+      ],
+      "tags": [],
+      "id": "stromstad-stromstad"
+    },
+    {
+      "name": "Osby",
+      "municipality": "Osby kommun",
+      "county": "Skåne län",
+      "country": "SE",
+      "population": 7754,
+      "lat": 56.3796,
+      "lon": 13.9974,
+      "type": "locality",
+      "aliases": [],
+      "tags": [],
+      "id": "osby-osby"
+    },
+    {
+      "name": "Olofström",
+      "municipality": "Olofström kommun",
+      "county": "Blekinge län",
+      "country": "SE",
+      "population": 7628,
+      "lat": 56.2773,
+      "lon": 14.5299,
+      "type": "locality",
+      "aliases": [
+        "Olofstrom"
+      ],
+      "tags": [],
+      "id": "olofstrom-olofstrom"
+    },
+    {
+      "name": "Söderköping",
+      "municipality": "Söderköping kommun",
+      "county": "Östergötland län",
+      "country": "SE",
+      "population": 7617,
+      "lat": 58.4775,
+      "lon": 16.3315,
+      "type": "locality",
+      "aliases": [
+        "Soderkoping"
+      ],
+      "tags": [],
+      "id": "soderkoping-soderkoping"
+    },
+    {
+      "name": "Hörby",
+      "municipality": "Hörby kommun",
+      "county": "Skåne län",
+      "country": "SE",
+      "population": 7583,
+      "lat": 55.8468,
+      "lon": 13.6623,
+      "type": "locality",
+      "aliases": [
+        "Horby"
+      ],
+      "tags": [],
+      "id": "horby-horby"
+    },
+    {
+      "name": "Trosa",
+      "municipality": "Trosa kommun",
+      "county": "Södermanland län",
+      "country": "SE",
+      "population": 7540,
+      "lat": 58.8971,
+      "lon": 17.5557,
+      "type": "locality",
+      "aliases": [],
+      "tags": [],
+      "id": "trosa-trosa"
+    },
+    {
+      "name": "Hedemora",
+      "municipality": "Hedemora kommun",
+      "county": "Dalarna län",
+      "country": "SE",
+      "population": 7461,
+      "lat": 60.2809,
+      "lon": 15.9809,
+      "type": "locality",
+      "aliases": [],
+      "tags": [],
+      "id": "hedemora-hedemora"
+    },
+    {
+      "name": "Lysekil",
+      "municipality": "Lysekil kommun",
+      "county": "Västra Götaland län",
+      "country": "SE",
+      "population": 7340,
+      "lat": 58.2817,
+      "lon": 11.4521,
+      "type": "locality",
+      "aliases": [],
+      "tags": [],
+      "id": "lysekil-lysekil"
+    },
+    {
+      "name": "Skanör med Falsterbo",
+      "municipality": "Vellinge kommun",
+      "county": "Skåne län",
+      "country": "SE",
+      "population": 7339,
+      "lat": 55.402,
+      "lon": 12.843,
+      "type": "locality",
+      "aliases": [
+        "Skanor med Falsterbo"
+      ],
+      "tags": [],
+      "id": "skanor-med-falsterbo-vellinge"
+    },
+    {
+      "name": "Vellinge",
+      "municipality": "Vellinge kommun",
+      "county": "Skåne län",
+      "country": "SE",
+      "population": 7274,
+      "lat": 55.4669,
+      "lon": 13.0175,
+      "type": "locality",
+      "aliases": [],
+      "tags": [],
+      "id": "vellinge-vellinge"
+    },
+    {
+      "name": "Tomelilla",
+      "municipality": "Tomelilla kommun",
+      "county": "Skåne län",
+      "country": "SE",
+      "population": 7262,
+      "lat": 55.551,
+      "lon": 13.9483,
+      "type": "locality",
+      "aliases": [],
+      "tags": [],
+      "id": "tomelilla-tomelilla"
+    },
+    {
+      "name": "Ljungsbro",
+      "municipality": "Linköping kommun",
+      "county": "Östergötland län",
+      "country": "SE",
+      "population": 7215,
+      "lat": 58.5066,
+      "lon": 15.5049,
+      "type": "locality",
+      "aliases": [],
+      "tags": [],
+      "id": "ljungsbro-linkoping"
+    },
+    {
+      "name": "Åby",
+      "municipality": "Norrköping kommun",
+      "county": "Östergötland län",
+      "country": "SE",
+      "population": 7173,
+      "lat": 58.6671,
+      "lon": 16.1686,
+      "type": "locality",
+      "aliases": [
+        "Aby"
+      ],
+      "tags": [],
+      "id": "aby-norrkoping"
+    },
+    {
+      "name": "Ljusdal",
+      "municipality": "Ljusdal kommun",
+      "county": "Gävleborg län",
+      "country": "SE",
+      "population": 7125,
+      "lat": 61.8306,
+      "lon": 16.0712,
+      "type": "locality",
+      "aliases": [],
+      "tags": [],
+      "id": "ljusdal-ljusdal"
+    },
+    {
+      "name": "Båstad",
+      "municipality": "Båstad kommun",
+      "county": "Skåne län",
+      "country": "SE",
+      "population": 7073,
+      "lat": 56.4273,
+      "lon": 12.8554,
+      "type": "locality",
+      "aliases": [
+        "Bastad"
+      ],
+      "tags": [],
+      "id": "bastad-bastad"
+    },
+    {
+      "name": "Degerfors",
+      "municipality": "Degerfors kommun",
+      "county": "Örebro län",
+      "country": "SE",
+      "population": 7047,
+      "lat": 59.2384,
+      "lon": 14.4274,
+      "type": "locality",
+      "aliases": [],
+      "tags": [],
+      "id": "degerfors-degerfors"
+    },
+    {
+      "name": "Dalby",
+      "municipality": "Lund kommun",
+      "county": "Skåne län",
+      "country": "SE",
+      "population": 6969,
+      "lat": 55.6652,
+      "lon": 13.3593,
+      "type": "locality",
+      "aliases": [],
+      "tags": [],
+      "id": "dalby-lund"
+    },
+    {
+      "name": "Åtvidaberg",
+      "municipality": "Åtvidaberg kommun",
+      "county": "Östergötland län",
+      "country": "SE",
+      "population": 6963,
+      "lat": 58.1993,
+      "lon": 15.9955,
+      "type": "locality",
+      "aliases": [
+        "Atvidaberg"
+      ],
+      "tags": [],
+      "id": "atvidaberg-atvidaberg"
+    },
+    {
+      "name": "Gråbo",
+      "municipality": "Lerum kommun",
+      "county": "Västra Götaland län",
+      "country": "SE",
+      "population": 6953,
+      "lat": 57.8368,
+      "lon": 12.296,
+      "type": "locality",
+      "aliases": [
+        "Grabo"
+      ],
+      "tags": [],
+      "id": "grabo-lerum"
+    },
+    {
+      "name": "Södra Sandby",
+      "municipality": "Lund kommun",
+      "county": "Skåne län",
+      "country": "SE",
+      "population": 6886,
+      "lat": 55.7201,
+      "lon": 13.3471,
+      "type": "locality",
+      "aliases": [
+        "Sodra Sandby"
+      ],
+      "tags": [],
+      "id": "sodra-sandby-lund"
+    },
+    {
+      "name": "Simrishamn",
+      "municipality": "Simrishamn kommun",
+      "county": "Skåne län",
+      "country": "SE",
+      "population": 6863,
+      "lat": 55.5495,
+      "lon": 14.335,
+      "type": "locality",
+      "aliases": [],
+      "tags": [],
+      "id": "simrishamn-simrishamn"
+    },
+    {
+      "name": "Laholm",
+      "municipality": "Laholm kommun",
+      "county": "Halland län",
+      "country": "SE",
+      "population": 6861,
+      "lat": 56.5045,
+      "lon": 13.0329,
+      "type": "locality",
+      "aliases": [],
+      "tags": [],
+      "id": "laholm-laholm"
+    },
+    {
+      "name": "Vi",
+      "municipality": "Sundsvall kommun",
+      "county": "Västernorrland län",
+      "country": "SE",
+      "population": 6834,
+      "lat": 62.4109,
+      "lon": 17.4165,
+      "type": "locality",
+      "aliases": [],
+      "tags": [],
+      "id": "vi-sundsvall"
+    },
+    {
+      "name": "Löddeköpinge",
+      "municipality": "Kävlinge kommun",
+      "county": "Skåne län",
+      "country": "SE",
+      "population": 6714,
+      "lat": 55.7614,
+      "lon": 13.0069,
+      "type": "locality",
+      "aliases": [
+        "Loddekopinge"
+      ],
+      "tags": [],
+      "id": "loddekopinge-kavlinge"
+    },
+    {
+      "name": "Färjestaden",
+      "municipality": "Mörbylånga kommun",
+      "county": "Kalmar län",
+      "country": "SE",
+      "population": 6674,
+      "lat": 56.6473,
+      "lon": 16.4857,
+      "type": "locality",
+      "aliases": [
+        "Farjestaden"
+      ],
+      "tags": [],
+      "id": "farjestaden-morbylanga"
+    },
+    {
+      "name": "Älvängen",
+      "municipality": "Ale kommun",
+      "county": "Västra Götaland län",
+      "country": "SE",
+      "population": 6634,
+      "lat": 57.9581,
+      "lon": 12.1238,
+      "type": "locality",
+      "aliases": [
+        "Alvangen"
+      ],
+      "tags": [],
+      "id": "alvangen-ale"
+    },
+    {
+      "name": "Nora",
+      "municipality": "Nora kommun",
+      "county": "Örebro län",
+      "country": "SE",
+      "population": 6633,
+      "lat": 59.5132,
+      "lon": 15.0299,
+      "type": "locality",
+      "aliases": [],
+      "tags": [],
+      "id": "nora-nora"
+    },
+    {
+      "name": "Skutskär",
+      "municipality": "Älvkarleby kommun",
+      "county": "Uppsala län",
+      "country": "SE",
+      "population": 6606,
+      "lat": 60.6313,
+      "lon": 17.3764,
+      "type": "locality",
+      "aliases": [
+        "Skutskar"
+      ],
+      "tags": [],
+      "id": "skutskar-alvkarleby"
+    },
+    {
+      "name": "Kramfors",
+      "municipality": "Kramfors kommun",
+      "county": "Västernorrland län",
+      "country": "SE",
+      "population": 6605,
+      "lat": 62.9215,
+      "lon": 17.7723,
+      "type": "locality",
+      "aliases": [],
+      "tags": [],
+      "id": "kramfors-kramfors"
+    },
+    {
+      "name": "Rydebäck",
+      "municipality": "Helsingborg kommun",
+      "county": "Skåne län",
+      "country": "SE",
+      "population": 6597,
+      "lat": 55.9655,
+      "lon": 12.7747,
+      "type": "locality",
+      "aliases": [
+        "Rydeback"
+      ],
+      "tags": [],
+      "id": "rydeback-helsingborg"
+    },
+    {
+      "name": "Surte",
+      "municipality": "Ale kommun",
+      "county": "Västra Götaland län",
+      "country": "SE",
+      "population": 6530,
+      "lat": 57.8369,
+      "lon": 12.0178,
+      "type": "locality",
+      "aliases": [],
+      "tags": [],
+      "id": "surte-ale"
+    },
+    {
+      "name": "Leksand",
+      "municipality": "Leksand kommun",
+      "county": "Dalarna län",
+      "country": "SE",
+      "population": 6505,
+      "lat": 60.7319,
+      "lon": 15.0304,
+      "type": "locality",
+      "aliases": [],
+      "tags": [],
+      "id": "leksand-leksand"
+    },
+    {
+      "name": "Gnesta",
+      "municipality": "Gnesta kommun",
+      "county": "Södermanland län",
+      "country": "SE",
+      "population": 6472,
+      "lat": 59.0472,
+      "lon": 17.3046,
+      "type": "locality",
+      "aliases": [],
+      "tags": [],
+      "id": "gnesta-gnesta"
+    },
+    {
+      "name": "Forshaga",
+      "municipality": "Forshaga kommun",
+      "county": "Värmland län",
+      "country": "SE",
+      "population": 6433,
+      "lat": 59.5306,
+      "lon": 13.485,
+      "type": "locality",
+      "aliases": [],
+      "tags": [],
+      "id": "forshaga-forshaga"
+    },
+    {
+      "name": "Hjo",
+      "municipality": "Hjo kommun",
+      "county": "Västra Götaland län",
+      "country": "SE",
+      "population": 6427,
+      "lat": 58.303,
+      "lon": 14.2762,
+      "type": "locality",
+      "aliases": [],
+      "tags": [],
+      "id": "hjo-hjo"
+    },
+    {
+      "name": "Åkarp",
+      "municipality": "Burlöv kommun",
+      "county": "Skåne län",
+      "country": "SE",
+      "population": 6394,
+      "lat": 55.6548,
+      "lon": 13.1158,
+      "type": "locality",
+      "aliases": [
+        "Akarp"
+      ],
+      "tags": [],
+      "id": "akarp-burlov"
+    },
+    {
+      "name": "Tierp",
+      "municipality": "Tierp kommun",
+      "county": "Uppsala län",
+      "country": "SE",
+      "population": 6346,
+      "lat": 60.3475,
+      "lon": 17.5137,
+      "type": "locality",
+      "aliases": [],
+      "tags": [],
+      "id": "tierp-tierp"
+    },
+    {
+      "name": "Surahammar",
+      "municipality": "Surahammar kommun",
+      "county": "Västmanland län",
+      "country": "SE",
+      "population": 6316,
+      "lat": 59.7055,
+      "lon": 16.2231,
+      "type": "locality",
+      "aliases": [],
+      "tags": [],
+      "id": "surahammar-surahammar"
+    },
+    {
+      "name": "Haparanda",
+      "municipality": "Haparanda kommun",
+      "county": "Norrbotten län",
+      "country": "SE",
+      "population": 6292,
+      "lat": 65.8542,
+      "lon": 24.1041,
+      "type": "locality",
+      "aliases": [],
+      "tags": [],
+      "id": "haparanda-haparanda"
+    },
+    {
+      "name": "Flen",
+      "municipality": "Flen kommun",
+      "county": "Södermanland län",
+      "country": "SE",
+      "population": 6266,
+      "lat": 59.0604,
+      "lon": 16.5916,
+      "type": "locality",
+      "aliases": [],
+      "tags": [],
+      "id": "flen-flen"
+    },
+    {
+      "name": "Storvreta",
+      "municipality": "Uppsala kommun",
+      "county": "Uppsala län",
+      "country": "SE",
+      "population": 6211,
+      "lat": 59.9569,
+      "lon": 17.7054,
+      "type": "locality",
+      "aliases": [],
+      "tags": [],
+      "id": "storvreta-uppsala"
+    },
+    {
+      "name": "Vårgårda",
+      "municipality": "Vårgårda kommun",
+      "county": "Västra Götaland län",
+      "country": "SE",
+      "population": 6198,
+      "lat": 58.0358,
+      "lon": 12.8094,
+      "type": "locality",
+      "aliases": [
+        "Vargarda"
+      ],
+      "tags": [],
+      "id": "vargarda-vargarda"
+    },
+    {
+      "name": "Fristad",
+      "municipality": "Borås kommun",
+      "county": "Västra Götaland län",
+      "country": "SE",
+      "population": 6189,
+      "lat": 57.8138,
+      "lon": 13.0102,
+      "type": "locality",
+      "aliases": [],
+      "tags": [],
+      "id": "fristad-boras"
+    },
+    {
+      "name": "Järna",
+      "municipality": "Södertälje kommun",
+      "county": "Stockholm län",
+      "country": "SE",
+      "population": 6110,
+      "lat": 59.087,
+      "lon": 17.561,
+      "type": "locality",
+      "aliases": [
+        "Jarna"
+      ],
+      "tags": [],
+      "id": "jarna-sodertalje"
+    },
+    {
+      "name": "Kungsör",
+      "municipality": "Kungsör kommun",
+      "county": "Västmanland län",
+      "country": "SE",
+      "population": 6108,
+      "lat": 59.4217,
+      "lon": 16.1087,
+      "type": "locality",
+      "aliases": [
+        "Kungsor"
+      ],
+      "tags": [],
+      "id": "kungsor-kungsor"
+    },
+    {
+      "name": "Åsa",
+      "municipality": "Kungsbacka kommun",
+      "county": "Halland län",
+      "country": "SE",
+      "population": 6102,
+      "lat": 57.3505,
+      "lon": 12.131,
+      "type": "locality",
+      "aliases": [
+        "Asa"
+      ],
+      "tags": [],
+      "id": "asa-kungsbacka"
+    },
+    {
+      "name": "Holmsund",
+      "municipality": "Umeå kommun",
+      "county": "Västerbotten län",
+      "country": "SE",
+      "population": 6064,
+      "lat": 63.7009,
+      "lon": 20.3717,
+      "type": "locality",
+      "aliases": [],
+      "tags": [],
+      "id": "holmsund-umea"
+    },
+    {
+      "name": "Lindsdal",
+      "municipality": "Kalmar kommun",
+      "county": "Kalmar län",
+      "country": "SE",
+      "population": 6061,
+      "lat": 56.7305,
+      "lon": 16.2932,
+      "type": "locality",
+      "aliases": [],
+      "tags": [],
+      "id": "lindsdal-kalmar"
+    },
+    {
+      "name": "Hofors",
+      "municipality": "Hofors kommun",
+      "county": "Gävleborg län",
+      "country": "SE",
+      "population": 6037,
+      "lat": 60.5435,
+      "lon": 16.2948,
+      "type": "locality",
+      "aliases": [],
+      "tags": [],
+      "id": "hofors-hofors"
+    },
+    {
+      "name": "Vaxholm",
+      "municipality": "Vaxholm kommun",
+      "county": "Stockholm län",
+      "country": "SE",
+      "population": 6025,
+      "lat": 59.4085,
+      "lon": 18.3179,
+      "type": "locality",
+      "aliases": [],
+      "tags": [],
+      "id": "vaxholm-vaxholm"
+    },
+    {
+      "name": "Perstorp",
+      "municipality": "Perstorp kommun",
+      "county": "Skåne län",
+      "country": "SE",
+      "population": 5972,
+      "lat": 56.136,
+      "lon": 13.397,
+      "type": "locality",
+      "aliases": [],
+      "tags": [],
+      "id": "perstorp-perstorp"
+    },
+    {
+      "name": "Filipstad",
+      "municipality": "Filipstad kommun",
+      "county": "Värmland län",
+      "country": "SE",
+      "population": 5970,
+      "lat": 59.706,
+      "lon": 14.1611,
+      "type": "locality",
+      "aliases": [],
+      "tags": [],
+      "id": "filipstad-filipstad"
+    },
+    {
+      "name": "Hjärup",
+      "municipality": "Staffanstorp kommun",
+      "county": "Skåne län",
+      "country": "SE",
+      "population": 5948,
+      "lat": 55.6702,
+      "lon": 13.1436,
+      "type": "locality",
+      "aliases": [
+        "Hjarup"
+      ],
+      "tags": [],
+      "id": "hjarup-staffanstorp"
+    },
+    {
+      "name": "Påarp",
+      "municipality": "Helsingborg kommun",
+      "county": "Skåne län",
+      "country": "SE",
+      "population": 5882,
+      "lat": 56.0201,
+      "lon": 12.7967,
+      "type": "locality",
+      "aliases": [
+        "Paarp"
+      ],
+      "tags": [],
+      "id": "paarp-helsingborg"
+    },
+    {
+      "name": "Mullsjö",
+      "municipality": "Mullsjö kommun",
+      "county": "Jönköping län",
+      "country": "SE",
+      "population": 5858,
+      "lat": 57.9151,
+      "lon": 13.8771,
+      "type": "locality",
+      "aliases": [
+        "Mullsjo"
+      ],
+      "tags": [],
+      "id": "mullsjo-mullsjo"
+    },
+    {
+      "name": "Vadstena",
+      "municipality": "Vadstena kommun",
+      "county": "Östergötland län",
+      "country": "SE",
+      "population": 5802,
+      "lat": 58.4461,
+      "lon": 14.8943,
+      "type": "locality",
+      "aliases": [],
+      "tags": [],
+      "id": "vadstena-vadstena"
+    },
+    {
+      "name": "Orsa",
+      "municipality": "Orsa kommun",
+      "county": "Dalarna län",
+      "country": "SE",
+      "population": 5800,
+      "lat": 61.0996,
+      "lon": 14.6503,
+      "type": "locality",
+      "aliases": [],
+      "tags": [],
+      "id": "orsa-orsa"
+    },
+    {
+      "name": "Ödåkra",
+      "municipality": "Helsingborg kommun",
+      "county": "Skåne län",
+      "country": "SE",
+      "population": 5768,
+      "lat": 56.1001,
+      "lon": 12.7532,
+      "type": "locality",
+      "aliases": [
+        "Odakra"
+      ],
+      "tags": [],
+      "id": "odakra-helsingborg"
+    },
+    {
+      "name": "Vaggeryd",
+      "municipality": "Vaggeryd kommun",
+      "county": "Jönköping län",
+      "country": "SE",
+      "population": 5761,
+      "lat": 57.4971,
+      "lon": 14.1357,
+      "type": "locality",
+      "aliases": [],
+      "tags": [],
+      "id": "vaggeryd-vaggeryd"
+    },
+    {
+      "name": "Veberöd",
+      "municipality": "Lund kommun",
+      "county": "Skåne län",
+      "country": "SE",
+      "population": 5647,
+      "lat": 55.6293,
+      "lon": 13.4972,
+      "type": "locality",
+      "aliases": [
+        "Veberod"
+      ],
+      "tags": [],
+      "id": "veberod-lund"
+    },
+    {
+      "name": "Hultsfred",
+      "municipality": "Hultsfred kommun",
+      "county": "Kalmar län",
+      "country": "SE",
+      "population": 5614,
+      "lat": 57.4943,
+      "lon": 15.8411,
+      "type": "locality",
+      "aliases": [],
+      "tags": [],
+      "id": "hultsfred-hultsfred"
+    },
+    {
+      "name": "Sävsjö",
+      "municipality": "Sävsjö kommun",
+      "county": "Jönköping län",
+      "country": "SE",
+      "population": 5581,
+      "lat": 57.3948,
+      "lon": 14.664,
+      "type": "locality",
+      "aliases": [
+        "Savsjo"
+      ],
+      "tags": [],
+      "id": "savsjo-savsjo"
+    },
+    {
+      "name": "Örkelljunga",
+      "municipality": "Örkelljunga kommun",
+      "county": "Skåne län",
+      "country": "SE",
+      "population": 5507,
+      "lat": 56.2855,
+      "lon": 13.2942,
+      "type": "locality",
+      "aliases": [
+        "Orkelljunga"
+      ],
+      "tags": [],
+      "id": "orkelljunga-orkelljunga"
+    },
+    {
+      "name": "Skåre",
+      "municipality": "Karlstad kommun",
+      "county": "Värmland län",
+      "country": "SE",
+      "population": 5415,
+      "lat": 59.4375,
+      "lon": 13.4329,
+      "type": "locality",
+      "aliases": [
+        "Skare"
+      ],
+      "tags": [],
+      "id": "skare-karlstad"
+    },
+    {
+      "name": "Rättvik",
+      "municipality": "Rättvik kommun",
+      "county": "Dalarna län",
+      "country": "SE",
+      "population": 5369,
+      "lat": 60.8691,
+      "lon": 15.1078,
+      "type": "locality",
+      "aliases": [
+        "Rattvik"
+      ],
+      "tags": [],
+      "id": "rattvik-rattvik"
+    },
+    {
+      "name": "Rimbo",
+      "municipality": "Norrtälje kommun",
+      "county": "Stockholm län",
+      "country": "SE",
+      "population": 5346,
+      "lat": 59.7459,
+      "lon": 18.3511,
+      "type": "locality",
+      "aliases": [],
+      "tags": [],
+      "id": "rimbo-norrtalje"
+    },
+    {
+      "name": "Alsike",
+      "municipality": "Knivsta kommun",
+      "county": "Uppsala län",
+      "country": "SE",
+      "population": 5339,
+      "lat": 59.7533,
+      "lon": 17.772,
+      "type": "locality",
+      "aliases": [],
+      "tags": [],
+      "id": "alsike-knivsta"
+    },
+    {
+      "name": "Lindö",
+      "municipality": "Norrköping kommun",
+      "county": "Östergötland län",
+      "country": "SE",
+      "population": 5241,
+      "lat": 58.6062,
+      "lon": 16.2557,
+      "type": "locality",
+      "aliases": [
+        "Lindo"
+      ],
+      "tags": [],
+      "id": "lindo-norrkoping"
+    },
+    {
+      "name": "Smedjebacken",
+      "municipality": "Smedjebacken kommun",
+      "county": "Dalarna län",
+      "country": "SE",
+      "population": 5190,
+      "lat": 60.1466,
+      "lon": 15.3788,
+      "type": "locality",
+      "aliases": [],
+      "tags": [],
+      "id": "smedjebacken-smedjebacken"
+    },
+    {
+      "name": "Kvissleby",
+      "municipality": "Sundsvall kommun",
+      "county": "Västernorrland län",
+      "country": "SE",
+      "population": 5189,
+      "lat": 62.3009,
+      "lon": 17.378,
+      "type": "locality",
+      "aliases": [],
+      "tags": [],
+      "id": "kvissleby-sundsvall"
+    },
+    {
+      "name": "Viken",
+      "municipality": "Höganäs kommun",
+      "county": "Skåne län",
+      "country": "SE",
+      "population": 5162,
+      "lat": 56.1498,
+      "lon": 12.5805,
+      "type": "locality",
+      "aliases": [],
+      "tags": [],
+      "id": "viken-hoganas"
+    },
+    {
+      "name": "Götene",
+      "municipality": "Götene kommun",
+      "county": "Västra Götaland län",
+      "country": "SE",
+      "population": 5153,
+      "lat": 58.5222,
+      "lon": 13.4539,
+      "type": "locality",
+      "aliases": [
+        "Gotene"
+      ],
+      "tags": [],
+      "id": "gotene-gotene"
+    },
+    {
+      "name": "Sunne",
+      "municipality": "Sunne kommun",
+      "county": "Värmland län",
+      "country": "SE",
+      "population": 5138,
+      "lat": 59.84,
+      "lon": 13.1427,
+      "type": "locality",
+      "aliases": [],
+      "tags": [],
+      "id": "sunne-sunne"
+    },
+    {
+      "name": "Mönsterås",
+      "municipality": "Mönsterås kommun",
+      "county": "Kalmar län",
+      "country": "SE",
+      "population": 5127,
+      "lat": 57.0398,
+      "lon": 16.4487,
+      "type": "locality",
+      "aliases": [
+        "Monsteras"
+      ],
+      "tags": [],
+      "id": "monsteras-monsteras"
+    },
+    {
+      "name": "Krokek",
+      "municipality": "Norrköping kommun",
+      "county": "Östergötland län",
+      "country": "SE",
+      "population": 5125,
+      "lat": 58.677,
+      "lon": 16.3703,
+      "type": "locality",
+      "aliases": [],
+      "tags": [],
+      "id": "krokek-norrkoping"
+    },
+    {
+      "name": "Markaryd",
+      "municipality": "Markaryd kommun",
+      "county": "Kronoberg län",
+      "country": "SE",
+      "population": 5085,
+      "lat": 56.4637,
+      "lon": 13.5913,
+      "type": "locality",
+      "aliases": [],
+      "tags": [],
+      "id": "markaryd-markaryd"
+    },
+    {
+      "name": "Anderstorp",
+      "municipality": "Gislaved kommun",
+      "county": "Jönköping län",
+      "country": "SE",
+      "population": 5026,
+      "lat": 57.2807,
+      "lon": 13.6271,
+      "type": "locality",
+      "aliases": [],
+      "tags": [],
+      "id": "anderstorp-gislaved"
+    },
+    {
+      "name": "Taberg",
+      "municipality": "Jönköping kommun",
+      "county": "Jönköping län",
+      "country": "SE",
+      "population": 5010,
+      "lat": 57.6708,
+      "lon": 14.0802,
+      "type": "locality",
+      "aliases": [],
+      "tags": [],
+      "id": "taberg-jonkoping"
+    },
+    {
+      "name": "Gränna",
+      "municipality": "Jönköping kommun",
+      "county": "Jönköping län",
+      "country": "SE",
+      "population": 2649,
+      "lat": 58.021,
+      "lon": 14.4685,
+      "type": "destination",
+      "aliases": [
+        "Granna"
+      ],
+      "tags": [
+        "destination",
+        "heritage"
+      ],
+      "id": "granna-jonkoping"
+    },
+    {
+      "name": "Grebbestad",
+      "municipality": "Tanum kommun",
+      "county": "Västra Götaland län",
+      "country": "SE",
+      "population": 1936,
+      "lat": 58.6921,
+      "lon": 11.2479,
+      "type": "destination",
+      "aliases": [],
+      "tags": [
+        "destination",
+        "summer"
+      ],
+      "id": "grebbestad-tanum"
+    },
+    {
+      "name": "Kivik",
+      "municipality": "Simrishamn kommun",
+      "county": "Skåne län",
+      "country": "SE",
+      "population": 871,
+      "lat": 55.6841,
+      "lon": 14.2209,
+      "type": "destination",
+      "aliases": [],
+      "tags": [
+        "destination",
+        "summer"
+      ],
+      "id": "kivik-simrishamn"
+    },
+    {
+      "name": "Fjällbacka",
+      "municipality": "Tanum kommun",
+      "county": "Västra Götaland län",
+      "country": "SE",
+      "population": 816,
+      "lat": 58.5978,
+      "lon": 11.2863,
+      "type": "destination",
+      "aliases": [
+        "Fjallbacka"
+      ],
+      "tags": [
+        "destination",
+        "summer"
+      ],
+      "id": "fjallbacka-tanum"
+    },
+    {
+      "name": "Marstrand",
+      "municipality": "Kungälv kommun",
+      "county": "Västra Götaland län",
+      "country": "SE",
+      "population": 349,
+      "lat": 57.886,
+      "lon": 11.581,
+      "type": "destination",
+      "aliases": [],
+      "tags": [
+        "destination",
+        "summer"
+      ],
+      "id": "marstrand-kungalv"
+    },
+    {
+      "name": "Abisko",
+      "municipality": "Kiruna kommun",
+      "county": "Norrbottens län",
+      "country": "SE",
+      "type": "destination",
+      "population": null,
+      "lat": 68.353,
+      "lon": 18.829,
+      "aliases": [
+        "Abisko turiststation"
+      ],
+      "tags": [
+        "destination",
+        "nature"
+      ],
+      "id": "abisko-kiruna"
+    },
+    {
+      "name": "Falsterbo",
+      "municipality": "Vellinge kommun",
+      "county": "Skåne län",
+      "country": "SE",
+      "type": "destination",
+      "population": null,
+      "lat": 55.385,
+      "lon": 12.822,
+      "aliases": [],
+      "tags": [
+        "destination",
+        "summer"
+      ],
+      "id": "falsterbo-vellinge"
+    },
+    {
+      "name": "Skanör",
+      "municipality": "Vellinge kommun",
+      "county": "Skåne län",
+      "country": "SE",
+      "type": "destination",
+      "population": null,
+      "lat": 55.422,
+      "lon": 12.844,
+      "aliases": [
+        "Skanor"
+      ],
+      "tags": [
+        "destination",
+        "summer"
+      ],
+      "id": "skanor-vellinge"
+    },
+    {
+      "name": "Smögen",
+      "municipality": "Sotenäs kommun",
+      "county": "Västra Götalands län",
+      "country": "SE",
+      "type": "destination",
+      "population": null,
+      "lat": 58.354,
+      "lon": 11.224,
+      "aliases": [
+        "Smogen"
+      ],
+      "tags": [
+        "destination",
+        "summer"
+      ],
+      "id": "smogen-sotenas"
+    },
+    {
+      "name": "Visingsö",
+      "municipality": "Jönköpings kommun",
+      "county": "Jönköpings län",
+      "country": "SE",
+      "type": "destination",
+      "population": null,
+      "lat": 58.097,
+      "lon": 14.403,
+      "aliases": [
+        "Visingso"
+      ],
+      "tags": [
+        "destination",
+        "heritage"
+      ],
+      "id": "visingso-jonkopings"
+    },
+    {
+      "name": "Gotland",
+      "municipality": "Gotlands kommun",
+      "county": "Gotlands län",
+      "country": "SE",
+      "type": "island",
+      "population": null,
+      "lat": 57.4684,
+      "lon": 18.4867,
+      "aliases": [
+        "Gotlands"
+      ],
+      "tags": [
+        "destination",
+        "summer"
+      ],
+      "id": "gotland-gotlands"
+    },
+    {
+      "name": "Öland",
+      "municipality": "Mörbylånga kommun",
+      "county": "Kalmar län",
+      "country": "SE",
+      "type": "island",
+      "population": null,
+      "lat": 56.66,
+      "lon": 16.75,
+      "aliases": [
+        "Oland"
+      ],
+      "tags": [
+        "destination",
+        "summer"
+      ],
+      "id": "oland-morbylanga"
+    },
+    {
+      "name": "Abisko nationalpark",
+      "municipality": "Kiruna kommun",
+      "county": "Norrbottens län",
+      "country": "SE",
+      "type": "national_park",
+      "population": null,
+      "lat": 68.354,
+      "lon": 18.829,
+      "aliases": [
+        "Abisko NP"
+      ],
+      "tags": [
+        "destination",
+        "nature"
+      ],
+      "id": "abisko-nationalpark-kiruna"
+    },
+    {
+      "name": "Fulufjället nationalpark",
+      "municipality": "Älvdalens kommun",
+      "county": "Dalarnas län",
+      "country": "SE",
+      "type": "national_park",
+      "population": null,
+      "lat": 61.67,
+      "lon": 12.73,
+      "aliases": [
+        "Fulufjallet NP",
+        "Fulufjallet nationalpark"
+      ],
+      "tags": [
+        "destination",
+        "nature"
+      ],
+      "id": "fulufjallet-nationalpark-alvdalens"
+    },
+    {
+      "name": "Sarek nationalpark",
+      "municipality": "Jokkmokks kommun",
+      "county": "Norrbottens län",
+      "country": "SE",
+      "type": "national_park",
+      "population": null,
+      "lat": 67.35,
+      "lon": 17.55,
+      "aliases": [
+        "Sarek NP"
+      ],
+      "tags": [
+        "destination",
+        "nature"
+      ],
+      "id": "sarek-nationalpark-jokkmokks"
+    },
+    {
+      "name": "Skuleskogen nationalpark",
+      "municipality": "Örnsköldsviks kommun",
+      "county": "Västernorrlands län",
+      "country": "SE",
+      "type": "national_park",
+      "population": null,
+      "lat": 63.12,
+      "lon": 18.5,
+      "aliases": [
+        "Skuleskogen NP"
+      ],
+      "tags": [
+        "destination",
+        "nature"
+      ],
+      "id": "skuleskogen-nationalpark-ornskoldsviks"
+    },
+    {
+      "name": "Söderåsen nationalpark",
+      "municipality": "Svalövs kommun",
+      "county": "Skåne län",
+      "country": "SE",
+      "type": "national_park",
+      "population": null,
+      "lat": 56.03,
+      "lon": 13.24,
+      "aliases": [
+        "Soderasen NP",
+        "Soderasen nationalpark"
+      ],
+      "tags": [
+        "destination",
+        "nature"
+      ],
+      "id": "soderasen-nationalpark-svalovs"
+    },
+    {
+      "name": "Tiveden nationalpark",
+      "municipality": "Laxå kommun",
+      "county": "Örebro län",
+      "country": "SE",
+      "type": "national_park",
+      "population": null,
+      "lat": 58.77,
+      "lon": 14.7,
+      "aliases": [
+        "Tiveden NP"
+      ],
+      "tags": [
+        "destination",
+        "nature"
+      ],
+      "id": "tiveden-nationalpark-laxa"
+    }
+  ]
+}

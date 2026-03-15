@@ -18,7 +18,7 @@
     <div class="wrap topbar-inner">
       <a class="brand" href="/" aria-label="Kly startsida">
         <span class="brand-mark">Kly</span>
-        <span class="brand-tag">vädret, helt enkelt</span>
+        <span class="brand-tag">vädret, helt enkelt.</span>
       </a>
 
       <div class="search-shell">
@@ -100,14 +100,13 @@
           <tbody id="pollenTableBody"></tbody>
         </table>
       </div>
-      <p class="legend">Teckenförklaring: <strong>-</strong> ingen · <strong>L</strong> låg · <strong>M</strong> måttlig · <strong>H</strong> hög</p>
+      <p class="legend">Teckenförklaring: <span class="level none">-</span> ingen · <span class="level low">L</span> låg · <span class="level moderate">M</span> måttlig · <span class="level high">H</span> hög</p>
     </section>
 
     <section id="uv" class="card" aria-labelledby="uvHeading">
       <h2 id="uvHeading" class="section-title">UV</h2>
       <p id="uvSummary" class="helper">UV är högst runt 13:00 idag.</p>
       <div class="uv-chart-wrap">
-        <div class="uv-y-label">UV-index</div>
         <svg id="uvChart" viewBox="0 0 760 260" role="img" aria-labelledby="uvChartTitle uvChartDesc" focusable="false">
           <title id="uvChartTitle">UV-graf för idag</title>
           <desc id="uvChartDesc">Graf med tid på x-axeln och UV-index på y-axeln.</desc>
@@ -132,7 +131,7 @@
             <tr>
               <th scope="col">Dag</th>
               <th scope="col">Väder</th>
-              <th scope="col">Temperatur</th>
+              <th scope="col">Temp</th>
               <th scope="col">Nederbörd</th>
               <th scope="col">Vind</th>
             </tr>

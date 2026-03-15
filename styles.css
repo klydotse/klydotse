@@ -4,7 +4,7 @@
   --surface: #ffffff;
   --surface-2: #f8fafc;
   --text: #162033;
-  --muted: #5f6b7a;
+  --muted: #505c6b;
   --border: #d8e0ea;
   --accent: #4b7ff3;
   --accent-soft: rgba(75, 127, 243, 0.10);
@@ -31,7 +31,7 @@
     --shadow: 0 14px 40px rgba(0, 0, 0, 0.28);
     --warning-bg: #332912;
     --warning-border: #7c6530;
-    --pill-bg: #172334;
+    --pill-bg: #1f2d42;
     --low: rgba(88, 130, 88, 0.35);
     --moderate: rgba(171, 142, 43, 0.35);
     --high: rgba(164, 84, 84, 0.35);
@@ -81,7 +81,14 @@ a { color: inherit; }
 .search-item { cursor: pointer; }
 .search-item:hover, .search-item[aria-selected="true"] { background: var(--accent-soft); }
 .page { padding: 26px 0 40px; display: grid; gap: 18px; }
-.card, .warning { background: var(--surface); border: 1px solid var(--border); border-radius: 24px; padding: 20px; box-shadow: var(--shadow); }
+.card, .warning { 
+  min-width: 0; /* <--- THIS IS THE MAGIC FIX */
+  background: var(--surface); 
+  border: 1px solid var(--border); 
+  border-radius: 24px; 
+  padding: 20px; 
+  box-shadow: var(--shadow); 
+}
 .hidden { display: none; }
 .warning { display: grid; grid-template-columns: 28px 1fr; gap: 12px; background: var(--warning-bg); border-color: var(--warning-border); }
 .warning h2 { margin: 0 0 2px; font-size: 1rem; }

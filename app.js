@@ -133,9 +133,25 @@ function renderHourly(hours) {
 function renderPollen(rows) {
   const tbody = document.getElementById('pollenTableBody');
   tbody.innerHTML = '';
-  rows.forEach(([type, ...levels]) => {
+  
+  // FIX 3: Season lookup dictionary
+  const seasons = {
+    'Al': 'Feb–Apr', 'Hassel': 'Feb–Apr', 'Björk': 'Apr–Jun',
+    'Bok': 'Maj', 'Ek': 'Maj–Jun', 'Gräs': 'Maj–Sep',
+    'Gråbo': 'Jul–Sep', 'Sälg/Vide': 'Apr–Maj', 'Alm': 'Apr–Maj'
+  };
+
+  // FIX 3: Sort by highest value today
+  const weight = { 'H': 3, 'M': 2, 'L': 1, '-': 0 };
+  const sortedRows = [...rows].sort((a, b) => weight[b[1]] - weight[a[1]]);
+
+  sortedRows.forEach(([type, ...levels]) => {
     const tr = document.createElement('tr');
-    tr.innerHTML = `<td>${type}</td>` + levels.map(l => `<td><span class="level ${levelClass(l)}">${l}</span></td>`).join('');
+    const seasonText = seasons[type] || '';
+    
+    tr.innerHTML = `<td>${type}</td>` + 
+                   levels.map(l => `<td><span class="level ${levelClass(l)}">${l}</span></td>`).join('') +
+                   `<td class="hide-mobile" style="color: var(--muted); font-size: 0.9rem;">${seasonText}</td>`;
     tbody.appendChild(tr);
   });
 }
@@ -146,15 +162,24 @@ function renderDaily(days) {
   days.forEach((row, index) => {
     const [day, weather, icon, temp, precip, wind] = row;
     const tr = document.createElement('tr');
+    
+    // FIX 1: The <span class="weather-label hide-mobile"> wraps the text 
+    // so it disappears on phones, leaving just the icon.
     tr.innerHTML = `
       <td class="${index === 0 ? 'mark-today' : ''}">${day}</td>
-      <td><div class="weather-cell"><img src="${ICONS[icon] || iconForWeather(weather)}" alt="" /><span>${weather}</span></div></td>
+      <td>
+        <div class="weather-cell">
+          <img src="${ICONS[icon] || iconForWeather(weather)}" alt="${weather}" />
+          <span class="weather-label hide-mobile">${weather}</span>
+        </div>
+      </td>
       <td>${temp}</td>
       <td>${precip}</td>
       <td>${wind}</td>`;
     tbody.appendChild(tr);
   });
 }
+  
 
 function drawUvChart(points) {
   const svg = document.getElementById('uvChart');

@@ -18,7 +18,7 @@
     <div class="wrap topbar-inner">
       <a class="brand" href="/" aria-label="Kly startsida">
         <span class="brand-mark">Kly</span>
-        <span class="brand-tag">vädret, helt enkelt</span>
+        <span class="brand-tag">vädret, helt enkelt.</span>
       </a>
 
       <div class="search-shell">
@@ -55,12 +55,21 @@
     <section aria-labelledby="insightHeading" class="insights-section">
       <h2 id="insightHeading" class="section-title">Det viktigaste idag</h2>
       <div class="insight-grid">
-        <a class="pill" href="#timprognos"><span class="pill-text" id="pillPrecip">Regn 16–19 2 mm ›</span></a>
+        <a class="pill" href="#timprognos">
+          <span class="pill-text" id="pillPrecip">Regn 16–19 2 mm</span>
+          <span class="pill-arrow" aria-hidden="true">›</span>
+        </a>
         <div class="pill"><span class="pill-text" id="pillFeels">Känns som 3°</span></div>
         <div class="pill"><span class="pill-text" id="pillWind">Vind 8 m/s</span></div>
         <div class="pill"><span class="pill-text" id="pillDaylight">Dagsljus 06:14–18:07</span></div>
-        <a class="pill" href="#pollen"><span class="pill-text" id="pillPollen">Björk måttlig ›</span></a>
-        <a class="pill" href="#uv"><span class="pill-text" id="pillUv">UV lågt 1.4 ›</span></a>
+        <a class="pill" href="#pollen">
+          <span class="pill-text" id="pillPollen">Björk måttlig</span>
+          <span class="pill-arrow" aria-hidden="true">›</span>
+        </a>
+        <a class="pill" href="#uv">
+          <span class="pill-text" id="pillUv">UV lågt 1.4</span>
+          <span class="pill-arrow" aria-hidden="true">›</span>
+        </a>
       </div>
     </section>
 
@@ -77,7 +86,7 @@
       <h2 id="pollenHeading" class="section-title">Pollen</h2>
       <p id="pollenSummary" class="helper">Björk är högst idag.</p>
       <div class="table-wrap">
-        <table class="kly-table" aria-label="Pollenprognos för fyra dagar">
+        <table class="kly-table table-pollen" aria-label="Pollenprognos för fyra dagar">
           <thead>
             <tr>
               <th scope="col">Typ</th>
@@ -85,19 +94,19 @@
               <th scope="col">Imorgon</th>
               <th scope="col" id="pollenDay3Label">Ons</th>
               <th scope="col" id="pollenDay4Label">Tors</th>
+              <th scope="col" class="hide-mobile">Säsong</th>
             </tr>
           </thead>
           <tbody id="pollenTableBody"></tbody>
         </table>
       </div>
-      <p class="legend">Teckenförklaring: <strong>-</strong> ingen · <strong>L</strong> låg · <strong>M</strong> måttlig · <strong>H</strong> hög</p>
+      <p class="legend">Teckenförklaring: <span class="level none">-</span> ingen · <span class="level low">L</span> låg · <span class="level moderate">M</span> måttlig · <span class="level high">H</span> hög</p>
     </section>
 
     <section id="uv" class="card" aria-labelledby="uvHeading">
       <h2 id="uvHeading" class="section-title">UV</h2>
       <p id="uvSummary" class="helper">UV är högst runt 13:00 idag.</p>
       <div class="uv-chart-wrap">
-        <div class="uv-y-label">UV-index</div>
         <svg id="uvChart" viewBox="0 0 760 260" role="img" aria-labelledby="uvChartTitle uvChartDesc" focusable="false">
           <title id="uvChartTitle">UV-graf för idag</title>
           <desc id="uvChartDesc">Graf med tid på x-axeln och UV-index på y-axeln.</desc>
@@ -122,7 +131,7 @@
             <tr>
               <th scope="col">Dag</th>
               <th scope="col">Väder</th>
-              <th scope="col">Temperatur</th>
+              <th scope="col">Temp</th>
               <th scope="col">Nederbörd</th>
               <th scope="col">Vind</th>
             </tr>

@@ -1393,10 +1393,10 @@ async function fetchSwedenPollen(place) {
 
   const endDate = plusDays(startDate, 3);
   const urls = [
-    `https://api.pollenrapporten.se/v1/forecasts?region_id=${encodeURIComponent(region.id)}&start_date=${startDate}&end_date=${endDate}&current=true`,
-    `https://api.pollenrapporten.se/v1/forecasts?region_id=${encodeURIComponent(region.id)}&start_date=${startDate}&end_date=${endDate}`,
-    `https://api.pollenrapporten.se/v1/forecasts?region_id=${encodeURIComponent(region.id)}&current=true`
-  ];
+  `https://api.pollenrapporten.se/v1/forecasts?region_id=${encodeURIComponent(region.id)}&start_date=${startDate}&end_date=${endDate}`,
+  `https://api.pollenrapporten.se/v1/forecasts?region_id=${encodeURIComponent(region.id)}&start_date=${startDate}&end_date=${endDate}&current=true`,
+  `https://api.pollenrapporten.se/v1/forecasts?region_id=${encodeURIComponent(region.id)}&current=true`
+];
 
   let payload = null;
   let lastError = null;

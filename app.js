@@ -1350,14 +1350,54 @@ function parsePollenForecastPayload(payload, meta, regionName, startDate) {
     if (registerEntry(node, nodeDate, nextContext)) parsedAny = true;
 
     [
-      'levelSeries', 'level_series', 'series',
-      'values', 'levels', 'entries', 'data',
-      'pollen_levels', 'pollenLevels',
-      'current_values', 'currentValues'
-    ].forEach((key) => {
-      const child = node[key];
-      if (child !== undefined && walkNode(child, nodeDate, nextContext, depth + 1)) parsedAny = true;
-    });
+  'levelSeries', 'level_series', 'series',
+  'values', 'levels', 'entries', 'items', 'data',
+  'pollen_levels', 'pollenLevels',
+  'current_values', 'currentValues',
+  'forecasts', 'forecast', 'days', 'daily',
+  'types', 'pollen_types', 'pollenTypes'
+].forEach((key) => {
+  const child = node[key];
+  if (child !== undefined && walkNode(child, nodeDate, nextContext, depth + 1)) {
+    parsedAny = true;
+  }
+});
+
+// Fallback: also walk generic object entries
+Object.entries(node).forEach(([key, value], index) => {
+  if ([
+    'levelSeries', 'level_series', 'series',
+    'values', 'levels', 'entries', 'items', 'data',
+    'pollen_levels', 'pollenLevels',
+    'current_values', 'currentValues',
+    'forecasts', 'forecast', 'days', 'daily',
+    'types', 'pollen_types', 'pollenTypes',
+    'summary', 'description', 'text', 'message',
+    'forecast_text', 'forecastText'
+  ].includes(key)) {
+    return;
+  }
+
+  if (!safeObject(value) && !Array.isArray(value)) return;
+
+  const keyDate =
+    coerceDateOnly(key) ||
+    (/^today|idag$/i.test(key) ? dayOrder[0] : '') ||
+    (/^tomorrow|imorgon$/i.test(key) ? dayOrder[1] : '') ||
+    (/^day2$/i.test(key) ? dayOrder[1] : '') ||
+    (/^day3$/i.test(key) ? dayOrder[2] : '') ||
+    (/^day4$/i.test(key) ? dayOrder[3] : '') ||
+    nodeDate;
+
+  const keyLooksLikePollen = canonicalPollenRowName(key);
+  const keyContext = keyLooksLikePollen
+    ? { ...nextContext, pollenName: key }
+    : { ...nextContext, seriesIndex: index };
+
+  if (walkNode(value, keyDate, keyContext, depth + 1)) {
+    parsedAny = true;
+  }
+});
 
     return parsedAny;
   };

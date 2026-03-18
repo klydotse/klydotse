@@ -552,7 +552,7 @@ function getUvPeakText(points, peakOverride = null) {
 }
 
 function getUvProtectionNote() {
-  return 'Rekommendation från Strålsäkerhetsmyndigheten är att de flesta bör skydda sig när <strong>UV-index är 3</strong>.';
+  return 'Rekommendation från Strålsäkerhetsmyndigheten är att de flesta bör skydda sig när <strong>UV-index är 3 eller högre</strong>.';
 }
 
 function getHeroLead(data) {

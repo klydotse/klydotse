@@ -1,4 +1,4 @@
-const KLY_CACHE = 'kly-shell-v2';
+const KLY_CACHE = 'kly-shell-v3';
 const SHELL_ASSETS = [
   './',
   './index.html',

@@ -297,7 +297,7 @@ const POLLEN_SWEDEN_STATIONS = [
 
 
 const DAY_NAMES = ['Sön', 'Mån', 'Tis', 'Ons', 'Tors', 'Fre', 'Lör'];
-const state = { slug: 'stockholm', selectedIndex: -1, results: [], places: [], placeIndex: new Map(), liveCache: new Map(), geocodeCache: new Map(), remoteSearchCache: new Map(), pollenForecastCache: new Map(), pollenMetaPromise: null, renderToken: 0, searchToken: 0, activePlace: null };
+const state = { slug: 'stockholm', selectedIndex: -1, results: [], places: [], placeIndex: new Map(), liveCache: new Map(), geocodeCache: new Map(), remoteSearchCache: new Map(), pollenForecastCache: new Map(), metUvCache: new Map(), pollenMetaPromise: null, renderToken: 0, searchToken: 0, activePlace: null };
 
 
 const INITIAL_PLACE = {
@@ -523,16 +523,17 @@ function getUvPeakInfo(points) {
   };
 }
 
-function getUvPeakText(points) {
+function getUvPeakText(points, peakOverride = null) {
   if (!Array.isArray(points) || !points.length) return 'Högst idag 0,0 kl. 12';
-  const peak = getUvPeakInfo(points);
-  const label = points[peak.maxIndex]?.[0] || '12';
-  return `Högst idag ${formatDecimalSv(Math.max(0, peak.maxValue))} kl. ${label}`;
+  const peak = resolveUvPeak(points, peakOverride);
+  return `Högst idag ${formatDecimalSv(Math.max(0, peak.maxValue))} kl. ${peak.label}`;
 }
 
-function getUvProtectionNote(points) {
-  const peak = getUvPeakInfo(points);
-  return peak.maxValue >= 3 ? 'Tänk på skydd mitt på dagen' : '';
+function getUvProtectionNote(points, peakOverride = null) {
+  const peak = resolveUvPeak(points, peakOverride);
+  if (peak.maxValue >= 6) return 'Skydd behövs mitt på dagen.';
+  if (peak.maxValue >= 3) return 'Skydd kan behövas mitt på dagen.';
+  return '';
 }
 
 function getHeroLead(data) {
@@ -540,7 +541,7 @@ function getHeroLead(data) {
   return getMeaningfulPrecipSummary(data)
     || getWindSummary(data)
     || getChangeSummary(data)
-    || (getUvPeakInfo(data.uv).maxValue >= 3 ? 'Skydd behövs mitt på dagen' : '')
+    || (resolveUvPeak(data.uv, data.uvPeak).maxValue >= 3 ? 'Skydd behövs mitt på dagen' : '')
     || getCalmSummary(data);
 }
 
@@ -1724,23 +1725,151 @@ function buildPollenRows(airData) {
   ];
 }
 
+
+function getDateFormatter(timeZone) {
+  return new Intl.DateTimeFormat('sv-SE', {
+    timeZone: timeZone || 'UTC',
+    year: 'numeric',
+    month: '2-digit',
+    day: '2-digit'
+  });
+}
+
+function getHourFormatter(timeZone) {
+  return new Intl.DateTimeFormat('sv-SE', {
+    timeZone: timeZone || 'UTC',
+    hour: '2-digit',
+    hourCycle: 'h23'
+  });
+}
+
+function formatDateInTimeZone(value, timeZone) {
+  if (!value) return '';
+  const date = value instanceof Date ? value : new Date(value);
+  if (Number.isNaN(date.getTime())) return '';
+  return getDateFormatter(timeZone).format(date);
+}
+
+function formatHourInTimeZone(value, timeZone) {
+  if (!value) return '';
+  const date = value instanceof Date ? value : new Date(value);
+  if (Number.isNaN(date.getTime())) return '';
+  return getHourFormatter(timeZone).format(date);
+}
+
+function createUvPointSeries(wanted, timeEntries, values, { dateKey = '', timeZone = 'UTC' } = {}) {
+  const byHour = new Map();
+  if (Array.isArray(timeEntries) && Array.isArray(values)) {
+    timeEntries.forEach((timeValue, index) => {
+      if (dateKey && formatDateInTimeZone(timeValue, timeZone) !== dateKey) return;
+      const hourLabel = formatHourInTimeZone(timeValue, timeZone);
+      if (!wanted.includes(hourLabel)) return;
+      const value = Math.max(0, Math.round((Number(values[index]) || 0) * 10) / 10);
+      if (!byHour.has(hourLabel)) byHour.set(hourLabel, value);
+    });
+  }
+  return wanted.map((label) => [label, byHour.get(label) ?? 0]);
+}
+
+function buildUvPeakOverride(timeEntries, values, { dateKey = '', timeZone = 'UTC' } = {}) {
+  let maxValue = 0;
+  let label = '12';
+  if (Array.isArray(timeEntries) && Array.isArray(values)) {
+    timeEntries.forEach((timeValue, index) => {
+      if (dateKey && formatDateInTimeZone(timeValue, timeZone) !== dateKey) return;
+      const numericValue = Math.max(0, Number(values[index]) || 0);
+      if (numericValue > maxValue) {
+        maxValue = numericValue;
+        label = formatHourInTimeZone(timeValue, timeZone) || label;
+      }
+    });
+  }
+  return {
+    maxValue: Math.round(maxValue * 10) / 10,
+    label
+  };
+}
+
+function resolveUvPeak(points, peakOverride = null) {
+  const peak = getUvPeakInfo(Array.isArray(points) ? points : []);
+  const fallbackLabel = (Array.isArray(points) ? points[peak.maxIndex]?.[0] : null) || '12';
+  if (peakOverride && Number.isFinite(Number(peakOverride.maxValue))) {
+    const overrideLabel = String(peakOverride.label || fallbackLabel);
+    const overrideIndex = Array.isArray(points) ? points.findIndex(([label]) => label === overrideLabel) : -1;
+    return {
+      ...peak,
+      maxValue: Math.max(0, Math.round(Number(peakOverride.maxValue) * 10) / 10),
+      maxIndex: overrideIndex >= 0 ? overrideIndex : peak.maxIndex,
+      label: overrideLabel
+    };
+  }
+  return {
+    ...peak,
+    maxValue: Number.isFinite(peak.maxValue) ? Math.max(0, peak.maxValue) : 0,
+    label: fallbackLabel
+  };
+}
+
+async function fetchMetUvBundle(place, timeZone, dateKey) {
+  const lat = Number(place.resolved_lat);
+  const lon = Number(place.resolved_lon);
+  if (!Number.isFinite(lat) || !Number.isFinite(lon) || !dateKey) return null;
+
+  const cacheKey = `${lat.toFixed(4)}:${lon.toFixed(4)}:${timeZone || 'UTC'}:${dateKey}`;
+  if (state.metUvCache.has(cacheKey)) return state.metUvCache.get(cacheKey);
+
+  const url = new URL('https://api.met.no/weatherapi/locationforecast/2.0/complete');
+  url.searchParams.set('lat', lat.toFixed(4));
+  url.searchParams.set('lon', lon.toFixed(4));
+
+  const response = await fetch(url.toString(), {
+    cache: 'no-store',
+    headers: { 'Accept': 'application/json' }
+  });
+  if (!response.ok) throw new Error(`MET UV fetch failed: ${response.status}`);
+
+  const payload = await response.json();
+  const timeseries = Array.isArray(payload?.properties?.timeseries) ? payload.properties.timeseries : [];
+  const timeEntries = [];
+  const values = [];
+
+  timeseries.forEach((entry) => {
+    const value = Number(entry?.data?.instant?.details?.ultraviolet_index_clear_sky);
+    if (!Number.isFinite(value)) return;
+    timeEntries.push(entry.time);
+    values.push(value);
+  });
+
+  const wanted = ['06', '09', '12', '15', '18', '21'];
+  const bundle = {
+    source: 'met-no',
+    points: createUvPointSeries(wanted, timeEntries, values, { dateKey, timeZone }),
+    peak: buildUvPeakOverride(timeEntries, values, { dateKey, timeZone })
+  };
+
+  state.metUvCache.set(cacheKey, bundle);
+  return bundle;
+}
+
 function buildUvPoints(weatherData, options = {}) {
   const hourly = weatherData.hourly || {};
   const wanted = ['06', '09', '12', '15', '18', '21'];
-  const preferClearSky = Boolean(options.preferClearSky);
+  const preferClearSky = options.preferClearSky !== false;
   const uvSeries = preferClearSky && Array.isArray(hourly.uv_index_clear_sky)
     ? hourly.uv_index_clear_sky
-    : Array.isArray(hourly.uv_index)
-      ? hourly.uv_index
-      : Array.isArray(hourly.uv_index_clear_sky)
-        ? hourly.uv_index_clear_sky
+    : Array.isArray(hourly.uv_index_clear_sky)
+      ? hourly.uv_index_clear_sky
+      : Array.isArray(hourly.uv_index)
+        ? hourly.uv_index
         : [];
+  const dateKey = String(options.dateKey || weatherData.current?.time || weatherData.daily?.time?.[0] || '').slice(0, 10);
+  const timeZone = options.timeZone || weatherData.timezone || 'UTC';
 
-  return wanted.map((label) => {
-    const index = Array.isArray(hourly.time) ? hourly.time.findIndex((time) => String(time).slice(11, 13) === label) : -1;
-    const value = index >= 0 ? Number(uvSeries[index]) || 0 : 0;
-    return [label, Math.max(0, Math.round(value * 10) / 10)];
-  });
+  if (Array.isArray(hourly.time) && hourly.time.length) {
+    return createUvPointSeries(wanted, hourly.time, uvSeries, { dateKey, timeZone });
+  }
+
+  return wanted.map((label) => [label, 0]);
 }
 
 function buildHourlyRows(weatherData) {
@@ -1796,21 +1925,21 @@ function buildDailyRows(weatherData) {
   return rows;
 }
 
-function createLiveData(place, weatherData, airData, pollenBundle = null) {
+function createLiveData(place, weatherData, airData, pollenBundle = null, metUvBundle = null) {
   const current = weatherData.current;
   const todayWeather = weatherPresentation(current.weather_code, current.is_day);
   const todayHigh = Math.round(Number(weatherData.daily.temperature_2m_max[0]) || 0);
   const todayLow = Math.round(Number(weatherData.daily.temperature_2m_min[0]) || 0);
-  const preferClearSkyUv = isSwedenPlace(place);
-  const rawDailyUvMax = preferClearSkyUv
-    ? Number(weatherData.daily.uv_index_clear_sky_max?.[0])
-    : Number(weatherData.daily.uv_index_max?.[0]);
-  const fallbackDailyUvMax = preferClearSkyUv
-    ? Number(weatherData.daily.uv_index_max?.[0])
-    : Number(weatherData.daily.uv_index_clear_sky_max?.[0]);
-  const dailyUvMax = Math.max(0, Math.round(((Number.isFinite(rawDailyUvMax) ? rawDailyUvMax : fallbackDailyUvMax) || 0) * 10) / 10);
+  const localDateKey = String(weatherData.current?.time || weatherData.daily?.time?.[0] || '').slice(0, 10);
+  const timeZone = weatherData.timezone || place.resolved_timezone || 'UTC';
+  const rawDailyUvMax = Number(weatherData.daily.uv_index_clear_sky_max?.[0]);
+  const fallbackDailyUvMax = Number(weatherData.daily.uv_index_max?.[0]);
+  const fallbackUvPeak = buildUvPeakOverride(weatherData.hourly?.time, weatherData.hourly?.uv_index_clear_sky || weatherData.hourly?.uv_index || [], { dateKey: localDateKey, timeZone });
   const hourly = buildHourlyRows(weatherData);
-  const uv = buildUvPoints(weatherData, { preferClearSky: preferClearSkyUv });
+  const fallbackUv = buildUvPoints(weatherData, { preferClearSky: true, dateKey: localDateKey, timeZone });
+  const uv = metUvBundle?.points?.length ? metUvBundle.points : fallbackUv;
+  const uvPeak = metUvBundle?.peak?.maxValue > 0 ? metUvBundle.peak : fallbackUvPeak;
+  const dailyUvMax = Math.max(0, Math.round(((Number.isFinite(Number(uvPeak?.maxValue)) ? Number(uvPeak.maxValue) : (Number.isFinite(rawDailyUvMax) ? rawDailyUvMax : fallbackDailyUvMax)) || 0) * 10) / 10);
   const pollen = pollenBundle?.rows || buildPollenRows(airData);
   const data = {
     name: place.name,
@@ -1835,6 +1964,7 @@ function createLiveData(place, weatherData, airData, pollenBundle = null) {
     hourly,
     uvSummary: '',
     uv,
+    uvPeak,
     pollen,
     pollenSummaryText: pollenBundle?.summary || '',
     pollenStation: pollenBundle?.station || '',
@@ -1846,7 +1976,7 @@ function createLiveData(place, weatherData, airData, pollenBundle = null) {
     || getWindSummary(data)
     || getChangeSummary(data)
     || getCalmSummary(data);
-  data.uvSummary = getUvPeakText(data.uv);
+  data.uvSummary = getUvPeakText(data.uv, data.uvPeak);
   return data;
 }
 
@@ -1981,7 +2111,15 @@ async function fetchLiveData(place) {
 
   if (!weatherResponse.ok) throw new Error(`Weather fetch failed: ${weatherResponse.status}`);
   const weatherData = await weatherResponse.json();
-  const data = createLiveData(resolved, weatherData, airResult, swedenPollen);
+  const localDateKey = String(weatherData.current?.time || weatherData.daily?.time?.[0] || '').slice(0, 10);
+  const timeZone = weatherData.timezone || resolved.resolved_timezone || 'UTC';
+  let metUvBundle = null;
+  try {
+    metUvBundle = await fetchMetUvBundle(resolved, timeZone, localDateKey);
+  } catch (error) {
+    console.warn('MET UV fetch failed, falling back to Open-Meteo clear-sky UV', error);
+  }
+  const data = createLiveData(resolved, weatherData, airResult, swedenPollen, metUvBundle);
   const cached = { place: resolved, data };
   state.liveCache.set(cacheKey, cached);
   return cached;
@@ -1996,9 +2134,9 @@ function renderDataForPlace(place, data, urlSlug, updateHistory = false) {
   const day3 = data.daily?.[2]?.[0] || 'Tis';
   const heroLead = getHeroLead(data);
   const pollenSummary = data.pollenSummaryText || getPollenDetailSummary(data.pollen);
-  const uvPeakText = getUvPeakText(data.uv);
+  const uvPeakText = getUvPeakText(data.uv, data.uvPeak);
   const uvSummaryText = `${uvPeakText} · Gäller vid klart väder`;
-  const uvProtectionNote = getUvProtectionNote(data.uv);
+  const uvProtectionNote = getUvProtectionNote(data.uv, data.uvPeak);
 
   setText('placeName', data.name);
   setText('tempNow', `${data.now.temp}°`);
@@ -2038,10 +2176,17 @@ function renderDataForPlace(place, data, urlSlug, updateHistory = false) {
 
   const hourlyScroll = document.getElementById('hourlyScroll');
   const pollenWrap = document.getElementById('pollenWrap');
+  if (hourlyScroll) hourlyScroll.scrollLeft = 0;
   syncScrollable(hourlyScroll);
   syncScrollable(pollenWrap, { stickyClassTarget: pollenWrap });
   enableDragScroll(hourlyScroll);
   enableDragScroll(pollenWrap);
+  if (hourlyScroll) {
+    requestAnimationFrame(() => {
+      hourlyScroll.scrollLeft = 0;
+      if (hourlyScroll._klySyncUpdate) hourlyScroll._klySyncUpdate();
+    });
+  }
 
   const announce = document.getElementById('routeAnnouncer');
   announce.textContent = `Väder uppdaterat för ${data.name}`;
